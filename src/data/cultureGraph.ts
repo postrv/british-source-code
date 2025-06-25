@@ -1652,6 +1652,1144 @@ export const cultureNodes: CultureNode[] = [
       '"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"',
       '"The little things are infinitely the most important"'
     ]
+  },
+
+  // Modern Era Literature
+  {
+    id: 'woolf',
+    label: 'Virginia Woolf',
+    type: 'person',
+    category: 'Modernist Writers',
+    description: 'Modernist novelist who revolutionised literary form and explored consciousness',
+    detailedDescription: 'Virginia Woolf pioneered stream-of-consciousness narrative and modernist literary techniques whilst exploring themes of mental health, gender, and sexuality. Born into the intellectual Stephen family, she was central to the Bloomsbury Group of artists and intellectuals. Her novels like "Mrs Dalloway" and "To the Lighthouse" revolutionised fiction whilst her essays advanced feminist literary criticism.',
+    period: '1882-1941',
+    birthYear: 1882,
+    deathYear: 1941,
+    location: 'London / Bloomsbury / Sussex',
+    significance: 89,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/400px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Virginia_Woolf',
+    tags: ['modernism', 'stream-of-consciousness', 'feminism', 'bloomsbury-group', 'mental-health'],
+    relatedConcepts: ['literary-modernism', 'feminist-criticism', 'psychological-realism'],
+    keyContributions: [
+      'Mrs Dalloway and To the Lighthouse - modernist literary masterpieces',
+      'A Room of One\'s Own - foundational feminist literary criticism',
+      'Pioneered stream-of-consciousness narrative technique',
+      'Co-founded Hogarth Press publishing experimental literature',
+      'Advanced understanding of mental health through personal experience',
+      'Bloomsbury Group fostered intellectual and artistic innovation',
+      'Explored gender, sexuality, and identity in groundbreaking ways'
+    ],
+    culturalImpact: 'Woolf\'s literary innovations influenced generations of writers whilst her feminist criticism shaped literary studies. Her exploration of mental health reduced stigma and advanced understanding.',
+    modernRelevance: 'Her techniques influence contemporary literature whilst her feminist insights remain relevant to gender studies and literary criticism.',
+    funFacts: [
+      'Sister of art critic Clive Bell and part of the Bloomsbury Group',
+      'Suffered from what would now be diagnosed as bipolar disorder',
+      'Had romantic relationships with both men and women, notably Vita Sackville-West',
+      'Hogarth Press published T.S. Eliot\'s "The Waste Land"',
+      'Died by suicide, walking into the River Ouse with stones in her pockets',
+      'Her writing desk is preserved at the Monk\'s House in Sussex',
+      'Coined the phrase "stream of consciousness" for literary technique'
+    ],
+    quotes: [
+      '"A woman must have money and a room of her own if she is to write fiction"',
+      '"For most of history, Anonymous was a woman"',
+      '"The mind of man is the most capricious of insects - flitting, fluttering"',
+      '"Yet it is in our idleness, in our dreams, that the submerged truth sometimes comes to the top"'
+    ]
+  },
+
+  // BBC Greatest Britons - Missing Key Figures
+  {
+    id: 'diana-princess',
+    label: 'Diana, Princess of Wales',
+    type: 'person',
+    category: 'Modern Royalty',
+    description: 'People\'s Princess who modernized the monarchy and championed humanitarian causes',
+    detailedDescription: 'Diana Frances Spencer transformed the British monarchy through her accessible, compassionate approach to royal duties. Born into aristocracy, she became a global icon through her marriage to Prince Charles, but more importantly through her humanitarian work with AIDS patients, landmine victims, and the homeless. Her tragic death in 1997 prompted unprecedented public mourning and forced modernization of royal traditions.',
+    period: '1961-1997',
+    birthYear: 1961,
+    deathYear: 1997,
+    location: 'Sandringham / London / Paris',
+    significance: 92,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Diana%2C_Princess_of_Wales_1997_%282%29.jpg/400px-Diana%2C_Princess_of_Wales_1997_%282%29.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Diana%2C_Princess_of_Wales',
+    tags: ['royalty', 'humanitarian', 'modernization', 'charity', 'people-princess', 'media'],
+    relatedConcepts: ['royal-modernization', 'celebrity-culture', 'humanitarian-diplomacy'],
+    keyContributions: [
+      'Revolutionized royal engagement with touching AIDS patients without gloves',
+      'International campaign against landmines leading to Ottawa Treaty',
+      'Modernized monarchy through accessible, emotional public engagement',
+      'Raised awareness for homelessness, mental health, and addiction issues',
+      'Transformed royal motherhood through hands-on parenting approach',
+      'Global humanitarian diplomacy using celebrity status for social causes',
+      'Forced monarchy to modernize communication and public engagement'
+    ],
+    culturalImpact: 'Diana\'s death prompted the largest public mourning in British history, forcing royal family to modernize. Her humanitarian approach influenced celebrity activism globally.',
+    modernRelevance: 'Her sons continue her humanitarian legacy whilst her influence on royal modernization persists. Celebrity activism model she pioneered remains influential.',
+    funFacts: [
+      'Became most photographed woman in the world after royal wedding',
+      'Broke royal protocol by publicly hugging AIDS patients and homeless people',
+      'Auctioned her dresses for charity, raising millions for humanitarian causes',
+      'First royal to give birth in hospital rather than palace',
+      'Her funeral watched by estimated 2.5 billion people worldwide',
+      'Posthumously called "Queen of Hearts" by Tony Blair',
+      'Landmine campaign led to Nobel Peace Prize for International Campaign to Ban Landmines'
+    ],
+    quotes: [
+      '"I\'d like to be a queen of people\'s hearts, but I don\'t see myself being Queen of this country"',
+      '"Carry out a random act of kindness, with no expectation of reward"',
+      '"Nothing brings me more happiness than trying to help the most vulnerable people"',
+      '"Everyone needs to be valued. Everyone has the potential to give something back"'
+    ]
+  },
+
+  {
+    id: 'cromwell',
+    label: 'Oliver Cromwell',
+    type: 'person',
+    category: 'Republican Leaders',
+    description: 'Lord Protector who temporarily abolished monarchy and established parliamentary republic',
+    detailedDescription: 'Oliver Cromwell led the parliamentary forces that defeated King Charles I in the English Civil War, subsequently ruling as Lord Protector of the Commonwealth of England, Scotland, and Ireland. A deeply religious Puritan, he believed in parliamentary supremacy and religious tolerance (for Protestants). His military genius and political leadership created Britain\'s only republican period, fundamentally challenging concepts of divine right monarchy.',
+    period: '1599-1658',
+    birthYear: 1599,
+    deathYear: 1658,
+    location: 'Huntingdon / Cambridge / London',
+    significance: 91,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oliver_Cromwell_by_Samuel_Cooper.jpg/400px-Oliver_Cromwell_by_Samuel_Cooper.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Oliver_Cromwell',
+    tags: ['civil-war', 'republicanism', 'puritanism', 'military-genius', 'lord-protector'],
+    relatedConcepts: ['parliamentary-supremacy', 'religious-freedom', 'constitutional-government'],
+    keyContributions: [
+      'Led parliamentary victory in English Civil War (1642-1651)',
+      'Established Commonwealth of England as republic (1649-1660)',
+      'Created New Model Army - first professional military force',
+      'Promoted religious tolerance for Protestant denominations',
+      'Strengthened Parliament\'s power over monarchy permanently',
+      'Expanded English naval power and international influence',
+      'Legal and administrative reforms improving governance efficiency'
+    ],
+    culturalImpact: 'Cromwell proved monarchy was not divinely ordained, establishing precedent for constitutional government. His commonwealth demonstrated alternative political structures were possible.',
+    modernRelevance: 'His assertion of parliamentary supremacy over royal prerogative remains fundamental to British democracy. Military professionalization influenced modern armed forces.',
+    funFacts: [
+      'Started as gentleman farmer before becoming military commander',
+      'Famous for demanding portraits show him "warts and all"',
+      'His severed head was displayed on a pike for 24 years after execution',
+      'Banned Christmas celebrations and theatre as ungodly',
+      'Invited Jews to return to England after 350-year expulsion',
+      'His signature appears on Charles I\'s death warrant',
+      'Posthumously tried for treason and "executed" after monarchy restoration'
+    ],
+    quotes: [
+      '"A man never rises so high as when he knows not whither he is going"',
+      '"He who stops being better stops being good"',
+      '"I would rather have a plain russet-coated captain who knows what he fights for than a gentleman and nothing else"',
+      '"Trust in God and keep your powder dry"'
+    ]
+  },
+
+  // Institutions
+  {
+    id: 'british-museum',
+    label: 'The British Museum',
+    type: 'institution',
+    category: 'Cultural Institution',
+    description: 'World\'s first national public museum, preserving human history and culture',
+    detailedDescription: 'Founded in 1753, the British Museum was the world\'s first national public museum, establishing the principle that cultural treasures should be accessible to all. Built around Sir Hans Sloane\'s collection, it became a symbol of Enlightenment values and British cultural authority. Housing artifacts from around the world, it represents both Britain\'s imperial reach and its commitment to preserving human knowledge.',
+    foundedYear: 1753,
+    location: 'Bloomsbury, London',
+    significance: 88,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/British_Museum_from_NE_2.JPG/400px-British_Museum_from_NE_2.JPG',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/British_Museum',
+    tags: ['museum', 'culture', 'education', 'enlightenment', 'collection', 'public-access'],
+    relatedConcepts: ['cultural-preservation', 'public-education', 'imperial-legacy'],
+    keyContributions: [
+      'Established principle of free public access to cultural collections',
+      'Created model for national museums copied worldwide',
+      'Preserved artifacts and knowledge from ancient civilizations',
+      'Advanced archaeological and anthropological research',
+      'Demonstrated Enlightenment commitment to universal knowledge',
+      'Became symbol of British cultural authority and scholarship',
+      'Pioneered systematic cataloguing and display methods'
+    ],
+    culturalImpact: 'The British Museum established museums as democratic institutions for public education. Its collecting practices reflect both Enlightenment ideals and imperial power dynamics.',
+    modernRelevance: 'Continues as major tourist attraction and research center. Debates over repatriation of cultural artifacts highlight ongoing imperial legacy questions.',
+    funFacts: [
+      'Original collection came from physician Sir Hans Sloane\'s curiosities',
+      'Reading Room was where Marx wrote Das Kapital',
+      'Houses Rosetta Stone enabling decipherment of Egyptian hieroglyphs',
+      'Elgin Marbles remain subject of repatriation debate with Greece',
+      'Great Court (2000) largest covered square in Europe',
+      'Over 6 million visitors annually make it UK\'s most popular attraction',
+      'Collection spans 2 million years of human history'
+    ],
+    quotes: [
+      '"A museum is not a building, it is an attitude" - Former Director Neil MacGregor',
+      '"The whole world under one roof" - Museum\'s unofficial motto'
+    ]
+  },
+
+  {
+    id: 'lloyds-london',
+    label: 'Lloyd\'s of London',
+    type: 'institution',
+    category: 'Financial Institution',
+    description: 'Historic insurance market that pioneered modern risk management and global commerce',
+    detailedDescription: 'Lloyd\'s of London began in Edward Lloyd\'s coffeehouse in 1686, where merchants, ship owners, and underwriters gathered to share maritime risks. It evolved into the world\'s leading specialist insurance market, pioneering concepts of syndicated risk-sharing that enabled global trade. Its unique structure of individual members bearing unlimited liability created unparalleled financial security for unusual risks.',
+    foundedYear: 1686,
+    location: 'City of London',
+    significance: 82,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lloyd%27s_building_from_Leadenhall_Street.jpg/400px-Lloyd%27s_building_from_Leadenhall_Street.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Lloyd%27s_of_London',
+    tags: ['insurance', 'finance', 'maritime', 'risk-management', 'global-trade', 'innovation'],
+    relatedConcepts: ['financial-innovation', 'global-commerce', 'risk-sharing'],
+    keyContributions: [
+      'Pioneered modern insurance industry and risk-sharing concepts',
+      'Created Lloyd\'s List - oldest continuously published newspaper',
+      'Developed standardized insurance contracts and practices',
+      'Enabled global maritime trade through risk management',
+      'Established London as world insurance capital',
+      'Innovated coverage for unusual and extreme risks',
+      'Created global intelligence network for shipping and trade'
+    ],
+    culturalImpact: 'Lloyd\'s made global trade possible by managing risks, enabling British maritime dominance. Its practices became standard for international commerce.',
+    modernRelevance: 'Remains leading global insurance market. Its risk assessment and management principles influence modern financial services.',
+    funFacts: [
+      'Started in Edward Lloyd\'s coffeehouse on Tower Street',
+      'Famous for insuring unusual risks: alien abduction, celebrity body parts',
+      'Lutine Bell rings once for bad news, twice for good news',
+      'Members have unlimited liability - can lose more than they invest',
+      'Predicted Titanic sinking through maritime intelligence network',
+      'Building (1986) is architectural icon with exposed services',
+      'Still maintains traditional structures: Waiters, Rostrum, Captain\'s Room'
+    ],
+    quotes: [
+      '"Lloyd\'s: the market where anything can be insured" - Traditional saying',
+      '"Fidentia" - Lloyd\'s motto meaning "confidence"'
+    ]
+  },
+
+  // Events
+  {
+    id: 'battle-hastings',
+    label: 'Battle of Hastings',
+    type: 'event',
+    category: 'Military Events',
+    description: 'Norman conquest that fundamentally transformed English culture, language, and society',
+    detailedDescription: 'The Battle of Hastings on 14 October 1066 marked the Norman conquest of England, ending Anglo-Saxon rule and beginning cultural transformation that shaped modern Britain. William the Conqueror\'s victory over Harold Godwinson introduced Norman French culture, architectural styles, administrative systems, and legal traditions that merged with existing Anglo-Saxon heritage to create distinctive English civilization.',
+    period: '14 October 1066',
+    foundedYear: 1066,
+    location: 'Hastings, East Sussex',
+    significance: 95,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bayeux_Tapestry_scene44_William_Odo_Robert.jpg/400px-Bayeux_Tapestry_scene44_William_Odo_Robert.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Battle_of_Hastings',
+    tags: ['norman-conquest', 'military-history', 'cultural-transformation', 'medieval', '1066'],
+    relatedConcepts: ['norman-culture', 'feudalism', 'architectural-revolution'],
+    keyContributions: [
+      'Established Norman rule ending Anglo-Saxon period',
+      'Introduced French vocabulary transforming English language',
+      'Brought Continental architectural styles (Romanesque)',
+      'Implemented feudal system replacing Anglo-Saxon governance',
+      'Created new aristocracy blending Norman and English traditions',
+      'Launched castle-building program securing Norman control',
+      'Established administrative efficiency improving governance'
+    ],
+    culturalImpact: 'The conquest created modern English culture through fusion of Norman French and Anglo-Saxon traditions. French vocabulary transformed English language permanently.',
+    modernRelevance: 'Last successful invasion of England. Its effects on language, law, and culture remain visible throughout British society.',
+    funFacts: [
+      'Only decisive victory in English history resulting in total regime change',
+      'Bayeux Tapestry depicts the conquest in 70 scenes',
+      'Harold Godwinson killed by arrow in eye (according to tradition)',
+      'Battle lasted approximately 6 hours',
+      'Introduced 10,000+ French words into English language',
+      'Created "Domesday Book" - comprehensive survey of England',
+      'Norman cavalry defeated English infantry shield wall'
+    ],
+    quotes: [
+      '"Duke William claims the English throne by right" - Norman justification',
+      '"Here King Harold is killed" - Bayeux Tapestry inscription'
+    ]
+  },
+
+  {
+    id: 'great-fire-london',
+    label: 'Great Fire of London',
+    type: 'event',
+    category: 'Urban Disasters',
+    description: 'Catastrophic fire that destroyed medieval London and enabled architectural renaissance',
+    detailedDescription: 'The Great Fire of London (2-6 September 1666) devastated the medieval City of London, destroying 13,200 houses, 87 churches, and most civic buildings within the Roman walls. While catastrophic, it enabled Christopher Wren\'s architectural renaissance, creating the modern London skyline with St Paul\'s Cathedral and 51 new churches. The rebuilding demonstrated British resilience and urban planning innovation.',
+    period: '2-6 September 1666',
+    foundedYear: 1666,
+    location: 'City of London',
+    significance: 86,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Great_Fire_London.jpg/400px-Great_Fire_London.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Great_Fire_of_London',
+    tags: ['disaster', 'urban-planning', 'architecture', 'rebuilding', 'wren', 'london'],
+    relatedConcepts: ['urban-renewal', 'architectural-renaissance', 'city-planning'],
+    keyContributions: [
+      'Cleared medieval London enabling planned rebuilding',
+      'Created opportunity for Christopher Wren\'s architectural masterpieces',
+      'Established building regulations preventing future fire spread',
+      'Demonstrated organized disaster response and recovery',
+      'Enabled wider streets and improved urban planning',
+      'Created Monument commemorating tragedy and renewal',
+      'Proved London\'s resilience and capacity for reinvention'
+    ],
+    culturalImpact: 'The fire\'s destruction enabled London\'s transformation into a beautiful baroque city. Wren\'s rebuilding created iconic London skyline that endured for centuries.',
+    modernRelevance: 'Established precedents for disaster recovery and urban planning. London\'s resilience became cultural characteristic demonstrated in WWII Blitz.',
+    funFacts: [
+      'Started in Thomas Farriner\'s bakery on Pudding Lane',
+      'Only 6 recorded deaths despite destroying 80% of City',
+      'Fire spread so fast people fled carrying belongings on Thames',
+      'Gunpowder used to create firebreaks by demolishing buildings',
+      'Enabled introduction of fire insurance industry',
+      'The Monument marks exact spot where fire began',
+      'Samuel Pepys documented events in famous diary'
+    ],
+    quotes: [
+      '"London was, but is no more" - Contemporary observer',
+      '"Out of the flames, a new London arose" - Historian\'s assessment'
+    ]
+  },
+
+  // Places
+  {
+    id: 'speakers-corner',
+    label: 'Speakers\' Corner',
+    type: 'place',
+    category: 'Democratic Spaces',
+    description: 'Hyde Park area symbolizing British commitment to free speech and public debate',
+    detailedDescription: 'Speakers\' Corner in Hyde Park\'s northeast corner has been a designated area for public speaking and debate since 1872. Located near the former Tyburn gallows where condemned prisoners could give final speeches, it embodies British traditions of free expression and democratic discourse. Anyone can speak here without permit, making it a unique symbol of civil liberties and free speech rights.',
+    foundedYear: 1872,
+    location: 'Hyde Park, London',
+    significance: 78,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Speakers%27_Corner_Hyde_Park_London_2.jpg/400px-Speakers%27_Corner_Hyde_Park_London_2.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Speakers%27_Corner',
+    tags: ['free-speech', 'democracy', 'public-debate', 'civil-liberties', 'tradition'],
+    relatedConcepts: ['freedom-of-speech', 'democratic-participation', 'civil-rights'],
+    keyContributions: [
+      'Established principle of unrestricted public speaking in designated space',
+      'Created global symbol of free speech and democratic values',
+      'Provided platform for social reformers and political movements',
+      'Demonstrated British commitment to civil liberties',
+      'Influenced creation of similar spaces worldwide',
+      'Enabled peaceful expression of dissenting views',
+      'Maintained tradition of public discourse and debate'
+    ],
+    culturalImpact: 'Speakers\' Corner became international symbol of free speech. Its model influenced democratic movements and civil rights advocacy globally.',
+    modernRelevance: 'Continues as venue for public speaking and protest. Represents enduring British commitment to free expression despite modern digital alternatives.',
+    funFacts: [
+      'Built on site near Tyburn gallows where criminals gave final speeches',
+      'No permit required - anyone can speak on any topic',
+      'Karl Marx, George Orwell, and Marcus Garvey spoke here',
+      'Suffragettes used it as organizing base for voting rights',
+      'Tradition of heckling speakers considered part of democratic process',
+      'Police can only intervene if speakers breach peace or incite violence',
+      'Sunday mornings traditionally busiest time for speakers'
+    ],
+    quotes: [
+      '"The right to be heard does not automatically include the right to be taken seriously" - Speakers\' Corner tradition',
+      '"Democracy is not a spectator sport" - Regular speaker\'s observation'
+    ]
+  },
+
+  {
+    id: 'stonehenge',
+    label: 'Stonehenge',
+    type: 'place',
+    category: 'Ancient Heritage',
+    description: 'Prehistoric monument embodying ancient British spiritual and astronomical knowledge',
+    detailedDescription: 'Stonehenge, constructed in phases between 3100-1600 BCE, represents the sophisticated astronomical and engineering knowledge of prehistoric Britain. This Neolithic monument demonstrates ancient communities\' understanding of celestial cycles and their ability to mobilize massive construction projects. As Britain\'s most famous ancient site, it connects modern Britons to their deepest cultural roots.',
+    foundedYear: -3100,
+    location: 'Wiltshire',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/400px-Stonehenge2007_07_30.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Stonehenge',
+    tags: ['prehistoric', 'neolithic', 'astronomy', 'spirituality', 'ancient-britain', 'unesco'],
+    relatedConcepts: ['ancient-heritage', 'astronomical-knowledge', 'spiritual-traditions'],
+    keyContributions: [
+      'Demonstrates sophisticated prehistoric astronomical knowledge',
+      'Proves ancient British communities\' advanced engineering capabilities',
+      'Connects modern Britain to its deepest cultural roots',
+      'Represents continuity of British landscape and heritage',
+      'Inspired romantic and mystical traditions in British culture',
+      'Became symbol of ancient wisdom and spiritual connection',
+      'Established Britain as center of prehistoric European civilization'
+    ],
+    culturalImpact: 'Stonehenge became symbol of ancient British wisdom and spiritual connection to landscape. It inspired romantic movement and continues to fascinate modern visitors.',
+    modernRelevance: 'Major tourist attraction and UNESCO World Heritage site. Represents Britain\'s ancient heritage and continues to inspire archaeological research.',
+    funFacts: [
+      'Bluestones transported 150 miles from Wales demonstrating prehistoric logistics',
+      'Aligned with summer and winter solstices showing astronomical sophistication',
+      'Required estimated 30 million hours of labor to construct',
+      'Purpose remains mysterious - temple, observatory, burial ground, or healing center',
+      'Inspired countless theories from druids to alien visitation',
+      'Protected by English Heritage with restricted access',
+      'Attracts over 1 million visitors annually from around the world'
+    ],
+    quotes: [
+      '"What we see at Stonehenge is the result of tremendous effort by ancient peoples" - Archaeological consensus',
+      '"A temple to time itself" - Modern interpretation'
+    ]
+  },
+
+  // Military History
+  {
+    id: 'wellington',
+    label: 'Duke of Wellington',
+    type: 'person',
+    category: 'Military Leaders',
+    description: 'Iron Duke who defeated Napoleon and embodied British military virtue',
+    detailedDescription: 'Arthur Wellesley, 1st Duke of Wellington, became Britain\'s greatest military commander through his methodical approach to warfare and strategic brilliance. Born in Ireland, he refined British military tactics through campaigns in India before facing Napoleon. His victory at Waterloo (1815) ended the Napoleonic Wars and made him a national hero. Later serving as Prime Minister, he embodied the ideal of soldier-statesman.',
+    period: '1769-1852',
+    birthYear: 1769,
+    deathYear: 1852,
+    location: 'Dublin / London / Waterloo',
+    significance: 93,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Arthur_Wellesley%2C_1st_Duke_of_Wellington.png/400px-Arthur_Wellesley%2C_1st_Duke_of_Wellington.png',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington',
+    tags: ['military', 'waterloo', 'napoleon', 'strategy', 'leadership', 'iron-duke'],
+    relatedConcepts: ['military-excellence', 'strategic-thinking', 'national-defence'],
+    keyContributions: [
+      'Defeated Napoleon at Waterloo, ending Napoleonic Wars',
+      'Developed defensive military tactics and strategic patience',
+      'Reformed British Army through India campaigns',
+      'Served as Prime Minister maintaining political stability',
+      'Established principle of civilian control over military',
+      'Created modern staff officer system',
+      'Promoted merit-based military advancement'
+    ],
+    culturalImpact: 'Wellington became the archetypal British military hero - methodical, understated, and devoted to duty. His phrase "the battle of Waterloo was won on the playing fields of Eton" (though probably apocryphal) linked military success to British educational values.',
+    modernRelevance: 'Military academies worldwide study Wellington\'s tactics. His strategic patience and defensive expertise remain relevant to modern military thinking.',
+    funFacts: [
+      'Called "Iron Duke" for his strong political resolve',
+      'Famous for wearing Wellington boots (named after him)',
+      'Never lost a battle in his entire military career',
+      'Installed iron shutters at his house during political riots',
+      'Refused to retreat throughout his military career',
+      'His funeral was attended by over 1 million people',
+      'Last words reportedly "Yes, if you please" to offer of tea'
+    ],
+    quotes: [
+      '"The battle of Waterloo was won on the playing fields of Eton"',
+      '"Nothing except a battle lost can be half so melancholy as a battle won"',
+      '"I don\'t know what effect these men will have upon the enemy, but they frighten me"',
+      '"The whole art of war consists in getting at what is on the other side of the hill"'
+    ]
+  },
+
+  {
+    id: 'battle-waterloo',
+    label: 'Battle of Waterloo',
+    type: 'event',
+    category: 'Military Events',
+    description: 'Decisive battle that ended Napoleon\'s reign and established British military prestige',
+    detailedDescription: 'The Battle of Waterloo (18 June 1815) marked the final defeat of Napoleon Bonaparte and established British military reputation for a century. Wellington\'s defensive tactics and coordination with Prussian allies demonstrated British strategic thinking and alliance-building. The victory confirmed Britain as Europe\'s dominant power and validated the British military system.',
+    period: '18 June 1815',
+    foundedYear: 1815,
+    location: 'Waterloo, Belgium',
+    significance: 92,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Battle_of_Waterloo_1815.PNG/400px-Battle_of_Waterloo_1815.PNG',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Battle_of_Waterloo',
+    tags: ['military', 'napoleon', 'wellington', 'coalition', 'decisive-victory'],
+    relatedConcepts: ['military-strategy', 'international-alliance', 'european-balance'],
+    keyContributions: [
+      'Ended Napoleonic Wars and French dominance of Europe',
+      'Established British military reputation for defensive excellence',
+      'Demonstrated importance of allied cooperation in warfare',
+      'Created template for defensive military tactics',
+      'Secured British position as dominant European power',
+      'Influenced military thinking for next century',
+      'Showed value of disciplined infantry against cavalry charges'
+    ],
+    culturalImpact: 'Waterloo became synonymous with decisive victory in British culture. The phrase "met his Waterloo" entered everyday English, whilst the battle became symbol of British determination and strategic thinking.',
+    modernRelevance: 'Military strategists still study Waterloo\'s lessons about defensive positioning, allied coordination, and battlefield leadership.',
+    funFacts: [
+      'Fought on same day as Battle of Quatre Bras',
+      'Napoleon called it "the nearest run thing you ever saw"',
+      'Decided by arrival of Prussian reinforcements',
+      'Wellington positioned troops behind ridgeline for protection',
+      'Famous for British square formations resisting cavalry',
+      'Killed or wounded over 65,000 men in single day',
+      'Name came from nearby village where Wellington wrote dispatch'
+    ],
+    quotes: [
+      '"It has been a damned serious business" - Wellington after the battle',
+      '"The nearest run thing you ever saw in your life" - Wellington on the battle'
+    ]
+  },
+
+  {
+    id: 'british-army',
+    label: 'British Army',
+    type: 'institution',
+    category: 'Military Institution',
+    description: 'Professional military force embodying British values of discipline, courage, and service',
+    detailedDescription: 'The British Army evolved from feudal levies into the world\'s most professional military force. Through regimental traditions, it preserved local identities whilst creating unified national defence. Its emphasis on discipline, loyalty, and understatement shaped British military culture and influenced armies worldwide.',
+    foundedYear: 1707,
+    location: 'United Kingdom',
+    significance: 87,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Trooping_the_Colour_2009_017.jpg/400px-Trooping_the_Colour_2009_017.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/British_Army',
+    tags: ['military', 'regiment', 'tradition', 'discipline', 'service', 'professional'],
+    relatedConcepts: ['military-tradition', 'regimental-system', 'national-service'],
+    keyContributions: [
+      'Developed regimental system preserving local traditions',
+      'Created professional officer corps based on merit',
+      'Established military traditions copied worldwide',
+      'Pioneered small unit tactics and infantry training',
+      'Developed modern military engineering and logistics',
+      'Created effective colonial and imperial defence',
+      'Maintained civilian control and political neutrality'
+    ],
+    culturalImpact: 'The British Army\'s regimental traditions connected local communities to national defence. Military values of duty, honour, and understatement influenced civilian British culture.',
+    modernRelevance: 'Continues as highly professional force. British military training and traditions influence NATO allies and Commonwealth forces.',
+    funFacts: [
+      'Oldest regiment is the Honourable Artillery Company (1537)',
+      'Guardsmen must be at least 6 feet tall',
+      'Regimental traditions include unique cap badges and ceremonies',
+      'The Queen is Colonel-in-Chief of many regiments',
+      'British Army invented camouflage uniforms (khaki)',
+      'Sandhurst Military Academy trains officers from around world',
+      'Changing of the Guard ceremony dates to 1660'
+    ],
+    quotes: [
+      '"Dulce et decorum est pro patria mori" - Traditional military motto',
+      '"The thin red line" - describing British infantry formation'
+    ]
+  },
+
+  {
+    id: 'sas',
+    label: 'Special Air Service (SAS)',
+    type: 'institution',
+    category: 'Elite Military Units',
+    description: 'Elite special forces unit epitomising British military professionalism and discretion',
+    detailedDescription: 'The Special Air Service, founded in 1941, became the model for special forces worldwide. Created by David Stirling for desert warfare, it developed principles of small unit operations, selection excellence, and operational secrecy that influenced modern military thinking. The SAS motto "Who Dares Wins" embodies British military values of courage and calculated risk-taking.',
+    foundedYear: 1941,
+    location: 'Hereford, England',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/SAS_insignia.jpg/400px-SAS_insignia.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Special_Air_Service',
+    tags: ['special-forces', 'elite', 'selection', 'covert-operations', 'professionalism'],
+    relatedConcepts: ['military-excellence', 'special-operations', 'covert-warfare'],
+    keyContributions: [
+      'Pioneered modern special forces tactics and training',
+      'Created selection process ensuring psychological and physical excellence',
+      'Developed small unit operations behind enemy lines',
+      'Established counter-terrorism capabilities',
+      'Influenced special forces units worldwide',
+      'Maintained operational secrecy and political discretion',
+      'Created doctrine of surgical military intervention'
+    ],
+    culturalImpact: 'The SAS became symbol of British military professionalism and effectiveness. Its discretion and competence embody British values of understated excellence.',
+    modernRelevance: 'Continues as world\'s premier special forces unit. SAS training and tactics are studied and copied by military forces globally.',
+    funFacts: [
+      'Selection course has 90% failure rate',
+      'Iranian Embassy siege (1980) brought SAS to public attention',
+      'Members never publicly discuss operations',
+      'Beige beret and winged dagger insignia are iconic',
+      'Training emphasises mental resilience over physical strength',
+      'Works closely with MI6 and counter-terrorism police',
+      'Motto "Who Dares Wins" adopted by many other units'
+    ],
+    quotes: [
+      '"Who Dares Wins" - SAS motto',
+      '"Train hard, fight easy" - SAS training principle'
+    ]
+  },
+
+  // Cultural Practices and Institutions
+  {
+    id: 'gardening-culture',
+    label: 'British Gardening Culture',
+    type: 'practice',
+    category: 'Cultural Practices',
+    description: 'National obsession with gardens reflecting British character and landscape connection',
+    detailedDescription: 'British gardening culture represents the nation\'s deep connection to landscape and nature. From grand estate gardens to tiny allotments, gardening embodies British values of patience, improvement, and gentle competition. The tradition encompasses everything from flower shows to garden centres, creating a shared cultural language around plants, weather, and seasonal rhythms.',
+    significance: 78,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/English_garden_Stourhead.jpg/400px-English_garden_Stourhead.jpg',
+    tags: ['gardening', 'landscape', 'allotments', 'nature', 'seasons', 'community'],
+    relatedConcepts: ['landscape-tradition', 'community-spirit', 'seasonal-living'],
+    keyContributions: [
+      'Created English landscape garden style influencing global garden design',
+      'Established allotment system providing community growing spaces',
+      'Developed garden centre culture and horticultural expertise',
+      'Created competitive flower and vegetable shows',
+      'Pioneered plant collecting and botanical knowledge',
+      'Established gardening as democratic leisure activity',
+      'Connected urban populations with natural cycles'
+    ],
+    culturalImpact: 'Gardening became central to British identity, representing patience, improvement, and connection to landscape. Garden design influenced global landscape architecture.',
+    modernRelevance: 'Continues as major leisure activity. Environmental concerns and food security have renewed interest in allotments and vegetable growing.',
+    funFacts: [
+      'Britain has highest density of gardens in the world',
+      'Chelsea Flower Show attracts global attention',
+      'Allotments have waiting lists measured in years',
+      'Garden centres are major retail destinations',
+      'British gardens are designed for year-round interest',
+      'Capability Brown designed over 170 gardens',
+      'Garden shed is stereotypical British male retreat'
+    ],
+    quotes: [
+      '"A garden is a grand teacher. It teaches patience and careful watchfulness" - Gertrude Jekyll',
+      '"The glory of gardening: hands in the dirt, head in the sun" - Traditional saying'
+    ]
+  },
+
+  {
+    id: 'pigeon-racing',
+    label: 'Pigeon Racing',
+    type: 'practice',
+    category: 'Working Class Sports',
+    description: 'Traditional working-class sport combining animal husbandry with competitive spirit',
+    detailedDescription: 'Pigeon racing represents British working-class culture at its finest - requiring patience, skill, and deep knowledge passed down through generations. Miners, mill workers, and other industrial workers developed this sport as a way to connect with nature and engage in friendly competition. The sport embodies British values of fair play, dedication, and understated expertise.',
+    significance: 65,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Racing_pigeons.jpg/400px-Racing_pigeons.jpg',
+    tags: ['working-class', 'sport', 'animals', 'tradition', 'competition', 'northern-england'],
+    relatedConcepts: ['working-class-culture', 'animal-husbandry', 'competitive-sport'],
+    keyContributions: [
+      'Created systematic competitive pigeon racing sport',
+      'Developed breeding techniques for racing pigeons',
+      'Established working-class sporting culture',
+      'Connected urban workers with nature and animals',
+      'Created community networks through pigeon clubs',
+      'Preserved traditional animal husbandry skills',
+      'Demonstrated working-class scientific knowledge'
+    ],
+    culturalImpact: 'Pigeon racing became symbol of working-class leisure and expertise. It represented connection between industrial workers and natural world.',
+    modernRelevance: 'Continues as minority sport but remains important in certain communities. Represents traditional working-class culture threatened by social change.',
+    funFacts: [
+      'Racing pigeons can fly over 500 miles home',
+      'Sport peaked in post-war Britain with thousands of participants',
+      'Pigeons were used for communication in both world wars',
+      'Good racing pigeons can be worth thousands of pounds',
+      'Northern England and Belgium are traditional strongholds',
+      'Requires daily care and detailed breeding records',
+      'Clock timing systems ensure fair competition'
+    ],
+    quotes: [
+      '"Racing pigeons: the sport of kings for working men" - Traditional saying',
+      '"A pigeon knows its way home better than some people" - Pigeon fancier wisdom'
+    ]
+  },
+
+  {
+    id: 'fish-and-chips',
+    label: 'Fish and Chips',
+    type: 'practice',
+    category: 'Culinary Traditions',
+    description: 'National dish representing British democratic food culture and seaside traditions',
+    detailedDescription: 'Fish and chips became Britain\'s first truly democratic food - affordable, accessible, and enjoyed by all social classes. Combining Jewish fried fish traditions with chip shops, it created a uniquely British culinary institution. The dish represents practical British values: simple, filling, and unpretentious, whilst connecting inland populations with maritime heritage.',
+    foundedYear: 1860,
+    significance: 75,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_served_in_Blackpool.jpg/400px-Fish_and_chips_served_in_Blackpool.jpg',
+    tags: ['food', 'working-class', 'democratic', 'seaside', 'tradition', 'national-dish'],
+    relatedConcepts: ['democratic-culture', 'seaside-tradition', 'working-class-food'],
+    keyContributions: [
+      'Created Britain\'s first truly democratic national dish',
+      'Established fish and chip shop as community institution',
+      'Combined immigrant traditions with British tastes',
+      'Provided affordable protein during industrial era',
+      'Connected inland populations with maritime culture',
+      'Created distinctly British fast food tradition',
+      'Sustained morale during wartime through comfort food'
+    ],
+    culturalImpact: 'Fish and chips became symbol of British egalitarianism - enjoyed by all classes. The chip shop became important community gathering place.',
+    modernRelevance: 'Remains popular comfort food despite health concerns. Represents British food culture before globalization.',
+    funFacts: [
+      'First fish and chip shop opened in London in 1860',
+      'Not rationed during WWII due to morale importance',
+      'Traditionally wrapped in newspaper (now banned for hygiene)',
+      'Different regions prefer different fish (cod vs haddock)',
+      'Mushy peas are traditional northern accompaniment',
+      'Chip shops outnumber McDonald\'s 8 to 1 in UK',
+      'National Fish and Chip Day is first Friday in June'
+    ],
+    quotes: [
+      '"Fish and chips: the dish that won the war" - Wartime saying',
+      '"There\'s nothing more British than fish and chips" - Popular sentiment'
+    ]
+  },
+
+  {
+    id: 'monarchy-institution',
+    label: 'The British Monarchy',
+    type: 'institution',
+    category: 'Constitutional Institution',
+    description: 'Constitutional monarchy balancing tradition with democratic governance',
+    detailedDescription: 'The British Monarchy evolved from absolute rule into a constitutional system balancing ceremonial tradition with democratic governance. As head of state, the monarch provides continuity and non-political national unity whilst elected governments exercise actual power. This unique system influenced constitutional monarchies worldwide.',
+    foundedYear: 1066,
+    location: 'United Kingdom',
+    significance: 89,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff_%28cropped%29.jpg/400px-Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff_%28cropped%29.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Monarchy_of_the_United_Kingdom',
+    tags: ['monarchy', 'constitutional', 'ceremony', 'tradition', 'continuity', 'democracy'],
+    relatedConcepts: ['constitutional-government', 'ceremonial-tradition', 'national-unity'],
+    keyContributions: [
+      'Created constitutional monarchy model copied worldwide',
+      'Provided political stability through centuries of change',
+      'Established non-political head of state system',
+      'Maintained ceremonial traditions linking past and present',
+      'Created royal patronage system supporting arts and charities',
+      'Provided national unity above party politics',
+      'Influenced democratic constitutional development'
+    ],
+    culturalImpact: 'The monarchy became symbol of British continuity and tradition. Royal ceremonies and traditions provide shared national experiences.',
+    modernRelevance: 'Continues to provide constitutional stability and national identity. Royal family represents British values and culture globally.',
+    funFacts: [
+      'Queen Elizabeth II reigned for 70 years (1952-2022)',
+      'Royal family supports over 3,000 charities',
+      'Royal ceremonies broadcast globally',
+      'Monarchy constitutional role is largely ceremonial',
+      'Royal estates contribute significantly to tourism',
+      'Crown Estate provides revenue to government',
+      'Royal weddings and jubilees create national celebrations'
+    ],
+    quotes: [
+      '"I declare before you all that my whole life shall be devoted to your service" - Elizabeth II',
+      '"The monarchy is the ultimate expression of the English genius for compromise" - Constitutional scholar'
+    ]
+  },
+
+  // Seaside Culture
+  {
+    id: 'brighton-pier',
+    label: 'Brighton Pier',
+    type: 'place',
+    category: 'Seaside Entertainment',
+    description: 'Victorian pleasure pier embodying British seaside culture and entertainment traditions',
+    detailedDescription: 'Brighton Palace Pier, opened in 1899, represents the golden age of British seaside entertainment. With its amusements, fish and chips, and candy floss, it captures the democratic pleasure of the British seaside holiday. The pier embodies British values of harmless fun, family entertainment, and the belief that everyone deserves a proper holiday by the sea.',
+    foundedYear: 1899,
+    location: 'Brighton, East Sussex',
+    significance: 72,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Brighton_Pier_at_sunset.jpg/400px-Brighton_Pier_at_sunset.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Brighton_Palace_Pier',
+    tags: ['seaside', 'victorian', 'entertainment', 'pier', 'holiday', 'amusements'],
+    relatedConcepts: ['seaside-holiday', 'victorian-entertainment', 'family-leisure'],
+    keyContributions: [
+      'Established template for British seaside entertainment',
+      'Created democratic leisure space accessible to all classes',
+      'Developed distinctive pier architecture and amusements',
+      'Preserved Victorian entertainment traditions',
+      'Enabled mass tourism and working-class holidays',
+      'Created iconic British seaside imagery and experiences',
+      'Demonstrated British genius for organised fun'
+    ],
+    culturalImpact: 'Brighton Pier became the archetypal British seaside experience, influencing holiday destinations worldwide. Its combination of entertainment, food, and sea air created the template for democratic leisure.',
+    modernRelevance: 'Continues as major tourist attraction representing traditional British holidays. Its preservation maintains connection to Victorian leisure traditions.',
+    funFacts: [
+      'Original pier was destroyed by storms - current one is third iteration',
+      'Featured in countless British films from "Brighton Rock" to modern comedies',
+      'Houses traditional penny arcade machines alongside modern amusements',
+      'Fish and chips on the pier considered quintessential British experience',
+      'Hosts summer concerts and events maintaining community focus',
+      'Weathered two world wars and numerous storms',
+      'Still has traditional end-of-pier show entertainment'
+    ],
+    quotes: [
+      '"Brighton Pier is the epitome of English seaside fun" - Tourism observer',
+      '"There\'s nothing quite like fish and chips on Brighton Pier" - Popular sentiment'
+    ]
+  },
+
+  {
+    id: 'punch-and-judy',
+    label: 'Punch and Judy',
+    type: 'practice',
+    category: 'Traditional Entertainment',
+    description: 'Traditional puppet show representing British seaside entertainment and subversive humour',
+    detailedDescription: 'Punch and Judy shows have entertained British children and adults for over 350 years, combining slapstick violence with moral lessons in distinctly British fashion. The anarchic Mr Punch represents British anti-authority sentiment whilst the show\'s survival demonstrates British attachment to tradition. Performed on beaches, piers, and village greens, it connects generations through shared cultural memory.',
+    foundedYear: 1662,
+    significance: 68,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Punch_and_Judy_show.jpg/400px-Punch_and_Judy_show.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Punch_and_Judy',
+    tags: ['puppet-show', 'tradition', 'children', 'seaside', 'humour', 'folk-entertainment'],
+    relatedConcepts: ['traditional-entertainment', 'subversive-humour', 'generational-continuity'],
+    keyContributions: [
+      'Preserved ancient puppet show traditions in modern Britain',
+      'Created distinctly British form of subversive children\'s entertainment',
+      'Maintained oral tradition through travelling performers',
+      'Connected seaside holidays with traditional entertainment',
+      'Demonstrated British tolerance for anarchic humour',
+      'Provided affordable entertainment for all social classes',
+      'Influenced British comedy traditions and character types'
+    ],
+    culturalImpact: 'Punch and Judy became integral to British seaside culture and childhood experience. Its anarchic humour influenced British comedy whilst its persistence demonstrates cultural continuity.',
+    modernRelevance: 'Still performed at seaside resorts and traditional events. Represents connection between contemporary Britain and folk traditions.',
+    funFacts: [
+      'Mr Punch\'s catchphrase "That\'s the way to do it!" is universally recognised',
+      'Each performer (called "Professor") develops unique interpretation',
+      'Show traditionally involves Punch fighting authority figures',
+      'Recorded by Samuel Pepys in 1662 as popular entertainment',
+      'Judy was added later - originally Punch\'s wife was Joan',
+      'Traditional booth is called a "fit-up" and portable',
+      'College of Punch and Judy Professors maintains traditions'
+    ],
+    quotes: [
+      '"That\'s the way to do it!" - Mr Punch\'s famous catchphrase',
+      '"Punch and Judy is the anarchic soul of English humour" - Cultural observer'
+    ]
+  },
+
+  // Village Traditions
+  {
+    id: 'village-green',
+    label: 'The Village Green',
+    type: 'place',
+    category: 'Community Spaces',
+    description: 'Central community space embodying British village life and democratic traditions',
+    detailedDescription: 'The village green represents the heart of traditional English community life - a shared space where cricket is played, fêtes are held, and democracy functions at its most local level. These ancient commons embody British values of shared ownership, community spirit, and the importance of green space in civilised life. They connect modern Britain to medieval traditions of common land and collective responsibility.',
+    foundedYear: 1000,
+    location: 'Throughout England',
+    significance: 75,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wicken_village_green.jpg/400px-Wicken_village_green.jpg',
+    tags: ['village', 'community', 'cricket', 'tradition', 'green-space', 'democracy'],
+    relatedConcepts: ['community-spirit', 'local-democracy', 'shared-spaces'],
+    keyContributions: [
+      'Preserved medieval common land traditions in modern Britain',
+      'Created template for community-centred village planning',
+      'Enabled local democracy through parish councils and meetings',
+      'Provided shared recreational space for all village classes',
+      'Maintained connection between community and landscape',
+      'Demonstrated British commitment to public green space',
+      'Fostered social cohesion through shared activities'
+    ],
+    culturalImpact: 'Village greens became symbols of ideal English community life, influencing garden city movement and suburban planning. They represent British values of shared responsibility and community spirit.',
+    modernRelevance: 'Protected by law as ancient commons. Continue as focus for community events and local democracy through parish councils.',
+    funFacts: [
+      'Many village greens have existed for over 1,000 years',
+      'Protected by Commons Registration Act preventing development',
+      'Traditional location for ducking stools and village punishment',
+      'Usually surrounded by pub, church, and village shops',
+      'May Day celebrations traditionally held on village greens',
+      'Cricket stumps often permanently installed on green',
+      'Some greens have ancient rights of grazing attached'
+    ],
+    quotes: [
+      '"The village green is the soul of England" - Rural preservation saying',
+      '"Around the village green, England\'s heart still beats" - Traditional sentiment'
+    ]
+  },
+
+  {
+    id: 'morris-dancing',
+    label: 'Morris Dancing',
+    type: 'practice',
+    category: 'Folk Traditions',
+    description: 'Ancient English folk dance preserving pre-Christian traditions and community celebration',
+    detailedDescription: 'Morris dancing represents Britain\'s oldest folk traditions, preserving pre-Christian fertility rituals through centuries of social change. With bells, ribbons, and sticks, morris dancers connect modern Britain to its pagan past whilst embodying community celebration and seasonal rhythms. The tradition demonstrates British capacity to preserve ancient customs whilst adapting to contemporary life.',
+    foundedYear: 1400,
+    significance: 65,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Morrisnotts.jpg/400px-Morrisnotts.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Morris_dance',
+    tags: ['folk-dance', 'tradition', 'seasonal', 'community', 'ancient', 'ritual'],
+    relatedConcepts: ['folk-traditions', 'seasonal-celebration', 'community-ritual'],
+    keyContributions: [
+      'Preserved ancient English folk dance traditions',
+      'Maintained connection to pre-Christian seasonal celebrations',
+      'Created distinctive regional variations reflecting local identity',
+      'Enabled community participation in traditional culture',
+      'Demonstrated British preservation of folk customs',
+      'Connected urban populations with rural traditions',
+      'Influenced revival of traditional culture in 20th century'
+    ],
+    culturalImpact: 'Morris dancing became symbol of authentic English tradition, influencing folk revival movements and cultural preservation efforts. It represents continuity between ancient and modern Britain.',
+    modernRelevance: 'Continues through dedicated morris sides performing at festivals and traditional events. Part of broader movement to preserve folk culture.',
+    funFacts: [
+      'Name possibly derives from "Moorish" dance brought by medieval travellers',
+      'Traditional danced at May Day, harvest festivals, and village celebrations',
+      'Each region has distinctive style: Cotswold, Border, North West',
+      'Dancers wear bells that can be heard across village greens',
+      'Traditional accompanied by melodeon, fiddle, or pipe and tabor',
+      'Some dances involve hitting sticks together in complex patterns',
+      'Cecil Sharp collected and preserved morris traditions in early 20th century'
+    ],
+    quotes: [
+      '"Morris dancing is England\'s gift to the world" - Folk revival saying',
+      '"In morris dancing, ancient England still lives" - Cultural preservationist'
+    ]
+  },
+
+  {
+    id: 'may-day-celebrations',
+    label: 'May Day Celebrations',
+    type: 'practice',
+    category: 'Seasonal Festivals',
+    description: 'Ancient spring festival celebrating renewal and community through maypole dancing and greenery',
+    detailedDescription: 'May Day celebrations connect modern Britain to ancient fertility festivals welcoming spring. With maypole dancing, morris dancing, and crowning of May Queens, these traditions demonstrate British ability to transform pagan customs into community celebrations. They embody British connection to seasonal rhythms and belief in the importance of marking natural cycles through collective joy.',
+    foundedYear: 500,
+    significance: 70,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Maypole_dancing_2009.jpg/400px-Maypole_dancing_2009.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/May_Day',
+    tags: ['spring-festival', 'maypole', 'community', 'tradition', 'seasonal', 'celebration'],
+    relatedConcepts: ['seasonal-celebration', 'community-ritual', 'agricultural-calendar'],
+    keyContributions: [
+      'Preserved ancient spring festivals in Christian and secular Britain',
+      'Created community-wide celebrations involving all ages',
+      'Maintained connection between urban and rural seasonal rhythms',
+      'Enabled peaceful transformation of pagan traditions',
+      'Demonstrated British genius for inclusive community celebration',
+      'Connected schools, churches, and communities in shared tradition',
+      'Preserved traditional crafts like maypole construction and flower garlands'
+    ],
+    culturalImpact: 'May Day became archetypal British village celebration, influencing idealized views of rural community life. It represents British ability to preserve tradition whilst adapting to change.',
+    modernRelevance: 'Continues in villages, schools, and urban areas adapted for modern life. Part of broader seasonal festival calendar maintaining community traditions.',
+    funFacts: [
+      'Maypole dancing involves complex patterns creating beautiful ribbon designs',
+      'Traditional to wash face in May Day dew for beauty',
+      'May Queen traditionally chosen from local young women',
+      'Oxford May Morning features choir singing from Magdalen Tower',
+      'Padstow Obby Oss is famous Cornish May Day celebration',
+      'Morris dancers often perform as part of May Day festivities',
+      'Some celebrations include bringing in "the May" - green branches'
+    ],
+    quotes: [
+      '"Cast ne\'er a clout till May be out" - Traditional weather wisdom',
+      '"May Day morning brings joy to every English heart" - Traditional sentiment'
+    ]
+  },
+
+  // Sporting Heritage
+  {
+    id: 'cricket-tradition',
+    label: 'Cricket Tradition',
+    type: 'practice',
+    category: 'National Sports',
+    description: 'The gentleman\'s game embodying British values of fair play, patience, and tactical complexity',
+    detailedDescription: 'Cricket represents British sporting culture at its finest - combining tactical complexity with moral philosophy. From village greens to Lord\'s Cricket Ground, it embodies fair play, strategic thinking, and the British capacity to make virtue from complexity. The game\'s unique concepts of "playing a straight bat" and "it\'s not cricket" entered common language as expressions of moral behaviour.',
+    foundedYear: 1598,
+    significance: 88,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cricket_at_Lord%27s_ground%2C_1837.jpg/400px-Cricket_at_Lord%27s_ground%2C_1837.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Cricket',
+    tags: ['cricket', 'sport', 'fair-play', 'tradition', 'strategy', 'village-life'],
+    relatedConcepts: ['fair-play', 'strategic-thinking', 'community-sport'],
+    keyContributions: [
+      'Established cricket as embodiment of fair play and sportsmanship',
+      'Created complex strategic sport requiring patience and tactical thinking',
+      'Developed unique sporting culture with own language and values',
+      'Connected village and elite cricket through shared traditions',
+      'Established Lord\'s as "Home of Cricket" and global sporting venue',
+      'Influenced international sports governance and fair play concepts',
+      'Created the Ashes - legendary sporting rivalry with Australia'
+    ],
+    culturalImpact: 'Cricket became synonymous with British sporting values and fair play. Its terminology entered everyday language whilst its traditions influenced global sport.',
+    modernRelevance: 'Remains summer sport of choice across social classes. County cricket and village cricket maintain community traditions.',
+    funFacts: [
+      'Laws of Cricket governed by MCC at Lord\'s since 1787',
+      '"It\'s not cricket" means unfair behaviour',
+      'Village cricket matches can last all day with tea intervals',
+      'The Ashes urn contains burnt bails from 1882 match',
+      'Cricket whites traditionally worn to reflect heat',
+      'Longest recorded cricket match lasted 12 days',
+      'Cricket pavilions are often finest buildings in villages'
+    ],
+    quotes: [
+      '"Cricket is the greatest game that the wit of man has yet devised" - Lord Harris',
+      '"It\'s not cricket" - Expression of unfair play',
+      '"Play a straight bat" - Advice for honest dealing'
+    ]
+  },
+
+  {
+    id: 'football-culture',
+    label: 'Football Culture',
+    type: 'practice',
+    category: 'Popular Sports',
+    description: 'The people\'s game reflecting British working-class passion and community identity',
+    detailedDescription: 'Association football represents British working-class culture and community identity. Born in public schools but adopted by industrial workers, it became the people\'s game creating tribal loyalties spanning generations. Football culture embodies British values of loyalty, passion, and collective identity whilst providing escape from daily hardship through shared emotion and community belonging.',
+    foundedYear: 1863,
+    significance: 92,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Wembley_Stadium%2C_illuminated.jpg/400px-Wembley_Stadium%2C_illuminated.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Football_in_England',
+    tags: ['football', 'working-class', 'community', 'passion', 'loyalty', 'tribal'],
+    relatedConcepts: ['working-class-culture', 'community-identity', 'tribal-loyalty'],
+    keyContributions: [
+      'Created the world\'s first football league and professional structure',
+      'Established football as global sport through British influence',
+      'Developed unique fan culture with chants, traditions, and loyalty',
+      'Connected working-class communities through shared team identity',
+      'Created FA Cup - world\'s oldest national football competition',
+      'Influenced global football governance through FIFA founding',
+      'Established football as vehicle for social mobility and community pride'
+    ],
+    culturalImpact: 'Football became the world\'s most popular sport through British influence. Its culture of community loyalty and working-class identity influenced global fan traditions.',
+    modernRelevance: 'Premier League is watched globally whilst grassroots football maintains community connections. Football remains central to British working-class identity.',
+    funFacts: [
+      'FA Cup final was first event to fill Wembley Stadium',
+      'Football supporters created unique chanting and singing traditions',
+      'Many clubs founded by churches, works teams, or community groups',
+      'Football pools betting created first mass gambling culture',
+      'Terracing created distinctive British football atmosphere',
+      'Football violence led to stadium safety improvements globally',
+      'England\'s 1966 World Cup victory remains pinnacle of sporting achievement'
+    ],
+    quotes: [
+      '"Football is a simple game. Twenty-two men chase a ball for 90 minutes and at the end, the Germans always win" - Gary Lineker',
+      '"Football is the ballet of the masses" - Dmitri Shostakovich',
+      '"Some people believe football is a matter of life and death. I\'m very disappointed with that attitude. I can assure you it\'s much, much more important than that" - Bill Shankly'
+    ]
+  },
+
+  {
+    id: 'rugby-tradition',
+    label: 'Rugby Tradition',
+    type: 'practice',
+    category: 'Elite Sports',
+    description: 'Sport embodying British public school values of physical courage and gentlemanly conduct',
+    detailedDescription: 'Rugby football emerged from Tom Brown\'s school days at Rugby School, embodying British public school values of physical courage, team spirit, and gentlemanly conduct even in violent competition. The sport\'s emphasis on playing to the whistle, respecting referees, and showing sporting behaviour represents British ideals of character building through sport.',
+    foundedYear: 1823,
+    significance: 78,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Twickenham_Stadium_-_September_2017.jpg/400px-Twickenham_Stadium_-_September_2017.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Rugby_football',
+    tags: ['rugby', 'public-school', 'character', 'physical', 'gentlemanly', 'team-spirit'],
+    relatedConcepts: ['character-building', 'public-school-values', 'physical-courage'],
+    keyContributions: [
+      'Created distinctive sport emphasising physical courage and fair play',
+      'Established rugby union as amateur sport preserving gentlemanly ideals',
+      'Developed unique sporting culture respecting referees and opponents',
+      'Split into union and league reflecting British class divisions',
+      'Created international rugby championship and global sport',
+      'Influenced character education in British public schools',
+      'Established Twickenham as "Home of Rugby" and sporting cathedral'
+    ],
+    culturalImpact: 'Rugby became symbol of British sporting values and character education. Its culture of respect and fair play influenced international sport.',
+    modernRelevance: 'Rugby World Cup demonstrates global reach of British sporting invention. Rugby remains important in character education.',
+    funFacts: [
+      'Legend says William Webb Ellis first picked up the ball at Rugby School',
+      'Rugby union remained amateur until 1995 preserving gentlemanly traditions',
+      'Rugby league broke away from union over payments to working-class players',
+      'Haka performed by New Zealand team honours rugby\'s global reach',
+      'Six Nations Championship is world\'s oldest international tournament',
+      'Rugby developed distinctive third-half culture in clubhouses',
+      'Barbarians team maintains rugby\'s adventurous spirit'
+    ],
+    quotes: [
+      '"Rugby is a hooligan\'s game played by gentlemen" - Traditional saying',
+      '"Football is a gentleman\'s game played by hooligans, rugby is the opposite" - Oscar Wilde (attributed)'
+    ]
+  },
+
+  {
+    id: 'wimbledon-championships',
+    label: 'Wimbledon Championships',
+    type: 'event',
+    category: 'Sporting Events',
+    description: 'Premier tennis tournament embodying British sporting tradition and social hierarchy',
+    detailedDescription: 'The Wimbledon Championships represent British sporting tradition at its most refined - combining athletic excellence with social ceremony. From strawberries and cream to the Royal Box, Wimbledon embodies British values of tradition, excellence, and proper behaviour. Its grass courts and strict dress codes preserve Victorian sporting values whilst Centre Court dramas create modern sporting legends.',
+    foundedYear: 1877,
+    location: 'Wimbledon, London',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Wimbledon_Centre_Court.jpg/400px-Wimbledon_Centre_Court.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Wimbledon_Championships',
+    tags: ['tennis', 'tradition', 'social-event', 'excellence', 'ceremony', 'elite'],
+    relatedConcepts: ['sporting-excellence', 'social-hierarchy', 'traditional-ceremony'],
+    keyContributions: [
+      'Established tennis as premier racquet sport through oldest tournament',
+      'Created template for sporting event combining sport with social ceremony',
+      'Maintained traditional grass court tennis as purest form of game',
+      'Established unique sporting traditions: strawberries, cream, dress codes',
+      'Created global sporting event watched by millions worldwide',
+      'Preserved Victorian sporting values in modern era',
+      'Influenced tennis governance and tournament organisation globally'
+    ],
+    culturalImpact: 'Wimbledon became symbol of British sporting excellence and tradition. Its ceremonies and customs influenced global tennis culture.',
+    modernRelevance: 'Remains most prestigious tennis tournament. Its traditions demonstrate British ability to preserve heritage whilst embracing global sport.',
+    funFacts: [
+      'Only Grand Slam tournament still played on grass courts',
+      'Traditional dress code requires "predominantly white" clothing',
+      'Queue culture extends to overnight camping for tickets',
+      'Strawberries and cream consumption reaches 23 tonnes during tournament',
+      'Royal Box maintains protocol and etiquette traditions',
+      'Centre Court roof added in 2009 but tradition preserved',
+      'Ball boys and girls undergo rigorous training programme'
+    ],
+    quotes: [
+      '"Wimbledon is the cathedral of tennis" - Tennis saying',
+      '"New balls, please" - Traditional umpire call',
+      '"The Championships, Wimbledon" - Official tournament name emphasising tradition'
+    ]
+  },
+
+  // Artifacts
+  {
+    id: 'magna-carta',
+    label: 'Magna Carta',
+    type: 'artifact',
+    category: 'Constitutional Documents',
+    description: 'Foundation document establishing rule of law and limiting royal power',
+    detailedDescription: 'Magna Carta (1215) established the revolutionary principle that even kings must follow the law. Forced upon King John by rebellious barons at Runnymede, it created legal constraints on royal power and established due process rights. Though originally protecting only aristocratic privileges, it evolved into the foundation of constitutional government and individual liberty that influenced democracies worldwide.',
+    foundedYear: 1215,
+    location: 'Runnymede / British Library',
+    significance: 95,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/400px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Magna_Carta',
+    tags: ['constitutional-law', 'rule-of-law', 'civil-rights', 'medieval', 'democracy', 'legal-precedent'],
+    relatedConcepts: ['rule-of-law', 'constitutional-government', 'civil-liberties'],
+    keyContributions: [
+      'Established principle that law applies to everyone including monarchs',
+      'Created due process protections against arbitrary imprisonment',
+      'Limited royal power through legal constraints',
+      'Established foundation for constitutional government',
+      'Influenced American Constitution and Bill of Rights',
+      'Created precedent for written constitutional limitations',
+      'Inspired global democratic and civil rights movements'
+    ],
+    culturalImpact: 'Magna Carta became symbol of legal restraint on power and foundation of constitutional democracy. Its principles influenced legal systems worldwide.',
+    modernRelevance: 'Its principles remain fundamental to British and international law. Continues to be cited in civil rights and constitutional debates globally.',
+    funFacts: [
+      'Originally called "Charter of Liberties" - "Magna Carta" means "Great Charter"',
+      'King John signed it reluctantly and tried to annul it immediately',
+      'Only 4 original copies survive from 1215',
+      'Clause 39 established habeas corpus and due process rights',
+      'Nelson Mandela called it "foundation of freedom"',
+      'Influenced UN Declaration of Human Rights',
+      'Original parchment displayed in British Library under special conditions'
+    ],
+    quotes: [
+      '"To no one will we sell, to no one will we refuse or delay, right or justice" - Clause 40',
+      '"No free man shall be seized or imprisoned except by lawful judgment of his equals" - Clause 39'
+    ]
+  },
+
+  {
+    id: 'king-james-bible',
+    label: 'King James Bible',
+    type: 'artifact',
+    category: 'Religious Texts',
+    description: 'Authorized Bible translation that shaped English language and Protestant culture',
+    detailedDescription: 'The King James Bible (1611) commissioned by James I became the most influential book in English literature and culture. Created by 47 scholars over seven years, it combined scholarly accuracy with magnificent literary style. Its phrases entered everyday English whilst its Protestant theology shaped British religious and cultural identity for centuries.',
+    foundedYear: 1611,
+    location: 'England',
+    significance: 90,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/KJV-King-James-Version-Bible-first-edition-title-page-1611.xcf/400px-KJV-King-James-Version-Bible-first-edition-title-page-1611.xcf.png',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/King_James_Version',
+    tags: ['religion', 'literature', 'language', 'protestantism', 'translation', 'cultural-influence'],
+    relatedConcepts: ['english-language', 'protestant-culture', 'literary-influence'],
+    keyContributions: [
+      'Created magnificent literary English influencing all subsequent writing',
+      'Established Protestant biblical authority in England',
+      'Contributed thousands of phrases to English language',
+      'Influenced English poetry and prose for centuries',
+      'Standardized religious language and concepts',
+      'Shaped British moral and ethical framework',
+      'Became model for biblical translation worldwide'
+    ],
+    culturalImpact: 'The KJV shaped English language and literature more than any other single book. Its phrases and rhythms influenced writers from Milton to modern authors.',
+    modernRelevance: 'Still widely used in Anglican churches. Its language continues to influence English literature and public speaking.',
+    funFacts: [
+      'Translated by 47 scholars divided into 6 companies',
+      'Took 7 years to complete (1604-1611)',
+      'Contains famous phrases: "salt of the earth", "fight the good fight"',
+      'Original 1611 edition had different spelling and punctuation',
+      'Influenced American English through Puritan colonists',
+      'Used as stylistic model by writers including Shakespeare contemporaries',
+      'Free distribution made it accessible to all social classes'
+    ],
+    quotes: [
+      '"In the beginning was the Word" - John 1:1',
+      '"The Lord is my shepherd; I shall not want" - Psalm 23:1'
+    ]
   }
 ]
 
@@ -2580,6 +3718,745 @@ export const cultureEdges: CultureEdge[] = [
     type: 'influenced',
     period: '1960-1980',
     evidence: ['Social consciousness', 'Peace activism', 'Common humanity themes', 'Anti-establishment messages']
+  },
+
+  // New relationships for added diverse node types
+  {
+    id: 'diana-princess-british-humour',
+    source: 'diana-princess',
+    target: 'british-humour',
+    relationship: 'modernized',
+    description: 'Diana\'s self-deprecating humor and wit helped modernize royal communication style',
+    strength: 6,
+    type: 'influenced',
+    period: '1980-1997',
+    evidence: ['Self-deprecating interviews', 'Accessible humor', 'Modern royal communication']
+  },
+
+  {
+    id: 'cromwell-parliament',
+    source: 'cromwell',
+    target: 'parliament',
+    relationship: 'strengthened',
+    description: 'Cromwell\'s Commonwealth demonstrated parliamentary supremacy over monarchy',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1649-1658',
+    evidence: ['Commonwealth government', 'Parliamentary authority', 'Republican precedent']
+  },
+
+  {
+    id: 'cromwell-freedom-of-speech',
+    source: 'cromwell',
+    target: 'freedom-of-speech',
+    relationship: 'advanced',
+    description: 'Cromwell promoted religious tolerance and challenged royal authority over conscience',
+    strength: 7,
+    type: 'developed',
+    period: '1649-1658',
+    evidence: ['Religious tolerance', 'Parliamentary freedom', 'Challenge to absolute authority']
+  },
+
+  {
+    id: 'british-museum-enlightenment',
+    source: 'british-museum',
+    target: 'oxford-university',
+    relationship: 'collaborated',
+    description: 'British Museum and Oxford collaborated in archaeological research and scholarly pursuits',
+    strength: 7,
+    type: 'influenced',
+    period: '1753-present',
+    evidence: ['Archaeological expeditions', 'Scholarly research', 'Academic collections']
+  },
+
+  {
+    id: 'lloyds-london-empire',
+    source: 'lloyds-london',
+    target: 'nelson',
+    relationship: 'enabled',
+    description: 'Lloyd\'s maritime insurance enabled naval expansion and global trade that Nelson protected',
+    strength: 8,
+    type: 'influenced',
+    period: '1686-1805',
+    evidence: ['Maritime insurance', 'Naval trade protection', 'Global commerce enablement']
+  },
+
+  {
+    id: 'battle-hastings-william-conqueror',
+    source: 'battle-hastings',
+    target: 'william-conqueror',
+    relationship: 'resulted-from',
+    description: 'The Battle of Hastings was the decisive military victory that established William\'s conquest',
+    strength: 10,
+    type: 'created',
+    period: '1066',
+    evidence: ['Military victory', 'Norman conquest', 'Cultural transformation']
+  },
+
+  {
+    id: 'battle-hastings-common-law',
+    source: 'battle-hastings',
+    target: 'common-law',
+    relationship: 'enabled',
+    description: 'Norman victory at Hastings introduced Continental legal traditions that merged with Anglo-Saxon law',
+    strength: 8,
+    type: 'developed',
+    period: '1066',
+    evidence: ['Legal system fusion', 'Norman legal traditions', 'Anglo-Saxon integration']
+  },
+
+  {
+    id: 'great-fire-london-wren',
+    source: 'great-fire-london',
+    target: 'wren',
+    relationship: 'enabled',
+    description: 'The Great Fire created the opportunity for Wren\'s architectural renaissance of London',
+    strength: 9,
+    type: 'created',
+    period: '1666',
+    evidence: ['Architectural rebuilding', 'St Paul\'s Cathedral', '51 city churches']
+  },
+
+  {
+    id: 'speakers-corner-freedom-of-speech',
+    source: 'speakers-corner',
+    target: 'freedom-of-speech',
+    relationship: 'embodies',
+    description: 'Speakers\' Corner became the physical embodiment of British free speech traditions',
+    strength: 9,
+    type: 'embodied',
+    period: '1872-present',
+    evidence: ['Public speaking rights', 'Democratic discourse', 'Civil liberties symbol']
+  },
+
+  {
+    id: 'speakers-corner-orwell',
+    source: 'speakers-corner',
+    target: 'orwell',
+    relationship: 'influenced',
+    description: 'Orwell spoke at Speakers\' Corner and it influenced his understanding of free speech',
+    strength: 6,
+    type: 'influenced',
+    period: '1930s-1940s',
+    evidence: ['Public speaking experience', 'Democratic participation', 'Free speech advocacy']
+  },
+
+  {
+    id: 'stonehenge-british-heritage',
+    source: 'stonehenge',
+    target: 'alfred-great',
+    relationship: 'preceded',
+    description: 'Stonehenge represents the ancient heritage that Alfred sought to preserve and continue',
+    strength: 7,
+    type: 'influenced',
+    period: '3100 BCE - 899 CE',
+    evidence: ['Ancient heritage', 'Cultural continuity', 'Landscape connection']
+  },
+
+  {
+    id: 'magna-carta-common-law',
+    source: 'magna-carta',
+    target: 'common-law',
+    relationship: 'founded',
+    description: 'Magna Carta established fundamental principles that became the foundation of common law',
+    strength: 10,
+    type: 'developed',
+    period: '1215',
+    evidence: ['Legal precedents', 'Due process rights', 'Royal constraint principles']
+  },
+
+  {
+    id: 'magna-carta-parliament',
+    source: 'magna-carta',
+    target: 'parliament',
+    relationship: 'enabled',
+    description: 'Magna Carta\'s limitation of royal power created space for parliamentary development',
+    strength: 9,
+    type: 'influenced',
+    period: '1215-1066',
+    evidence: ['Royal power limitation', 'Baronial rights', 'Constitutional precedent']
+  },
+
+  {
+    id: 'magna-carta-freedom-of-speech',
+    source: 'magna-carta',
+    target: 'freedom-of-speech',
+    relationship: 'laid-groundwork',
+    description: 'Magna Carta\'s due process protections laid groundwork for later free speech rights',
+    strength: 8,
+    type: 'influenced',
+    period: '1215',
+    evidence: ['Due process rights', 'Legal protections', 'Constitutional principles']
+  },
+
+  {
+    id: 'king-james-bible-shakespeare',
+    source: 'king-james-bible',
+    target: 'shakespeare',
+    relationship: 'paralleled',
+    description: 'Both the KJV and Shakespeare\'s works established magnificent literary English',
+    strength: 8,
+    type: 'influenced',
+    period: '1604-1616',
+    evidence: ['Literary English', 'Language influence', 'Cultural expression']
+  },
+
+  {
+    id: 'king-james-bible-milton',
+    source: 'king-james-bible',
+    target: 'milton',
+    relationship: 'influenced',
+    description: 'The KJV\'s biblical language and themes profoundly influenced Milton\'s Paradise Lost',
+    strength: 9,
+    type: 'influenced',
+    period: '1611-1674',
+    evidence: ['Biblical themes', 'Literary style', 'Religious poetry']
+  },
+
+  {
+    id: 'british-museum-empire',
+    source: 'british-museum',
+    target: 'churchill',
+    relationship: 'represented',
+    description: 'The British Museum represented imperial cultural authority that Churchill defended',
+    strength: 6,
+    type: 'embodied',
+    period: '1940-1945',
+    evidence: ['Cultural heritage protection', 'Imperial legacy', 'Civilization defense']
+  },
+
+  // Military History Relationships
+  {
+    id: 'wellington-battle-waterloo',
+    source: 'wellington',
+    target: 'battle-waterloo',
+    relationship: 'commanded',
+    description: 'Wellington commanded the allied forces that defeated Napoleon at Waterloo',
+    strength: 10,
+    type: 'created',
+    period: '1815',
+    evidence: ['Military command', 'Strategic leadership', 'Decisive victory']
+  },
+
+  {
+    id: 'wellington-british-army',
+    source: 'wellington',
+    target: 'british-army',
+    relationship: 'reformed',
+    description: 'Wellington\'s military reforms and leadership style shaped modern British Army',
+    strength: 9,
+    type: 'developed',
+    period: '1800-1852',
+    evidence: ['Military reforms', 'Officer training', 'Professional standards']
+  },
+
+  {
+    id: 'wellington-fair-play',
+    source: 'wellington',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'Wellington exemplified British military values of honour and fair conduct',
+    strength: 8,
+    type: 'embodied',
+    period: '1800-1852',
+    evidence: ['Military honour', 'Treatment of enemies', 'Gentlemanly conduct']
+  },
+
+  {
+    id: 'wellington-parliament',
+    source: 'wellington',
+    target: 'parliament',
+    relationship: 'served',
+    description: 'Wellington served as Prime Minister, demonstrating soldier-statesman tradition',
+    strength: 7,
+    type: 'institutionalized',
+    period: '1828-1830',
+    evidence: ['Prime Minister', 'House of Lords', 'Political leadership']
+  },
+
+  {
+    id: 'british-army-sas',
+    source: 'british-army',
+    target: 'sas',
+    relationship: 'created',
+    description: 'The British Army created the SAS as elite special forces unit',
+    strength: 9,
+    type: 'created',
+    period: '1941',
+    evidence: ['Military innovation', 'Special forces development', 'Elite unit creation']
+  },
+
+  {
+    id: 'sas-fair-play',
+    source: 'sas',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'SAS operations maintain British military ethics and professional conduct',
+    strength: 7,
+    type: 'embodied',
+    period: '1941-present',
+    evidence: ['Professional conduct', 'Operational ethics', 'Military honour']
+  },
+
+  {
+    id: 'churchill-wellington',
+    source: 'churchill',
+    target: 'wellington',
+    relationship: 'inspired-by',
+    description: 'Churchill drew inspiration from Wellington\'s leadership and strategic thinking',
+    strength: 6,
+    type: 'influenced',
+    period: '1940-1945',
+    evidence: ['Strategic patience', 'Defensive leadership', 'National resilience']
+  },
+
+  {
+    id: 'nelson-wellington',
+    source: 'nelson',
+    target: 'wellington',
+    relationship: 'paralleled',
+    description: 'Nelson and Wellington represented naval and land military excellence respectively',
+    strength: 8,
+    type: 'influenced',
+    period: '1800-1815',
+    evidence: ['Military heroes', 'National defence', 'Strategic brilliance']
+  },
+
+  {
+    id: 'battle-waterloo-british-humour',
+    source: 'battle-waterloo',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Wellington\'s understated remarks at Waterloo contributed to British tradition of understatement',
+    strength: 6,
+    type: 'influenced',
+    period: '1815',
+    evidence: ['Military understatement', 'Dry wit', 'Stoic humour']
+  },
+
+  {
+    id: 'british-army-monarchy-institution',
+    source: 'british-army',
+    target: 'monarchy-institution',
+    relationship: 'serves',
+    description: 'The British Army serves the Crown, maintaining constitutional military tradition',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1707-present',
+    evidence: ['Military oath', 'Royal regiment', 'Constitutional service']
+  },
+
+  // Seaside Culture Relationships
+  {
+    id: 'brighton-pier-fish-and-chips',
+    source: 'brighton-pier',
+    target: 'fish-and-chips',
+    relationship: 'featured',
+    description: 'Brighton Pier popularised fish and chips as quintessential seaside food',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1899-present',
+    evidence: ['Pier food stalls', 'Seaside tradition', 'Tourist experience']
+  },
+
+  {
+    id: 'punch-and-judy-brighton-pier',
+    source: 'punch-and-judy',
+    target: 'brighton-pier',
+    relationship: 'performed-at',
+    description: 'Punch and Judy shows were traditional entertainment on Brighton Pier',
+    strength: 7,
+    type: 'embodied',
+    period: '1899-present',
+    evidence: ['Pier entertainment', 'Children\'s shows', 'Traditional performance']
+  },
+
+  {
+    id: 'punch-and-judy-british-humour',
+    source: 'punch-and-judy',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Punch and Judy\'s anarchic humour influenced British comedy traditions',
+    strength: 7,
+    type: 'influenced',
+    period: '1662-present',
+    evidence: ['Subversive comedy', 'Anti-authority humour', 'Slapstick tradition']
+  },
+
+  {
+    id: 'dickens-brighton-pier',
+    source: 'dickens',
+    target: 'brighton-pier',
+    relationship: 'chronicled',
+    description: 'Dickens wrote about Brighton and seaside culture in his novels',
+    strength: 5,
+    type: 'influenced',
+    period: '1850s',
+    evidence: ['Brighton references', 'Seaside social scenes', 'Victorian leisure']
+  },
+
+  // Village Traditions Relationships
+  {
+    id: 'village-green-cricket-tradition',
+    source: 'village-green',
+    target: 'cricket-tradition',
+    relationship: 'enabled',
+    description: 'Village greens provided the setting for cricket to develop as community sport',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1600-present',
+    evidence: ['Cricket pitch on green', 'Community sport', 'Shared space']
+  },
+
+  {
+    id: 'morris-dancing-village-green',
+    source: 'morris-dancing',
+    target: 'village-green',
+    relationship: 'performed-on',
+    description: 'Morris dancing traditionally performed on village greens during festivals',
+    strength: 8,
+    type: 'embodied',
+    period: '1400-present',
+    evidence: ['Traditional venue', 'Community celebration', 'Folk tradition']
+  },
+
+  {
+    id: 'may-day-village-green',
+    source: 'may-day-celebrations',
+    target: 'village-green',
+    relationship: 'centred-on',
+    description: 'May Day celebrations traditionally centred on village greens with maypoles',
+    strength: 9,
+    type: 'institutionalized',
+    period: '500-present',
+    evidence: ['Maypole dancing', 'Community celebration', 'Traditional venue']
+  },
+
+  {
+    id: 'may-day-morris-dancing',
+    source: 'may-day-celebrations',
+    target: 'morris-dancing',
+    relationship: 'featured',
+    description: 'Morris dancing is traditional entertainment at May Day celebrations',
+    strength: 9,
+    type: 'embodied',
+    period: '1400-present',
+    evidence: ['Seasonal dancing', 'Traditional entertainment', 'Folk celebration']
+  },
+
+  {
+    id: 'chaucer-morris-dancing',
+    source: 'chaucer',
+    target: 'morris-dancing',
+    relationship: 'referenced',
+    description: 'Chaucer referenced folk dancing traditions in Canterbury Tales',
+    strength: 5,
+    type: 'influenced',
+    period: '1380-1400',
+    evidence: ['Folk traditions', 'Medieval entertainment', 'Social commentary']
+  },
+
+  {
+    id: 'village-green-fair-play',
+    source: 'village-green',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'Village greens demonstrated democratic principles of shared space and fair use',
+    strength: 7,
+    type: 'embodied',
+    period: '1000-present',
+    evidence: ['Common ownership', 'Fair access', 'Democratic tradition']
+  },
+
+  // Sporting Heritage Relationships
+  {
+    id: 'cricket-tradition-fair-play',
+    source: 'cricket-tradition',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'Cricket became the supreme embodiment of British fair play values',
+    strength: 10,
+    type: 'embodied',
+    period: '1600-present',
+    evidence: ['Spirit of cricket', 'Fair play doctrine', 'Sporting behaviour']
+  },
+
+  {
+    id: 'cricket-tradition-tea-culture',
+    source: 'cricket-tradition',
+    target: 'tea-culture',
+    relationship: 'institutionalised',
+    description: 'Cricket matches institutionalised afternoon tea breaks in British culture',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1700-present',
+    evidence: ['Tea intervals', 'Pavilion culture', 'Match refreshments']
+  },
+
+  {
+    id: 'football-culture-working-class',
+    source: 'football-culture',
+    target: 'fish-and-chips',
+    relationship: 'adopted',
+    description: 'Football culture adopted fish and chips as traditional pre-match meal',
+    strength: 7,
+    type: 'influenced',
+    period: '1890-present',
+    evidence: ['Working-class food', 'Match day tradition', 'Community culture']
+  },
+
+  {
+    id: 'rugby-tradition-public-schools',
+    source: 'rugby-tradition',
+    target: 'oxford-university',
+    relationship: 'developed-at',
+    description: 'Rugby tradition spread from Rugby School to Oxford and public school system',
+    strength: 8,
+    type: 'influenced',
+    period: '1823-present',
+    evidence: ['Public school sport', 'Character education', 'University rugby']
+  },
+
+  {
+    id: 'rugby-tradition-cambridge',
+    source: 'rugby-tradition',
+    target: 'cambridge-university',
+    relationship: 'adopted-by',
+    description: 'Cambridge adopted rugby as part of university sporting tradition',
+    strength: 8,
+    type: 'influenced',
+    period: '1839-present',
+    evidence: ['Varsity match', 'University sport', 'Academic tradition']
+  },
+
+  {
+    id: 'wimbledon-championships-queuing',
+    source: 'wimbledon-championships',
+    target: 'queuing',
+    relationship: 'exemplified',
+    description: 'Wimbledon queue became legendary example of British queuing culture',
+    strength: 9,
+    type: 'embodied',
+    period: '1877-present',
+    evidence: ['Tennis queue', 'Overnight camping', 'Fair access tradition']
+  },
+
+  {
+    id: 'wimbledon-championships-tea-culture',
+    source: 'wimbledon-championships',
+    target: 'tea-culture',
+    relationship: 'celebrated',
+    description: 'Wimbledon elevated strawberries and cream with tea as British sporting tradition',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1877-present',
+    evidence: ['Strawberries and cream', 'Afternoon refreshments', 'Social tradition']
+  },
+
+  {
+    id: 'cricket-tradition-british-humour',
+    source: 'cricket-tradition',
+    target: 'british-humour',
+    relationship: 'influenced',
+    description: 'Cricket contributed unique terminology and understated humour to British culture',
+    strength: 7,
+    type: 'influenced',
+    period: '1700-present',
+    evidence: ['Cricket metaphors', 'Sporting humour', 'Understated commentary']
+  },
+
+  // Cross-connections between new elements
+  {
+    id: 'football-culture-brighton-pier',
+    source: 'football-culture',
+    target: 'brighton-pier',
+    relationship: 'enjoyed-at',
+    description: 'Football fans traditionally enjoyed Brighton Pier during seaside day trips',
+    strength: 6,
+    type: 'influenced',
+    period: '1920-present',
+    evidence: ['Working-class holidays', 'Day trips', 'Leisure culture']
+  },
+
+  {
+    id: 'village-green-monarchy-institution',
+    source: 'village-green',
+    target: 'monarchy-institution',
+    relationship: 'hosted',
+    description: 'Village greens traditionally hosted royal visits and celebrations',
+    strength: 6,
+    type: 'embodied',
+    period: '1000-present',
+    evidence: ['Royal visits', 'Coronation celebrations', 'Jubilee events']
+  },
+
+  {
+    id: 'may-day-gardening-culture',
+    source: 'may-day-celebrations',
+    target: 'gardening-culture',
+    relationship: 'celebrated',
+    description: 'May Day celebrations connected to gardening through flower festivals and spring planting',
+    strength: 7,
+    type: 'influenced',
+    period: '500-present',
+    evidence: ['Flower festivals', 'Spring traditions', 'Garden celebrations']
+  },
+
+  // Cultural Practice Relationships
+  {
+    id: 'gardening-culture-tea-culture',
+    source: 'gardening-culture',
+    target: 'tea-culture',
+    relationship: 'complemented',
+    description: 'Garden parties and afternoon tea in gardens combined British cultural traditions',
+    strength: 7,
+    type: 'influenced',
+    period: '1700-present',
+    evidence: ['Garden parties', 'Outdoor tea', 'Social rituals']
+  },
+
+  {
+    id: 'gardening-culture-queuing',
+    source: 'gardening-culture',
+    target: 'queuing',
+    relationship: 'demonstrated',
+    description: 'Garden centres and flower shows exemplify British queuing culture',
+    strength: 6,
+    type: 'embodied',
+    period: '1950-present',
+    evidence: ['Garden centre queues', 'Flower show orderliness', 'Patient gardeners']
+  },
+
+  {
+    id: 'pigeon-racing-fair-play',
+    source: 'pigeon-racing',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'Pigeon racing demonstrates working-class values of fair competition and honest dealing',
+    strength: 7,
+    type: 'embodied',
+    period: '1850-present',
+    evidence: ['Racing regulations', 'Fair competition', 'Sporting ethics']
+  },
+
+  {
+    id: 'pigeon-racing-british-humour',
+    source: 'pigeon-racing',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Pigeon racing culture contributed dry wit and understated expertise to British humour',
+    strength: 5,
+    type: 'influenced',
+    period: '1900-present',
+    evidence: ['Working-class wit', 'Animal humor', 'Understated expertise']
+  },
+
+  {
+    id: 'fish-and-chips-queuing',
+    source: 'fish-and-chips',
+    target: 'queuing',
+    relationship: 'institutionalized',
+    description: 'Fish and chip shops created classic British queuing experience',
+    strength: 8,
+    type: 'embodied',
+    period: '1860-present',
+    evidence: ['Chip shop queues', 'Friday night queues', 'Patient waiting']
+  },
+
+  {
+    id: 'fish-and-chips-tea-culture',
+    source: 'fish-and-chips',
+    target: 'tea-culture',
+    relationship: 'complemented',
+    description: 'Fish and chips with tea became classic British meal combination',
+    strength: 6,
+    type: 'influenced',
+    period: '1860-present',
+    evidence: ['Meal pairing', 'Working-class food', 'Comfort eating']
+  },
+
+  {
+    id: 'monarchy-institution-parliament',
+    source: 'monarchy-institution',
+    target: 'parliament',
+    relationship: 'balanced',
+    description: 'Constitutional monarchy and Parliament create balanced democratic system',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1688-present',
+    evidence: ['Constitutional balance', 'Royal assent', 'Democratic stability']
+  },
+
+  {
+    id: 'monarchy-institution-british-army',
+    source: 'monarchy-institution',
+    target: 'british-army',
+    relationship: 'commands',
+    description: 'The monarch is Commander-in-Chief of British Armed Forces',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1066-present',
+    evidence: ['Military oath', 'Royal regiments', 'Constitutional command']
+  },
+
+  {
+    id: 'diana-princess-monarchy-institution',
+    source: 'diana-princess',
+    target: 'monarchy-institution',
+    relationship: 'modernized',
+    description: 'Diana transformed royal engagement style and modernized monarchy\'s public face',
+    strength: 8,
+    type: 'influenced',
+    period: '1981-1997',
+    evidence: ['Royal modernization', 'Public engagement', 'Media relations']
+  },
+
+  {
+    id: 'gardening-culture-class-consciousness',
+    source: 'gardening-culture',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Gardening competitions and gentle rivalries contributed to British competitive humour',
+    strength: 5,
+    type: 'influenced',
+    period: '1800-present',
+    evidence: ['Garden competitions', 'Gentle rivalry', 'Horticultural humor']
+  },
+
+  {
+    id: 'shakespeare-monarchy-institution',
+    source: 'shakespeare',
+    target: 'monarchy-institution',
+    relationship: 'served',
+    description: 'Shakespeare\'s company performed for Elizabeth I and James I, linking theatre to monarchy',
+    strength: 7,
+    type: 'influenced',
+    period: '1590-1616',
+    evidence: ['Royal performances', 'Court entertainment', 'Royal patronage']
+  },
+
+  {
+    id: 'burns-pigeon-racing',
+    source: 'burns',
+    target: 'pigeon-racing',
+    relationship: 'inspired',
+    description: 'Burns\' celebration of common people influenced working-class sporting culture',
+    strength: 4,
+    type: 'influenced',
+    period: '1850-present',
+    evidence: ['Working-class pride', 'Democratic ideals', 'Folk traditions']
+  },
+
+  {
+    id: 'watt-british-army',
+    source: 'watt',
+    target: 'british-army',
+    relationship: 'enabled',
+    description: 'Steam power enabled military transport and logistics that enhanced British Army capabilities',
+    strength: 6,
+    type: 'influenced',
+    period: '1800-1850',
+    evidence: ['Military logistics', 'Steam transport', 'Industrial military power']
   }
 ]
 

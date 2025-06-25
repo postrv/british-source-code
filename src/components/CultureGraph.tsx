@@ -62,16 +62,18 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
           style: {
             'background-color': (ele: any) => getNodeColor(ele.data()),
             'label': 'data(label)',
-            'width': (ele: any) => Math.max(20, (ele.data('significance') || 50) * 0.8),
-            'height': (ele: any) => Math.max(20, (ele.data('significance') || 50) * 0.8),
-            'font-size': '12px',
+            'width': (ele: any) => Math.max(30, Math.min(60, (ele.data('significance') || 50) * 0.6)),
+            'height': (ele: any) => Math.max(30, Math.min(60, (ele.data('significance') || 50) * 0.6)),
+            'font-size': '11px',
             'text-valign': 'center',
             'text-halign': 'center',
             'color': '#fff',
             'text-outline-width': 2,
             'text-outline-color': '#000',
             'border-width': 2,
-            'border-color': '#fff'
+            'border-color': '#fff',
+            'text-wrap': 'wrap',
+            'text-max-width': '80px'
           }
         },
         {
@@ -128,7 +130,22 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
         name: 'cose',
         animate: true,
         animationDuration: 1000,
-        randomize: false
+        randomize: false,
+        // Better spacing parameters
+        idealEdgeLength: 80,
+        nodeOverlap: 10,
+        refresh: 20,
+        fit: true,
+        padding: 50,
+        componentSpacing: 100,
+        nodeRepulsion: 8000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
       } as any,
       wheelSensitivity: 0.2,
       minZoom: 0.3,
