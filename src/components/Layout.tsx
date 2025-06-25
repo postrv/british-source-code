@@ -13,6 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
 
   const navigation = [
     { name: 'Home', href: '/' },
+    { name: 'Principles', href: '/principles' },
     { name: 'Contributors', href: '/contributors' },
     { name: 'Modules', href: '/modules' },
     { name: 'Visualisation', href: '/visualisation' },
@@ -154,6 +155,14 @@ const Layout = ({ children }: LayoutProps) => {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link
+                    to="/dependencies"
+                    className="text-gray-600 hover:text-union-jack-blue transition-colors"
+                  >
+                    Dependencies
+                  </Link>
+                </li>
               </ul>
             </div>
 

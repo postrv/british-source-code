@@ -565,6 +565,48 @@ export const cultureNodes: CultureNode[] = [
   },
 
   {
+    id: 'william-conqueror',
+    label: 'William the Conqueror',
+    type: 'person',
+    category: 'Norman Rulers',
+    description: 'Norman Duke who conquered England and fundamentally transformed English culture and language',
+    detailedDescription: 'William I transformed England forever through the Norman Conquest of 1066. Born the illegitimate son of Robert I of Normandy, he built a powerful duchy before claiming the English throne. His conquest introduced Norman French culture, transformed the English language, established feudalism, and created the administrative systems that would govern England for centuries.',
+    period: '1028-1087',
+    birthYear: 1028,
+    deathYear: 1087,
+    location: 'Normandy / England',
+    significance: 92,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bayeux_Tapestry_scene44_William_Odo_Robert.jpg/400px-Bayeux_Tapestry_scene44_William_Odo_Robert.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/William_the_Conqueror',
+    tags: ['norman-conquest', 'feudalism', 'domesday-book', 'castle-building', 'language-change'],
+    relatedConcepts: ['feudal-system', 'norman-architecture', 'english-language'],
+    keyContributions: [
+      'Norman Conquest of 1066 - transformative moment in English history',
+      'Introduced Norman French vocabulary into English language',
+      'Established feudal system in England with systematic land grants',
+      'Commissioned Domesday Book - comprehensive survey of England',
+      'Built network of Norman castles establishing royal control',
+      'Transformed English aristocracy and administrative systems',
+      'Brought Continental European cultural influences to England'
+    ],
+    culturalImpact: 'The Norman Conquest fundamentally changed English culture, language, architecture, and social structure. Norman French became the language of court and administration, whilst English absorbed thousands of French words. Norman architecture transformed the English landscape.',
+    modernRelevance: 'The Norman Conquest remains the last successful invasion of England. Its effects on English language, law, and culture are still visible today in vocabulary, place names, and legal traditions.',
+    funFacts: [
+      'Known as "William the Bastard" before his conquest due to illegitimate birth',
+      'The Battle of Hastings lasted about 6 hours on 14 October 1066',
+      'Domesday Book was completed in just 7 years and recorded 13,418 settlements',
+      'Built the White Tower (Tower of London) to intimidate Londoners',
+      'His horse at Hastings was called Gris, meaning "grey" in Norman French',
+      'Died from injuries sustained when his horse reared against his saddle pommel',
+      'The Bayeux Tapestry (probably commissioned by his half-brother) depicts his conquest'
+    ],
+    quotes: [
+      '"By the splendour of God, I have taken possession of my realm; the earth of England is in my two hands"',
+      '"I have persevered and by God\'s help I have conquered"'
+    ]
+  },
+
+  {
     id: 'chaucer',
     label: 'Geoffrey Chaucer',
     type: 'person',
@@ -600,6 +642,49 @@ export const cultureNodes: CultureNode[] = [
   },
 
   // Tudor Era
+  {
+    id: 'henry-viii',
+    label: 'Henry VIII',
+    type: 'person',
+    category: 'Tudor Monarchs',
+    description: 'Tudor king whose break with Rome transformed English religion, culture, and royal power',
+    detailedDescription: 'Henry VIII\'s reign marked a seismic shift in English history through his break with Rome and establishment of the Church of England. Born into the Tudor dynasty, his desire for a male heir led him to challenge papal authority, dissolve monasteries, and transform England\'s religious landscape. His six marriages, larger-than-life personality, and cultural patronage made him one of history\'s most recognisable monarchs.',
+    period: '1491-1547',
+    birthYear: 1491,
+    deathYear: 1547,
+    location: 'Greenwich / London',
+    significance: 91,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hans_Holbein_the_Younger_-_King_Henry_VIII_-_Google_Art_Project.jpg/400px-Hans_Holbein_the_Younger_-_King_Henry_VIII_-_Google_Art_Project.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Henry_VIII',
+    tags: ['reformation', 'church-of-england', 'monasteries', 'royal-supremacy', 'six-wives'],
+    relatedConcepts: ['english-reformation', 'royal-power', 'religious-change'],
+    keyContributions: [
+      'Established Church of England as separate from Roman Catholicism',
+      'Act of Supremacy (1534) made English monarch head of English church',
+      'Dissolution of Monasteries redistributed vast wealth and land',
+      'Strengthened royal power and centralised government administration',
+      'Patronised Renaissance arts bringing Continental culture to England',
+      'Built powerful navy laying foundation for English maritime dominance',
+      'Legal and administrative reforms strengthened royal authority'
+    ],
+    culturalImpact: 'Henry\'s break with Rome fundamentally altered English identity, making England Protestant rather than Catholic and establishing royal supremacy over religious matters. The dissolution of monasteries transformed the English landscape and social structure.',
+    modernRelevance: 'The Church of England remains the established church, with the monarch as Supreme Governor. Henry\'s assertion of royal supremacy over foreign authority resonates in modern sovereignty debates.',
+    funFacts: [
+      'Married six times: divorced twice, beheaded two wives, one died, one survived',
+      'Was originally given title "Defender of the Faith" by Pope for opposing Luther',
+      'Composed music and played multiple instruments',
+      'Was 6\'2" tall and athletic in youth, becoming massively obese later',
+      'His armour shows his waist expanded from 32 inches to 54 inches',
+      'Spoke four languages fluently: English, French, Latin, and Spanish',
+      'His break with Rome was triggered by desire to divorce Catherine of Aragon'
+    ],
+    quotes: [
+      '"I am, I am, I am" - inscription on his personal seal',
+      '"The King\'s word is more than a promise"',
+      '"I will not suffer anyone to have it in his power to command me"'
+    ]
+  },
+
   {
     id: 'elizabeth-i',
     label: 'Elizabeth I',
@@ -944,6 +1029,628 @@ export const cultureNodes: CultureNode[] = [
       '"Poetry is a revelation in words by means of the words"',
       '"Walk on air against your better judgement"',
       '"Between my finger and my thumb / The squat pen rests"'
+    ]
+  },
+
+  // Modern Era - Adding Orwell
+  {
+    id: 'orwell',
+    label: 'George Orwell',
+    type: 'person',
+    category: 'Modern Writers',
+    description: 'Author who defined the fight for free speech and warned against totalitarianism',
+    detailedDescription: 'Eric Arthur Blair, known as George Orwell, became the most influential defender of free speech and democratic values in the 20th century. His experiences fighting fascism in Spain and witnessing Stalinist purges led to masterworks like "1984" and "Animal Farm" that defined concepts of thought police, doublethink, and Big Brother. His essays on language and politics remain essential reading for understanding threats to freedom.',
+    period: '1903-1950',
+    birthYear: 1903,
+    deathYear: 1950,
+    location: 'London / Burma / Spain / Jura',
+    significance: 91,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/400px-George_Orwell_press_photo.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/George_Orwell',
+    tags: ['literature', 'free-speech', 'anti-totalitarian', 'political-writing', 'dystopian', 'journalism'],
+    relatedConcepts: ['freedom-of-speech', 'democracy', 'anti-censorship', 'political-language'],
+    keyContributions: [
+      '1984 - dystopian masterpiece warning against totalitarianism',
+      'Animal Farm - allegory exposing corruption of revolutionary ideals',
+      '"Politics and the English Language" - seminal essay on clear thinking',
+      '"The Freedom of the Press" - unpublished preface defending free speech',
+      'Coined terms: Big Brother, doublethink, thoughtcrime, Newspeak',
+      'Down and Out in Paris and London - exposing social inequality',
+      'Homage to Catalonia - firsthand account of fighting fascism'
+    ],
+    culturalImpact: 'Orwell\'s concepts became universal language for discussing authoritarianism. "Orwellian" entered common usage to describe government overreach and propaganda. His warnings about surveillance and language manipulation remain prophetic.',
+    modernRelevance: 'In the digital age, Orwell\'s warnings about surveillance, fake news, and thought control are more relevant than ever. His works are quoted in debates about privacy, media manipulation, and political freedom worldwide.',
+    funFacts: [
+      'Real name was Eric Blair - chose "George Orwell" as very English name',
+      'Worked as imperial policeman in Burma, inspiring his anti-imperialism',
+      'Shot through the throat by fascist sniper in Spanish Civil War',
+      'Kept a pub goat named Muriel (like the goat in Animal Farm)',
+      'Last words were reportedly about the trout he wanted to catch',
+      'BBC rejected Animal Farm initially as too controversial',
+      'Wrote 1984 whilst dying of tuberculosis on Scottish island'
+    ],
+    quotes: [
+      '"Freedom is the right to tell people what they do not want to hear"',
+      '"In a time of deceit telling the truth is a revolutionary act"',
+      '"All animals are equal, but some animals are more equal than others"',
+      '"War is peace. Freedom is slavery. Ignorance is strength"',
+      '"The best books are those that tell you what you know already"'
+    ]
+  },
+
+  // 17th Century - Adding Milton
+  {
+    id: 'milton',
+    label: 'John Milton',
+    type: 'person',
+    category: 'Renaissance Writers',
+    description: 'Poet and pamphleteer who wrote the first great defence of press freedom',
+    detailedDescription: 'John Milton combined sublime poetry with revolutionary political thought, creating both "Paradise Lost" and "Areopagitica" - the foundational text arguing against pre-publication censorship. Writing during the English Civil War, he defended regicide, religious tolerance, and press freedom whilst serving as Cromwell\'s Latin Secretary. His blindness in later life makes his literary achievements even more remarkable.',
+    period: '1608-1674',
+    birthYear: 1608,
+    deathYear: 1674,
+    location: 'London / Cambridge',
+    significance: 86,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Milton.jpg/400px-John_Milton.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/John_Milton',
+    tags: ['literature', 'free-speech', 'republicanism', 'poetry', 'civil-war', 'press-freedom'],
+    relatedConcepts: ['freedom-of-speech', 'religious-tolerance', 'press-freedom', 'civil-liberties'],
+    keyContributions: [
+      'Areopagitica (1644) - first great argument against press censorship',
+      'Paradise Lost - epic poem exploring free will and rebellion',
+      'The Tenure of Kings and Magistrates - defended right to depose tyrants',
+      'Paradise Regained - sequel exploring temptation and virtue',
+      'Samson Agonistes - dramatic poem on strength through suffering',
+      'Defended religious tolerance and separation of church and state',
+      'Served as Latin Secretary to Commonwealth government'
+    ],
+    culturalImpact: 'Milton\'s "Areopagitica" became the philosophical foundation for press freedom and freedom of thought. His arguments against licensing influenced the First Amendment and continue to be cited in free speech cases.',
+    modernRelevance: 'Milton\'s arguments against censorship are quoted in modern debates about internet freedom, hate speech laws, and academic freedom. His defence of the "marketplace of ideas" remains central to liberal democracy.',
+    funFacts: [
+      'Went blind at 44 but continued writing by dictating to assistants',
+      'Married three times, twice to much younger women',
+      'Narrowly escaped execution when monarchy was restored in 1660',
+      'Spoke Latin, Greek, Hebrew, French, Spanish, and Italian',
+      'Paradise Lost was initially sold for £10 (about £1,500 today)',
+      'Believed in divorce by mutual consent - very radical for his time',
+      'His daughters complained about having to read to him in languages they didn\'t understand'
+    ],
+    quotes: [
+      '"Give me the liberty to know, to utter, and to argue freely according to conscience, above all liberties"',
+      '"The mind is its own place, and in itself can make a heaven of hell, a hell of heaven"',
+      '"Better to reign in Hell than serve in Heaven"',
+      '"Who kills a man kills a reasonable creature, but he who destroys a good book, kills reason itself"'
+    ]
+  },
+
+  // Concepts - Adding Freedom of Speech
+  {
+    id: 'freedom-of-speech',
+    label: 'Freedom of Speech',
+    type: 'concept',
+    category: 'Fundamental Principles',
+    description: 'The cornerstone principle that ideas must be free to compete in the marketplace of thought',
+    detailedDescription: 'Freedom of speech in Britain developed through centuries of struggle against censorship, from the Star Chamber\'s abolition through Milton\'s Areopagitica to Orwell\'s warnings about thought control. Unlike many countries, Britain lacks a written constitution, making this freedom both more vulnerable and more precious. It encompasses not just the right to speak, but the right to hear, read, and think freely.',
+    period: '1215-present',
+    foundedYear: 1215,
+    significance: 95,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Speakers%27_Corner_Hyde_Park_London_2.jpg/400px-Speakers%27_Corner_Hyde_Park_London_2.jpg',
+    tags: ['freedom', 'democracy', 'civil-liberties', 'human-rights', 'press-freedom', 'censorship'],
+    relatedConcepts: ['democracy', 'rule-of-law', 'press-freedom', 'academic-freedom'],
+    keyContributions: [
+      'Established principle that truth emerges through open debate',
+      'Created legal protections against prior restraint and censorship',
+      'Developed concept of "marketplace of ideas" where truth competes',
+      'Influenced democratic constitutions worldwide',
+      'Protected minority opinions and dissenting voices',
+      'Enabled scientific and social progress through free inquiry',
+      'Speakers\' Corner became symbol of free speech globally'
+    ],
+    culturalImpact: 'British free speech tradition influenced the First Amendment and democratic constitutions worldwide. The concept of loyal opposition and parliamentary privilege created space for criticism of power.',
+    modernRelevance: 'Digital age brings new challenges: online harassment, disinformation, hate speech, and platform censorship. British approaches to balancing free speech with public order continue to evolve and influence global debates.',
+    funFacts: [
+      'Speakers\' Corner in Hyde Park has allowed free speech since 1872',
+      'Britain has no written constitution protecting free speech',
+      'Parliamentary privilege allows MPs to say anything in Parliament',
+      'The phrase "freedom of the press" was coined by British writers',
+      'British libel laws are stricter than many democracies',
+      'BBC\'s independence principle helped establish media freedom norms'
+    ],
+    quotes: [
+      '"The liberty of the press is the Palladium of all the civil, political and religious rights of an Englishman" - Junius Letters',
+      '"Freedom is the right to tell people what they do not want to hear" - Orwell'
+    ]
+  },
+
+  // Scientific Revolution
+  {
+    id: 'wren',
+    label: 'Christopher Wren',
+    type: 'person',
+    category: 'Architects',
+    description: 'Architect who rebuilt London after the Great Fire, designing St Paul\'s Cathedral',
+    detailedDescription: 'Sir Christopher Wren transformed London\'s skyline following the Great Fire of 1666, designing 51 churches including the magnificent St Paul\'s Cathedral. Born into an academic family, he was a brilliant mathematician and astronomer before turning to architecture. His baroque style combined English traditions with Continental influences, creating a distinctly British architectural language.',
+    period: '1632-1723',
+    birthYear: 1632,
+    deathYear: 1723,
+    location: 'London / Oxford',
+    significance: 86,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Christopher_Wren_by_Godfrey_Kneller_1711.jpg/400px-Christopher_Wren_by_Godfrey_Kneller_1711.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Christopher_Wren',
+    tags: ['architecture', 'st-pauls', 'great-fire', 'baroque', 'city-churches', 'royal-society'],
+    relatedConcepts: ['london-rebuild', 'baroque-architecture', 'scientific-architecture'],
+    keyContributions: [
+      'St Paul\'s Cathedral - masterpiece of English baroque architecture',
+      'Designed 51 City of London churches after Great Fire of 1666',
+      'Royal Observatory Greenwich establishing Britain\'s naval supremacy',
+      'Trinity College Library Cambridge and Sheldonian Theatre Oxford',
+      'Hampton Court Palace extensions for William and Mary',
+      'Founded Royal Society alongside Newton and other scientists',
+      'Pioneered mathematical approach to architectural engineering'
+    ],
+    culturalImpact: 'Wren\'s architectural vision shaped London\'s identity for centuries. His church designs influenced British ecclesiastical architecture whilst St Paul\'s became a symbol of London resilience, especially during the Blitz.',
+    modernRelevance: 'St Paul\'s remains an iconic London landmark and venue for state occasions. Wren\'s scientific approach to architecture influenced modern architectural engineering.',
+    funFacts: [
+      'Started as Professor of Astronomy at Oxford before becoming architect',
+      'Founding member of the Royal Society alongside Newton',
+      'St Paul\'s dome was inspired by St Peter\'s Basilica in Rome',
+      'His epitaph in St Paul\'s reads "Si monumentum requiris, circumspice" (If you seek his monument, look around)',
+      'Designed the Monument to the Great Fire - the world\'s tallest isolated stone column',
+      'Lived to 90 and saw St Paul\'s Cathedral completed',
+      'His son laid the final stone on St Paul\'s Cathedral'
+    ],
+    quotes: [
+      '"Architecture has its political use; publick buildings being the ornament of a country"',
+      '"The noblest part of mathematics is geometry"'
+    ]
+  },
+
+  // Romantic Era
+  {
+    id: 'byron',
+    label: 'Lord Byron',
+    type: 'person',
+    category: 'Romantic Poets',
+    description: 'Romantic poet who embodied rebellion and passion, influencing European culture',
+    detailedDescription: 'George Gordon Byron, 6th Baron Byron, became the archetypal Romantic hero through his poetry and scandalous lifestyle. Born with a club foot, he overcame physical disability to become one of Europe\'s most famous poets. His brooding good looks, numerous love affairs, and radical politics made him a celebrity whilst his poetry influenced the Romantic movement across Europe.',
+    period: '1788-1824',
+    birthYear: 1788,
+    deathYear: 1824,
+    location: 'London / Venice / Greece',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lord_Byron_coloured_drawing.png/400px-Lord_Byron_coloured_drawing.png',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Lord_Byron',
+    tags: ['romanticism', 'poetry', 'rebellion', 'byronic-hero', 'greece', 'scandal'],
+    relatedConcepts: ['romantic-movement', 'poetic-celebrity', 'cultural-rebellion'],
+    keyContributions: [
+      'Childe Harold\'s Pilgrimage - established his poetic reputation',
+      'Don Juan - satirical epic poem critiquing social conventions',
+      'Created the "Byronic hero" literary archetype',
+      'Influenced European Romantic movement and nationalism',
+      'Supported Greek independence movement, dying for the cause',
+      'Pioneered celebrity culture through scandalous public persona',
+      'Challenged social conventions through lifestyle and writing'
+    ],
+    culturalImpact: 'Byron created the template for the tortured, rebellious artist. His influence extended beyond literature to fashion, politics, and social attitudes, inspiring revolutionaries and artists across Europe.',
+    modernRelevance: 'The Byronic hero remains influential in literature and popular culture. His celebration of individual passion over social convention anticipates modern artistic rebellion.',
+    funFacts: [
+      'Born with a club foot which he was very sensitive about',
+      'Had numerous love affairs including with married women',
+      'Kept a pet bear whilst at Cambridge University',
+      'Was bisexual at a time when homosexuality was illegal and punishable by death',
+      'Left England permanently in 1816 due to scandals',
+      'Died of fever whilst fighting for Greek independence',
+      'His body was refused burial in Westminster Abbey due to his "questionable morality"'
+    ],
+    quotes: [
+      '"She walks in beauty, like the night / Of cloudless climes and starry skies"',
+      '"The great object of life is sensation"',
+      '"Man\'s love is of man\'s life a thing apart; \'Tis woman\'s whole existence"',
+      '"There is pleasure in the pathless woods"'
+    ]
+  },
+
+  // Victorian Era Social Reformers
+  {
+    id: 'nightingale',
+    label: 'Florence Nightingale',
+    type: 'person',
+    category: 'Victorian Reformers',
+    description: 'Founder of modern nursing who revolutionised healthcare and hospital hygiene',
+    detailedDescription: 'Florence Nightingale transformed nursing from menial work into a respected profession requiring education and skill. Her work during the Crimean War, where she reduced death rates through improved sanitation, established evidence-based healthcare. Born into a wealthy family, she defied Victorian expectations to pursue her calling, becoming a pioneering statistician and healthcare reformer.',
+    period: '1820-1910',
+    birthYear: 1820,
+    deathYear: 1910,
+    location: 'Florence / London / Crimea',
+    significance: 87,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/400px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Florence_Nightingale',
+    tags: ['nursing', 'healthcare', 'crimean-war', 'statistics', 'sanitation', 'womens-rights'],
+    relatedConcepts: ['professional-nursing', 'evidence-based-medicine', 'hospital-reform'],
+    keyContributions: [
+      'Established nursing as professional discipline requiring training',
+      'Reduced Crimean War death rates from 42% to 2% through sanitation',
+      'Founded first scientifically-based nursing school at St Thomas\' Hospital',
+      'Pioneered use of statistics and data visualisation in healthcare',
+      'Reformed British Army medical services and hospital design',
+      'Advanced women\'s role in healthcare and professional work',
+      'Established principles of evidence-based healthcare practice'
+    ],
+    culturalImpact: 'Nightingale transformed nursing from domestic service into skilled healthcare profession. Her emphasis on sanitation and statistics revolutionised medical practice and saved countless lives.',
+    modernRelevance: 'Modern nursing education and evidence-based healthcare practice follow principles she established. The Nightingale Pledge remains central to nursing ethics.',
+    funFacts: [
+      'Named after Florence, Italy, where she was born whilst her parents travelled',
+      'Refused marriage proposals to pursue her calling in nursing',
+      'Invented the polar area diagram (rose diagram) to visualise statistics',
+      'Carried a pet owl called Athena in her pocket',
+      'First woman elected Fellow of the Statistical Society',
+      'Received Order of Merit from King Edward VII - first woman to receive it',
+      'Never actually worked as a nurse after returning from Crimea'
+    ],
+    quotes: [
+      '"I attribute my success to this - I never gave or took any excuse"',
+      '"Live life when you have it. Life is a splendid gift - there is nothing small about it"',
+      '"To understand God\'s thoughts we must study statistics, for these are the measure of His purpose"'
+    ]
+  },
+
+  {
+    id: 'disraeli',
+    label: 'Benjamin Disraeli',
+    type: 'person',
+    category: 'Victorian Statesmen',
+    description: 'Conservative Prime Minister and novelist who embodied Victorian political theatre and social reform',
+    detailedDescription: 'Benjamin Disraeli was one of the most colourful and influential figures in British politics. Born into a Jewish family but baptised Anglican, he became the first Jewish-born Prime Minister whilst remaining proud of his heritage. A successful novelist before entering politics, he combined literary flair with political genius, championing "One Nation" conservatism that sought to bridge class divides through social reform. His rivalry with Liberal William Gladstone defined an era.',
+    period: '1804-1881',
+    birthYear: 1804,
+    deathYear: 1881,
+    location: 'London / Hughenden Manor',
+    significance: 88,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Benjamin_Disraeli_by_Cornelius_Jabez_Hughes%2C_1878.jpg/400px-Benjamin_Disraeli_by_Cornelius_Jabez_Hughes%2C_1878.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Benjamin_Disraeli',
+    tags: ['politics', 'prime-minister', 'conservative', 'novelist', 'social-reform', 'empire', 'one-nation'],
+    relatedConcepts: ['parliamentary-democracy', 'social-reform', 'british-empire', 'political-theatre'],
+    keyContributions: [
+      'Served as Conservative Prime Minister twice (1868, 1874-1880)',
+      'Championed "One Nation" conservatism bridging class divides',
+      'Reformed Conservative Party into modern political organisation',
+      'Purchased Suez Canal shares securing British influence in Egypt',
+      'Granted Queen Victoria title "Empress of India"',
+      'Passed social reforms including Public Health Act and Factory Acts',
+      'Wrote influential political novels including "Coningsby" and "Sybil"',
+      'Established Conservative Party as party of Empire and social reform'
+    ],
+    culturalImpact: 'Disraeli transformed the Conservative Party from landed gentry into a modern political movement appealing to working classes. His novels influenced political thought whilst his wit and theatrical style made politics entertaining.',
+    modernRelevance: 'His "One Nation" conservatism remains influential in modern Conservative thought. His vision of using state power for social reform whilst maintaining traditional institutions resonates in contemporary politics.',
+    funFacts: [
+      'Started his career £20,000 in debt after failed financial speculation',
+      'Wore flamboyant clothes including green velvet trousers and ruffled shirts',
+      'His political rival Gladstone said "He was the most remarkable man I have ever met"',
+      'Proclaimed "I am not a man, I am an institution!" in Parliament',
+      'Queen Victoria preferred him to Gladstone, calling him "full of poetry, romance and chivalry"',
+      'His wife Mary Anne was 12 years older and helped finance his political career',
+      'Coined the phrase "lies, damned lies, and statistics" (possibly apocryphally)',
+      'Rose from outsider status to Earl of Beaconsfield through political brilliance'
+    ],
+    quotes: [
+      '"I have climbed to the top of the greasy pole"',
+      '"There are three kinds of lies: lies, damned lies, and statistics"',
+      '"The secret of success is constancy to purpose"',
+      '"Never complain and never explain"',
+      '"Justice is truth in action"',
+      '"Little things affect little minds"'
+    ]
+  },
+
+  // Modern Era Literature
+  {
+    id: 'woolf',
+    label: 'Virginia Woolf',
+    type: 'person',
+    category: 'Modernist Writers',
+    description: 'Modernist novelist who revolutionised literary form and explored consciousness',
+    detailedDescription: 'Virginia Woolf pioneered stream-of-consciousness narrative and modernist literary techniques whilst exploring themes of mental health, gender, and sexuality. Born into the intellectual Stephen family, she was central to the Bloomsbury Group of artists and intellectuals. Her novels like "Mrs Dalloway" and "To the Lighthouse" revolutionised fiction whilst her essays advanced feminist literary criticism.',
+    period: '1882-1941',
+    birthYear: 1882,
+    deathYear: 1941,
+    location: 'London / Bloomsbury / Sussex',
+    significance: 89,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/400px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Virginia_Woolf',
+    tags: ['modernism', 'stream-of-consciousness', 'feminism', 'bloomsbury-group', 'mental-health'],
+    relatedConcepts: ['literary-modernism', 'feminist-criticism', 'psychological-realism'],
+    keyContributions: [
+      'Mrs Dalloway and To the Lighthouse - modernist literary masterpieces',
+      'A Room of One\'s Own - foundational feminist literary criticism',
+      'Pioneered stream-of-consciousness narrative technique',
+      'Co-founded Hogarth Press publishing experimental literature',
+      'Advanced understanding of mental health through personal experience',
+      'Bloomsbury Group fostered intellectual and artistic innovation',
+      'Explored gender, sexuality, and identity in groundbreaking ways'
+    ],
+    culturalImpact: 'Woolf\'s literary innovations influenced generations of writers whilst her feminist criticism shaped literary studies. Her exploration of mental health reduced stigma and advanced understanding.',
+    modernRelevance: 'Her techniques influence contemporary literature whilst her feminist insights remain relevant to gender studies and literary criticism.',
+    funFacts: [
+      'Sister of art critic Clive Bell and part of the Bloomsbury Group',
+      'Suffered from what would now be diagnosed as bipolar disorder',
+      'Had romantic relationships with both men and women, notably Vita Sackville-West',
+      'Hogarth Press published T.S. Eliot\'s "The Waste Land"',
+      'Died by suicide, walking into the River Ouse with stones in her pockets',
+      'Her writing desk is preserved at the Monk\'s House in Sussex',
+      'Coined the phrase "stream of consciousness" for literary technique'
+    ],
+    quotes: [
+      '"A woman must have money and a room of her own if she is to write fiction"',
+      '"For most of history, Anonymous was a woman"',
+      '"The mind of man is the most capricious of insects - flitting, fluttering"',
+      '"Yet it is in our idleness, in our dreams, that the submerged truth sometimes comes to the top"'
+    ]
+  },
+
+  {
+    id: 'keynes',
+    label: 'John Maynard Keynes',
+    type: 'person',
+    category: 'Economists',
+    description: 'Economist who revolutionised economic theory and government policy during the Great Depression',
+    detailedDescription: 'John Maynard Keynes transformed economic thinking by arguing that government intervention could stabilise economic cycles. His "General Theory of Employment, Interest and Money" challenged classical economics, arguing that aggregate demand drives employment and economic growth. A member of the Bloomsbury Group, he combined economic brilliance with cultural sophistication.',
+    period: '1883-1946',
+    birthYear: 1883,
+    deathYear: 1946,
+    location: 'Cambridge / London',
+    significance: 91,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/John_Maynard_Keynes.jpg/400px-John_Maynard_Keynes.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/John_Maynard_Keynes',
+    tags: ['economics', 'keynesian-theory', 'bretton-woods', 'bloomsbury-group', 'government-intervention'],
+    relatedConcepts: ['economic-policy', 'government-spending', 'macroeconomics'],
+    keyContributions: [
+      'General Theory of Employment, Interest and Money - revolutionary economic text',
+      'Keynesian economics justifying government intervention in markets',
+      'Bretton Woods Conference architect creating post-war economic order',
+      'Economic Consequences of the Peace predicting WWII after harsh WWI treaties',
+      'Championed full employment as achievable government policy goal',
+      'Arts Council founding chairman promoting government cultural funding',
+      'International Monetary Fund and World Bank institutional design'
+    ],
+    culturalImpact: 'Keynesian economics dominated policy-making for decades, justifying government spending on welfare states and public investment. His ideas shaped modern macroeconomic policy.',
+    modernRelevance: 'Keynesian economics resurged after 2008 financial crisis. Government stimulus packages follow his prescriptions for economic downturns.',
+    funFacts: [
+      'Member of Bloomsbury Group alongside Virginia Woolf and E.M. Forster',
+      'Made fortune speculating in currencies and commodities',
+      'Married Russian ballerina Lydia Lopokova despite being predominantly gay',
+      'Founded Arts Council of Great Britain promoting government arts funding',
+      'Died of heart attack day after Bretton Woods negotiations concluded',
+      'Cambridge college room was above the room where Newton lived',
+      'Collected rare books and art, building significant cultural collections'
+    ],
+    quotes: [
+      '"In the long run we are all dead"',
+      '"The difficulty lies not so much in developing new ideas as in escaping from old ones"',
+      '"Markets can remain irrational longer than you can remain solvent"',
+      '"Ideas shape the course of history"'
+    ]
+  },
+
+  // Industrial Era Engineers
+  {
+    id: 'brunel',
+    label: 'Isambard Kingdom Brunel',
+    type: 'person',
+    category: 'Victorian Engineers',
+    description: 'Engineering genius who revolutionised transport through railways, bridges, and steamships',
+    detailedDescription: 'Isambard Kingdom Brunel embodied Victorian engineering ambition and innovation. Born into an engineering dynasty, he transformed British transport through audacious projects that seemed impossible. His Great Western Railway, Clifton Suspension Bridge, and revolutionary steamships pushed engineering boundaries whilst his theatrical personality made him a celebrity. He died exhausted at 53, having built the infrastructure that powered the British Empire.',
+    period: '1806-1859',
+    birthYear: 1806,
+    deathYear: 1859,
+    location: 'Portsmouth / London / Bristol',
+    significance: 93,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/IKBrunelChains.jpg/400px-IKBrunelChains.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel',
+    tags: ['engineering', 'railways', 'steamships', 'bridges', 'victorian', 'innovation', 'infrastructure'],
+    relatedConcepts: ['industrial-revolution', 'transport-revolution', 'engineering-excellence'],
+    keyContributions: [
+      'Great Western Railway - Britain\'s finest railway with gentle gradients and broad gauge',
+      'SS Great Britain - first iron ocean-going ship with screw propeller',
+      'SS Great Eastern - largest ship in the world for 40 years',
+      'Clifton Suspension Bridge - iconic engineering feat spanning Avon Gorge',
+      'Box Tunnel - longest railway tunnel in world at time of construction',
+      'Paddington Station - revolutionary train shed design with iron and glass',
+      'Thames Tunnel - first underwater tunnel using revolutionary shield method',
+      'Pioneered modern project management and systematic engineering approaches'
+    ],
+    culturalImpact: 'Brunel became the archetypal Victorian engineer-hero, embodying British technical supremacy and imperial ambition. His projects connected Britain to the world whilst his methods influenced global engineering practice.',
+    modernRelevance: 'His engineering principles remain standard practice. The Great Western Railway route is still major transport artery. His ships anticipated modern vessel design whilst his project management methods predate modern techniques.',
+    funFacts: [
+      'Always seen smoking cigars - reportedly got through 40 per day',
+      'Only 5\'4" tall but commanded enormous presence on construction sites',
+      'Survived being trapped underwater in Thames Tunnel flooding',
+      'His father Marc built the Thames Tunnel using the world\'s first tunnelling shield',
+      'Designed a prefabricated hospital shipped to Crimean War in flat-pack form',
+      'His broad gauge railway was technically superior but lost the "gauge war"',
+      'Died while SS Great Eastern was being completed - his stress and overwork contributed',
+      'Nicknamed "Little Giant" by his workforce who adored his hands-on leadership style'
+    ],
+    quotes: [
+      '"I am opposed to the laying down of rules or conditions to be observed in the construction of bridges lest the progress of improvement tomorrow might be embarrassed"',
+      '"The mechanic should sit down among levers, screws, wedges, wheels, etc. like a poet among the letters of the alphabet"',
+      '"I have always been opposed to the system of making many drawings"'
+    ]
+  },
+
+  {
+    id: 'watt',
+    label: 'James Watt',
+    type: 'person',
+    category: 'Industrial Pioneers',
+    description: 'Inventor who perfected the steam engine and triggered the Industrial Revolution',
+    detailedDescription: 'James Watt\'s improvements to the steam engine provided the mechanical foundation for the Industrial Revolution. Born in Greenock, Scotland, this mathematical instrument maker transformed Thomas Newcomen\'s crude steam engine into an efficient power source that revolutionised manufacturing, transport, and mining. His separate condenser and rotary motion innovations made steam power practical for industry, whilst his business partnership with Matthew Boulton created the world\'s first engineering consultancy.',
+    period: '1736-1819',
+    birthYear: 1736,
+    deathYear: 1819,
+    location: 'Greenock / Birmingham',
+    significance: 89,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/James_Watt_by_Henry_Howard.jpg/400px-James_Watt_by_Henry_Howard.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/James_Watt',
+    tags: ['steam-engine', 'industrial-revolution', 'invention', 'engineering', 'scottish', 'manufacturing'],
+    relatedConcepts: ['industrial-revolution', 'mechanical-engineering', 'technological-innovation'],
+    keyContributions: [
+      'Separate condenser - made steam engines four times more efficient',
+      'Rotary motion steam engine - enabled factory machinery operation',
+      'Concept of horsepower - still used to measure engine power',
+      'Steam engine governor - automatic speed control system',
+      'Parallel motion linkage - revolutionary mechanical movement',
+      'Founded engineering consultancy with Matthew Boulton',
+      'Surveyed routes for canals across Scotland and England',
+      'Over 100 patents for mechanical innovations'
+    ],
+    culturalImpact: 'Watt\'s steam engine powered the Industrial Revolution, transforming Britain from agricultural to manufacturing economy. His name became synonymous with power (the watt unit), whilst his innovations enabled mass production and modern factory systems.',
+    modernRelevance: 'The watt remains the standard unit of power worldwide. His engineering principles influence modern mechanical design whilst his systematic approach to innovation established industrial R&D practices.',
+    funFacts: [
+      'The SI unit of power "watt" is named after him',
+      'Allegedly conceived the separate condenser whilst walking on Glasgow Green',
+      'Member of the Lunar Society - influential group of scientists and inventors',
+      'Coined the term "horsepower" by comparing his engines to horses',
+      'His workshop was preserved exactly as he left it and moved to London\'s Science Museum',
+      'Refused many honours but accepted fellowship of Royal Society of Edinburgh',
+      'His improvements increased steam engine efficiency from 1% to 3%',
+      'Business partner Matthew Boulton said "We sell here, sir, what all the world desires - POWER"'
+    ],
+    quotes: [
+      '"Nature can be conquered, if we can but find out her weak side"',
+      '"I can think of nothing else but this machine"',
+      '"Of all things in nature, I like water best"'
+    ]
+  },
+
+  // Modern Cultural Icons
+  {
+    id: 'lennon',
+    label: 'John Lennon',
+    type: 'person',
+    category: 'Modern Musicians',
+    description: 'Beatles member who helped lead the British Invasion and became global peace activist',
+    detailedDescription: 'John Winston Ono Lennon transformed popular music and culture as co-founder of The Beatles, the most successful band in history. Born in wartime Liverpool, his songwriting partnership with Paul McCartney created the soundtrack to the 1960s cultural revolution. Beyond music, Lennon became a peace activist, using his fame to promote non-violence and social change. His solo career continued pushing boundaries until his tragic assassination in 1980.',
+    period: '1940-1980',
+    birthYear: 1940,
+    deathYear: 1980,
+    location: 'Liverpool / London / New York',
+    significance: 92,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_1969_%28cropped%29.jpg/400px-John_Lennon_1969_%28cropped%29.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/John_Lennon',
+    tags: ['beatles', 'music', 'cultural-revolution', 'peace-activism', 'liverpool', 'songwriting'],
+    relatedConcepts: ['british-invasion', 'popular-music', 'cultural-export', 'youth-culture'],
+    keyContributions: [
+      'Co-founded The Beatles - most successful and influential band in history',
+      'Lennon-McCartney songwriting partnership created pop music template',
+      'Led British Invasion bringing UK music to global dominance',
+      '"Imagine" - iconic peace anthem promoting unity and understanding',
+      'Album "Sgt. Pepper\'s" revolutionised recording techniques and concept albums',
+      'Pioneered studio experimentation and avant-garde musical techniques',
+      'Used celebrity platform for peace activism and social commentary',
+      'Helped establish popular music as serious artistic medium'
+    ],
+    culturalImpact: 'Lennon and The Beatles made Britain the global centre of popular music, establishing British cultural influence that continues today. They transformed youth culture, fashion, and social attitudes whilst proving British artists could conquer America.',
+    modernRelevance: 'The Beatles remain the best-selling band ever. Lennon\'s peace message resonates in contemporary activism whilst Liverpool embraces its Beatles heritage as cultural tourism destination.',
+    funFacts: [
+      'Born during Nazi air raid on Liverpool in 1940',
+      'Expelled from art college but met future Beatles members there',
+      'The Beatles were bigger than Elvis - first British band to conquer America',
+      'His iconic round glasses were inspired by character in play "How I Won the War"',
+      'Staged "Bed-Ins for Peace" with Yoko Ono in Amsterdam and Montreal',
+      'Returned MBE in protest against British involvement in Vietnam War',
+      'Last Beatles song "I Me Mine" was recorded without him',
+      'Shot by obsessed fan outside Dakota Building in New York, age 40'
+    ],
+    quotes: [
+      '"Imagine all the people living life in peace"',
+      '"Life is what happens while you\'re busy making other plans"',
+      '"All you need is love"',
+      '"A dream you dream alone is only a dream. A dream you dream together is reality"',
+      '"We\'re more popular than Jesus now"'
+    ]
+  },
+
+  // Naval Heroes
+  {
+    id: 'nelson',
+    label: 'Horatio Nelson',
+    type: 'person',
+    category: 'Naval Heroes',
+    description: 'Admiral who established British naval supremacy and embodied the spirit of naval heroism',
+    detailedDescription: 'Vice-Admiral Horatio Nelson became Britain\'s greatest naval hero through tactical brilliance, personal courage, and inspirational leadership. Born a Norfolk parson\'s son, he rose through merit to command the Royal Navy\'s most famous victories. His innovative tactics at Trafalgar secured British naval dominance for a century whilst his death in the moment of victory created the ultimate heroic narrative. Nelson embodied British naval values: duty, honour, and service before self.',
+    period: '1758-1805',
+    birthYear: 1758,
+    deathYear: 1805,
+    location: 'Norfolk / Mediterranean / Trafalgar',
+    significance: 91,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Horatio_Nelson%2C_1st_Viscount_Nelson_by_Lemuel_Francis_Abbott.jpg/400px-Horatio_Nelson%2C_1st_Viscount_Nelson_by_Lemuel_Francis_Abbott.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Horatio_Nelson%2C_1st_Viscount_Nelson',
+    tags: ['navy', 'trafalgar', 'naval-supremacy', 'heroism', 'leadership', 'tactics', 'napoleonic-wars'],
+    relatedConcepts: ['british-navy', 'naval-tradition', 'heroic-leadership', 'national-defence'],
+    keyContributions: [
+      'Battle of Trafalgar (1805) - decisive victory establishing century of British naval dominance',
+      'Battle of the Nile (1798) - destroyed French fleet in Egyptian campaign',
+      'Copenhagen (1801) - neutralised Danish fleet with famous "blind eye" signal',
+      'Revolutionary naval tactics breaking traditional line-of-battle formations',
+      'Created doctrine of aggressive close combat and decisive victory',
+      'Established British naval supremacy enabling global empire and trade',
+      'Signal "England expects that every man will do his duty" became national motto',
+      'Transformed naval leadership through personal example and inspirational command'
+    ],
+    culturalImpact: 'Nelson created the template for British naval heroism and national service. His combination of tactical genius, personal courage, and dramatic death made him the ultimate British hero, inspiring generations of naval officers.',
+    modernRelevance: 'Royal Navy traditions trace directly to Nelson. His leadership principles are studied in military academies worldwide. Trafalgar Square and HMS Victory preserve his memory as embodiment of British naval heritage.',
+    funFacts: [
+      'Lost right eye in Corsica (1794) and right arm at Tenerife (1797)',
+      'Famous for ignoring orders - "I have only one eye, I have a right to be blind sometimes"',
+      'Had passionate affair with Lady Emma Hamilton whilst she was married',
+      'His body was preserved in brandy for the voyage home after Trafalgar',
+      'Only 5\'4" tall but commanded absolute loyalty from his sailors',
+      'Invented the "Nelson Touch" - innovative battle tactics confusing enemies',
+      'His signal at Trafalgar was originally "England confides..." but changed to "expects"',
+      'Funeral was massive state occasion with 32 admirals as pallbearers'
+    ],
+    quotes: [
+      '"England expects that every man will do his duty"',
+      '"I have only one eye, I have a right to be blind sometimes"',
+      '"No captain can do very wrong if he places his ship alongside that of the enemy"',
+      '"First gain the victory and then make the best use of it you can"',
+      '"Thank God I have done my duty"' // his dying words
+    ]
+  },
+
+  // Literary Masters
+  {
+    id: 'austen',
+    label: 'Jane Austen',
+    type: 'person',
+    category: 'Literary Figures',
+    description: 'Novelist who perfected social satire and domestic realism',
+    detailedDescription: 'Jane Austen\'s novels offered sharp, witty observations of Regency society, particularly the marriage market and social hierarchies. Her psychological realism and social commentary established the template for modern British comedy and social criticism.',
+    period: '1775-1817',
+    birthYear: 1775,
+    deathYear: 1817,
+    location: 'Hampshire',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/400px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jane_Austen',
+    tags: ['literature', 'social-satire', 'regency', 'marriage', 'class'],
+    relatedConcepts: ['british-humour', 'social-hierarchy', 'domestic-life'],
+    keyContributions: [
+      'Pride and Prejudice - masterpiece of social comedy',
+      'Perfected the novel of manners',
+      'Created memorable characters like Elizabeth Bennet',
+      'Influenced generations of British writers'
+    ],
+    culturalImpact: 'Austen\'s wit and social observation became archetypal of British literary sensibility.',
+    modernRelevance: 'Her novels remain hugely popular, adapted countless times for film and television.',
+    funFacts: [
+      'Published anonymously as "By a Lady"',
+      'Wrote whilst living quietly in Hampshire countryside',
+      'Her books have never been out of print'
+    ],
+    quotes: [
+      '"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"',
+      '"The little things are infinitely the most important"'
     ]
   }
 ]
@@ -1321,6 +2028,558 @@ export const cultureEdges: CultureEdge[] = [
     type: 'influenced',
     period: '1925-1963',
     evidence: ['Medieval literature studies', 'Narrative techniques', 'Allegorical methods']
+  },
+
+  // Freedom of Speech relationships
+  {
+    id: 'milton-freedom-of-speech',
+    source: 'milton',
+    target: 'freedom-of-speech',
+    relationship: 'founded',
+    description: 'Milton\'s Areopagitica established the philosophical foundation for press freedom and free speech',
+    strength: 10,
+    type: 'developed',
+    period: '1644',
+    evidence: ['Areopagitica pamphlet', 'Anti-licensing arguments', 'Marketplace of ideas concept']
+  },
+  {
+    id: 'orwell-freedom-of-speech',
+    source: 'orwell',
+    target: 'freedom-of-speech',
+    relationship: 'defended',
+    description: 'Orwell\'s works warned against threats to free speech and thought, defining modern understanding of censorship',
+    strength: 9,
+    type: 'influenced',
+    period: '1930-1950',
+    evidence: ['1984 dystopian warnings', 'Animal Farm allegory', 'Political essays on language']
+  },
+  {
+    id: 'alfred-freedom-of-speech',
+    source: 'alfred-great',
+    target: 'freedom-of-speech',
+    relationship: 'laid-groundwork',
+    description: 'Alfred\'s legal reforms and emphasis on education created foundations for later development of free speech',
+    strength: 6,
+    type: 'influenced',
+    period: '880-899',
+    evidence: ['Legal codification', 'Educational reforms', 'Anglo-Saxon Chronicle']
+  },
+  {
+    id: 'parliament-freedom-of-speech',
+    source: 'parliament',
+    target: 'freedom-of-speech',
+    relationship: 'institutionalised',
+    description: 'Parliamentary privilege and procedures created legal protections for free speech in governance',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1066-present',
+    evidence: ['Parliamentary privilege', 'Freedom of debate', 'Loyal opposition concept']
+  },
+  {
+    id: 'bbc-freedom-of-speech',
+    source: 'bbc',
+    target: 'freedom-of-speech',
+    relationship: 'embodied',
+    description: 'BBC\'s editorial independence and public service mandate exemplified press freedom principles',
+    strength: 7,
+    type: 'embodied',
+    period: '1922-present',
+    evidence: ['Editorial independence', 'Impartial broadcasting', 'Reith principles']
+  },
+  {
+    id: 'milton-orwell',
+    source: 'milton',
+    target: 'orwell',
+    relationship: 'influenced',
+    description: 'Milton\'s arguments against censorship influenced Orwell\'s understanding of freedom and tyranny',
+    strength: 7,
+    type: 'influenced',
+    period: '1930-1950',
+    evidence: ['Anti-censorship themes', 'Defence of free thought', 'Warnings against authority']
+  },
+  {
+    id: 'shakespeare-milton',
+    source: 'shakespeare',
+    target: 'milton',
+    relationship: 'influenced',
+    description: 'Shakespeare\'s literary techniques and exploration of power influenced Milton\'s epic poetry',
+    strength: 6,
+    type: 'influenced',
+    period: '1608-1674',
+    evidence: ['Literary techniques', 'Exploration of authority', 'Poetic innovation']
+  },
+  {
+    id: 'common-law-freedom-of-speech',
+    source: 'common-law',
+    target: 'freedom-of-speech',
+    relationship: 'protected',
+    description: 'Common law traditions created legal precedents protecting speech and preventing prior restraint',
+    strength: 8,
+    type: 'developed',
+    period: '1066-present',
+    evidence: ['Legal precedents', 'Anti-censorship cases', 'Prior restraint doctrine']
+  },
+
+  // New relationships for added historical figures
+  {
+    id: 'william-conqueror-common-law',
+    source: 'william-conqueror',
+    target: 'common-law',
+    relationship: 'established',
+    description: 'William\'s conquest established Norman legal traditions that merged with Anglo-Saxon law to create common law',
+    strength: 9,
+    type: 'developed',
+    period: '1066-1100',
+    evidence: ['Norman legal procedures', 'Royal courts establishment', 'Legal system integration']
+  },
+
+  {
+    id: 'william-conqueror-alfred-great',
+    source: 'william-conqueror',
+    target: 'alfred-great',
+    relationship: 'built-upon',
+    description: 'William\'s legal and administrative systems built upon foundations laid by Alfred the Great',
+    strength: 7,
+    type: 'developed',
+    period: '1066',
+    evidence: ['Anglo-Saxon legal traditions', 'Administrative continuity', 'Cultural synthesis']
+  },
+
+  {
+    id: 'henry-viii-elizabeth-i',
+    source: 'henry-viii',
+    target: 'elizabeth-i',
+    relationship: 'enabled',
+    description: 'Henry\'s break with Rome and establishment of Church of England enabled Elizabeth\'s religious settlement',
+    strength: 8,
+    type: 'influenced',
+    period: '1534-1603',
+    evidence: ['Religious inheritance', 'Royal supremacy', 'Protestant establishment']
+  },
+
+  {
+    id: 'henry-viii-parliament',
+    source: 'henry-viii',
+    target: 'parliament',
+    relationship: 'strengthened',
+    description: 'Henry used Parliament to legitimise his break with Rome, strengthening parliamentary authority',
+    strength: 7,
+    type: 'institutionalized',
+    period: '1529-1547',
+    evidence: ['Reformation Parliament', 'Act of Supremacy', 'Parliamentary legislation']
+  },
+
+  {
+    id: 'wren-newton',
+    source: 'wren',
+    target: 'newton',
+    relationship: 'collaborated',
+    description: 'Wren and Newton were founding members of the Royal Society and scientific collaborators',
+    strength: 8,
+    type: 'influenced',
+    period: '1660-1723',
+    evidence: ['Royal Society founding', 'Scientific correspondence', 'Mathematical architecture']
+  },
+
+  {
+    id: 'wren-royal-society',
+    source: 'wren',
+    target: 'royal-society',
+    relationship: 'founded',
+    description: 'Wren was a founding member of the Royal Society alongside Newton and other scientists',
+    strength: 9,
+    type: 'created',
+    period: '1660',
+    evidence: ['Founding membership', 'Scientific meetings', 'Architectural and scientific synthesis']
+  },
+
+  {
+    id: 'byron-british-humour',
+    source: 'byron',
+    target: 'british-humour',
+    relationship: 'influenced',
+    description: 'Byron\'s satirical wit and irreverent social commentary enriched British humorous tradition',
+    strength: 6,
+    type: 'influenced',
+    period: '1810-1824',
+    evidence: ['Satirical poetry', 'Social comedy', 'Irreverent wit']
+  },
+
+  {
+    id: 'byron-shakespeare',
+    source: 'byron',
+    target: 'shakespeare',
+    relationship: 'inspired-by',
+    description: 'Byron drew inspiration from Shakespeare\'s dramatic characters and psychological complexity',
+    strength: 7,
+    type: 'influenced',
+    period: '1810-1824',
+    evidence: ['Literary techniques', 'Character development', 'Dramatic psychology']
+  },
+
+  {
+    id: 'nightingale-statistics',
+    source: 'nightingale',
+    target: 'royal-society',
+    relationship: 'advanced',
+    description: 'Nightingale\'s pioneering use of statistics and data visualisation influenced scientific methodology',
+    strength: 6,
+    type: 'influenced',
+    period: '1850-1910',
+    evidence: ['Statistical innovation', 'Data visualisation', 'Evidence-based practice']
+  },
+
+  {
+    id: 'woolf-keynes',
+    source: 'woolf',
+    target: 'keynes',
+    relationship: 'collaborated',
+    description: 'Woolf and Keynes were both central members of the Bloomsbury Group of intellectuals',
+    strength: 7,
+    type: 'influenced',
+    period: '1905-1941',
+    evidence: ['Bloomsbury Group', 'Intellectual collaboration', 'Cultural innovation']
+  },
+
+  {
+    id: 'woolf-shakespeare',
+    source: 'woolf',
+    target: 'shakespeare',
+    relationship: 'reinterpreted',
+    description: 'Woolf\'s modernist techniques reinterpreted Shakespearean psychological complexity for modern literature',
+    strength: 6,
+    type: 'influenced',
+    period: '1920-1941',
+    evidence: ['Literary modernism', 'Psychological realism', 'Character consciousness']
+  },
+
+  {
+    id: 'keynes-cambridge',
+    source: 'keynes',
+    target: 'cambridge-university',
+    relationship: 'studied-and-taught',
+    description: 'Keynes studied and taught at Cambridge, revolutionising economic theory there',
+    strength: 9,
+    type: 'embodied',
+    period: '1902-1946',
+    evidence: ['King\'s College fellowship', 'Economic teaching', 'Academic innovation']
+  },
+
+  {
+    id: 'keynes-economic-policy',
+    source: 'keynes',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Keynesian economic theory fundamentally influenced British government economic policy',
+    strength: 8,
+    type: 'influenced',
+    period: '1930-1970s',
+    evidence: ['Government spending', 'Economic policy', 'Welfare state']
+  },
+
+  {
+    id: 'chaucer-shakespeare',
+    source: 'chaucer',
+    target: 'shakespeare',
+    relationship: 'influenced',
+    description: 'Chaucer\'s literary innovations and character development influenced Shakespeare\'s dramatic techniques',
+    strength: 6,
+    type: 'influenced',
+    period: '1340-1616',
+    evidence: ['Literary techniques', 'Character archetypes', 'Social commentary']
+  },
+
+  {
+    id: 'wren-architecture',
+    source: 'wren',
+    target: 'oxford-university',
+    relationship: 'designed',
+    description: 'Wren designed the Sheldonian Theatre at Oxford, combining scientific and architectural innovation',
+    strength: 7,
+    type: 'created',
+    period: '1664-1669',
+    evidence: ['Sheldonian Theatre', 'Architectural innovation', 'Mathematical design']
+  },
+
+  {
+    id: 'nightingale-social-reform',
+    source: 'nightingale',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Nightingale\'s healthcare reforms influenced parliamentary legislation on public health and military medicine',
+    strength: 7,
+    type: 'influenced',
+    period: '1860-1910',
+    evidence: ['Public Health Acts', 'Military medical reform', 'Hospital regulation']
+  },
+
+  // Benjamin Disraeli relationships
+  {
+    id: 'disraeli-parliament',
+    source: 'disraeli',
+    target: 'parliament',
+    relationship: 'served-and-reformed',
+    description: 'Disraeli served as PM twice and transformed Parliament through theatrical politics and Conservative modernisation',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1837-1881',
+    evidence: ['Prime Minister twice', 'Parliamentary oratory', 'Conservative Party reform', 'Political theatre']
+  },
+
+  {
+    id: 'disraeli-british-humour',
+    source: 'disraeli',
+    target: 'british-humour',
+    relationship: 'exemplified',
+    description: 'Disraeli\'s legendary wit and theatrical parliamentary performances epitomised British political humour',
+    strength: 8,
+    type: 'embodied',
+    period: '1837-1881',
+    evidence: ['Parliamentary wit', 'Political one-liners', 'Theatrical oratory', 'Literary satire']
+  },
+
+  {
+    id: 'disraeli-churchill',
+    source: 'disraeli',
+    target: 'churchill',
+    relationship: 'influenced',
+    description: 'Disraeli\'s political theatricality and oratorical style influenced Churchill\'s parliamentary approach',
+    strength: 6,
+    type: 'influenced',
+    period: '1804-1965',
+    evidence: ['Parliamentary oratory', 'Political wit', 'Conservative leadership', 'Imperial vision']
+  },
+
+  {
+    id: 'disraeli-dickens',
+    source: 'disraeli',
+    target: 'dickens',
+    relationship: 'paralleled',
+    description: 'Both Disraeli and Dickens used novels to promote social reform and highlight Victorian social issues',
+    strength: 7,
+    type: 'influenced',
+    period: '1830-1881',
+    evidence: ['Social novels', 'Political reform', 'Class consciousness', 'Victorian social commentary']
+  },
+
+  {
+    id: 'burns-disraeli',
+    source: 'burns',
+    target: 'disraeli',
+    relationship: 'inspired',
+    description: 'Burns\' celebration of common humanity influenced Disraeli\'s "One Nation" approach to bridging class divides',
+    strength: 5,
+    type: 'influenced',
+    period: '1804-1881',
+    evidence: ['Democratic ideals', 'Cross-class appeal', 'Social unity', 'Popular politics']
+  },
+
+  // Brunel relationships
+  {
+    id: 'brunel-parliament',
+    source: 'brunel',
+    target: 'parliament',
+    relationship: 'served',
+    description: 'Brunel\'s engineering projects required parliamentary approval and government backing, demonstrating state support for innovation',
+    strength: 6,
+    type: 'institutionalized',
+    period: '1830-1859',
+    evidence: ['Railway Acts', 'Government contracts', 'Public-private partnerships', 'Infrastructure investment']
+  },
+
+  {
+    id: 'brunel-fair-play',
+    source: 'brunel',
+    target: 'fair-play',
+    relationship: 'embodied',
+    description: 'Brunel\'s engineering ethics and treatment of workers demonstrated Victorian ideals of fair dealing and meritocracy',
+    strength: 7,
+    type: 'embodied',
+    period: '1830-1859',
+    evidence: ['Worker safety innovations', 'Merit-based promotion', 'Engineering ethics', 'Fair contracting']
+  },
+
+  {
+    id: 'brunel-british-humour',
+    source: 'brunel',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Brunel\'s theatrical personality and witty responses to engineering challenges enriched British engineering culture with humour',
+    strength: 5,
+    type: 'influenced',
+    period: '1830-1859',
+    evidence: ['Engineering wit', 'Dramatic presentations', 'Self-deprecating remarks about failures', 'Theatrical personality']
+  },
+
+  {
+    id: 'wren-brunel',
+    source: 'wren',
+    target: 'brunel',
+    relationship: 'influenced',
+    description: 'Wren\'s mathematical approach to architecture and large-scale project management influenced Brunel\'s engineering methods',
+    strength: 6,
+    type: 'influenced',
+    period: '1806-1859',
+    evidence: ['Mathematical engineering', 'Project management', 'Systematic approaches', 'Large-scale construction']
+  },
+
+  // Nelson relationships
+  {
+    id: 'nelson-fair-play',
+    source: 'nelson',
+    target: 'fair-play',
+    relationship: 'exemplified',
+    description: 'Nelson\'s naval tactics and treatment of enemies embodied British ideals of fair play and honourable conduct in warfare',
+    strength: 8,
+    type: 'embodied',
+    period: '1770-1805',
+    evidence: ['Honourable conduct in battle', 'Treatment of prisoners', 'Naval traditions', 'Chivalric values']
+  },
+
+  {
+    id: 'nelson-churchill',
+    source: 'nelson',
+    target: 'churchill',
+    relationship: 'inspired',
+    description: 'Nelson\'s heroic leadership and stirring signals inspired Churchill\'s wartime oratory and leadership style',
+    strength: 7,
+    type: 'influenced',
+    period: '1940-1945',
+    evidence: ['Leadership inspiration', 'Naval tradition', 'Heroic example', 'Inspirational communication']
+  },
+
+  {
+    id: 'nelson-parliament',
+    source: 'nelson',
+    target: 'parliament',
+    relationship: 'served',
+    description: 'Nelson served Parliament and Crown through naval command, demonstrating military service to democratic institutions',
+    strength: 7,
+    type: 'institutionalized',
+    period: '1770-1805',
+    evidence: ['Naval service', 'Parliamentary support', 'National defence', 'Democratic values']
+  },
+
+  {
+    id: 'nelson-british-humour',
+    source: 'nelson',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Nelson\'s famous signal phrases and naval wit contributed to British tradition of understatement and dry humour',
+    strength: 6,
+    type: 'influenced',
+    period: '1770-1805',
+    evidence: ['Naval wit', 'Famous signals', 'Understatement', 'British phlegm']
+  },
+
+  {
+    id: 'elizabeth-i-nelson',
+    source: 'elizabeth-i',
+    target: 'nelson',
+    relationship: 'inspired',
+    description: 'Elizabeth\'s naval tradition and defeat of Spanish Armada established precedent for Nelson\'s naval supremacy',
+    strength: 6,
+    type: 'influenced',
+    period: '1588-1805',
+    evidence: ['Naval tradition', 'Spanish precedent', 'Maritime heritage', 'National defence']
+  },
+
+  {
+    id: 'henry-viii-nelson',
+    source: 'henry-viii',
+    target: 'nelson',
+    relationship: 'enabled',
+    description: 'Henry VIII\'s creation of Royal Navy provided institutional foundation for Nelson\'s later naval achievements',
+    strength: 7,
+    type: 'influenced',
+    period: '1509-1805',
+    evidence: ['Royal Navy foundation', 'Naval infrastructure', 'Maritime power', 'Naval tradition']
+  },
+
+  // James Watt relationships
+  {
+    id: 'watt-brunel',
+    source: 'watt',
+    target: 'brunel',
+    relationship: 'enabled',
+    description: 'Watt\'s steam engine innovations provided the power source that made Brunel\'s railways and steamships possible',
+    strength: 9,
+    type: 'influenced',
+    period: '1769-1859',
+    evidence: ['Steam locomotion', 'Railway power', 'Steamship propulsion', 'Industrial mechanisation']
+  },
+
+  {
+    id: 'watt-parliament',
+    source: 'watt',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Watt\'s industrial innovations drove parliamentary legislation on patents, trade, and industrial development',
+    strength: 6,
+    type: 'influenced',
+    period: '1760-1820',
+    evidence: ['Patent legislation', 'Industrial policy', 'Trade regulations', 'Economic transformation']
+  },
+
+  {
+    id: 'smith-watt',
+    source: 'smith',
+    target: 'watt',
+    relationship: 'paralleled',
+    description: 'Smith\'s economic theories and Watt\'s mechanical innovations both drove the Industrial Revolution transformation',
+    strength: 7,
+    type: 'influenced',
+    period: '1760-1790',
+    evidence: ['Industrial Revolution', 'Economic transformation', 'Technological innovation', 'Scottish Enlightenment']
+  },
+
+  // John Lennon relationships
+  {
+    id: 'lennon-british-humour',
+    source: 'lennon',
+    target: 'british-humour',
+    relationship: 'embodied',
+    description: 'Lennon\'s wit, irreverence, and satirical lyrics exemplified Liverpudlian and British humorous traditions',
+    strength: 7,
+    type: 'embodied',
+    period: '1960-1980',
+    evidence: ['Witty interviews', 'Satirical songs', 'Press conferences', 'British irreverence']
+  },
+
+  {
+    id: 'lennon-bbc',
+    source: 'lennon',
+    target: 'bbc',
+    relationship: 'transformed',
+    description: 'The Beatles\' relationship with BBC helped transform popular music broadcasting and youth programming',
+    strength: 8,
+    type: 'influenced',
+    period: '1962-1970',
+    evidence: ['Radio sessions', 'Top of the Pops', 'Youth programming', 'Popular music broadcasting']
+  },
+
+  {
+    id: 'shakespeare-lennon',
+    source: 'shakespeare',
+    target: 'lennon',
+    relationship: 'influenced',
+    description: 'Lennon acknowledged Shakespeare\'s influence on his wordplay and lyrical creativity',
+    strength: 5,
+    type: 'influenced',
+    period: '1960-1980',
+    evidence: ['Literary influences', 'Wordplay techniques', 'Lyrical complexity', 'Cultural references']
+  },
+
+  {
+    id: 'burns-lennon',
+    source: 'burns',
+    target: 'lennon',
+    relationship: 'inspired',
+    description: 'Burns\' celebration of common people and democratic ideals influenced Lennon\'s peace activism and social consciousness',
+    strength: 6,
+    type: 'influenced',
+    period: '1960-1980',
+    evidence: ['Social consciousness', 'Peace activism', 'Common humanity themes', 'Anti-establishment messages']
   }
 ]
 

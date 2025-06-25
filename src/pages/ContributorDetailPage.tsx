@@ -18,6 +18,20 @@ const ContributorDetailPage = () => {
         'Translated essential Latin works into accessible Old English'
       ]
     },
+    'william-conqueror': {
+      name: 'William the Conqueror',
+      period: '1028-1087',
+      role: 'Norman Conquest Leader',
+      description: 'Norman Duke who conquered England in 1066, fundamentally transforming English culture, language, and society through the introduction of Norman French influence.',
+      contributions: [
+        'Norman Conquest of 1066 - transformative moment in English history',
+        'Introduced Norman French vocabulary into English language',
+        'Established feudal system in England with systematic land grants',
+        'Commissioned Domesday Book - comprehensive survey of England',
+        'Built network of Norman castles establishing royal control',
+        'Transformed English aristocracy and administrative systems'
+      ]
+    },
     chaucer: {
       name: 'Geoffrey Chaucer',
       period: '1340s-1400',
@@ -28,6 +42,20 @@ const ContributorDetailPage = () => {
         'Established English as worthy language for serious literature',
         'Created realistic portraits spanning all social classes',
         'Pioneered satirical tradition in English writing'
+      ]
+    },
+    'henry-viii': {
+      name: 'Henry VIII',
+      period: '1491-1547',
+      role: 'Religious Reformation King',
+      description: 'Tudor monarch whose break with Rome transformed English religion, culture, and royal power, establishing the Church of England and fundamentally altering British identity.',
+      contributions: [
+        'Established Church of England as separate from Roman Catholicism',
+        'Act of Supremacy (1534) made English monarch head of English church',
+        'Dissolution of Monasteries redistributed vast wealth and land',
+        'Strengthened royal power and centralised government administration',
+        'Patronised Renaissance arts bringing Continental culture to England',
+        'Built powerful navy laying foundation for English maritime dominance'
       ]
     },
     shakespeare: {
@@ -54,6 +82,20 @@ const ContributorDetailPage = () => {
         'Inspired era of exploration, art, and intellectual achievement'
       ]
     },
+    'wren': {
+      name: 'Christopher Wren',
+      period: '1632-1723',
+      role: 'Architectural Visionary',
+      description: 'Architect who rebuilt London after the Great Fire of 1666, designing St Paul\'s Cathedral and 51 city churches, creating a distinctly British architectural language.',
+      contributions: [
+        'St Paul\'s Cathedral - masterpiece of English baroque architecture',
+        'Designed 51 City of London churches after Great Fire of 1666',
+        'Royal Observatory Greenwich establishing Britain\'s naval supremacy',
+        'Founded Royal Society alongside Newton and other scientists',
+        'Pioneered mathematical approach to architectural engineering',
+        'Trinity College Library Cambridge and Sheldonian Theatre Oxford'
+      ]
+    },
     newton: {
       name: 'Isaac Newton',
       period: '1643-1727',
@@ -78,6 +120,20 @@ const ContributorDetailPage = () => {
         'Established modern evolutionary biology'
       ]
     },
+    'byron': {
+      name: 'Lord Byron',
+      period: '1788-1824',
+      role: 'Romantic Rebel Poet',
+      description: 'Romantic poet who embodied rebellion and passion, creating the "Byronic hero" archetype whilst influencing European culture and challenging social conventions.',
+      contributions: [
+        'Childe Harold\'s Pilgrimage - established his poetic reputation',
+        'Don Juan - satirical epic poem critiquing social conventions',
+        'Created the "Byronic hero" literary archetype',
+        'Influenced European Romantic movement and nationalism',
+        'Supported Greek independence movement, dying for the cause',
+        'Pioneered celebrity culture through scandalous public persona'
+      ]
+    },
     austen: {
       name: 'Jane Austen',
       period: '1775-1817',
@@ -90,7 +146,7 @@ const ContributorDetailPage = () => {
         'Established British tradition of gentle but pointed social criticism'
       ]
     },
-    dickens: {
+    'dickens': {
       name: 'Charles Dickens',
       period: '1812-1870',
       role: 'Social Reform Catalyst',
@@ -100,6 +156,94 @@ const ContributorDetailPage = () => {
         'Oliver Twist - exposed brutal child labour conditions',
         'Hard Times - critiqued industrial capitalism\'s human cost',
         'Pioneered serialised novel publication reaching working classes'
+      ]
+    },
+    'nelson': {
+      name: 'Horatio Nelson',
+      period: '1758-1805',
+      role: 'Naval Supremacy Architect',
+      description: 'Admiral who established British naval supremacy through tactical brilliance, personal courage, and inspirational leadership. His victory at Trafalgar secured British dominance of the seas for a century.',
+      contributions: [
+        'Battle of Trafalgar (1805) - decisive victory establishing century of British naval dominance',
+        'Revolutionary naval tactics breaking traditional line-of-battle formations',
+        'Created doctrine of aggressive close combat and decisive victory',
+        'Signal "England expects that every man will do his duty" became national motto',
+        'Transformed naval leadership through personal example and inspirational command',
+        'Established British naval supremacy enabling global empire and trade'
+      ]
+    },
+    'brunel': {
+      name: 'Isambard Kingdom Brunel',
+      period: '1806-1859',
+      role: 'Engineering Genius',
+      description: 'Engineering genius who revolutionised transport through railways, bridges, and steamships. His audacious projects pushed engineering boundaries whilst his theatrical personality made him a Victorian celebrity.',
+      contributions: [
+        'Great Western Railway - Britain\'s finest railway with gentle gradients and broad gauge',
+        'SS Great Britain - first iron ocean-going ship with screw propeller',
+        'Clifton Suspension Bridge - iconic engineering feat spanning Avon Gorge',
+        'SS Great Eastern - largest ship in the world for 40 years',
+        'Paddington Station - revolutionary train shed design with iron and glass',
+        'Thames Tunnel - first underwater tunnel using revolutionary shield method',
+        'Pioneered modern project management and systematic engineering approaches'
+      ]
+    },
+    'nightingale': {
+      name: 'Florence Nightingale',
+      period: '1820-1910',
+      role: 'Healthcare Revolutionary',
+      description: 'Founder of modern nursing who revolutionised healthcare through improved sanitation, statistical analysis, and professional education standards.',
+      contributions: [
+        'Established nursing as professional discipline requiring training',
+        'Reduced Crimean War death rates from 42% to 2% through sanitation',
+        'Founded first scientifically-based nursing school at St Thomas\' Hospital',
+        'Pioneered use of statistics and data visualisation in healthcare',
+        'Reformed British Army medical services and hospital design',
+        'Advanced women\'s role in healthcare and professional work'
+      ]
+    },
+    'disraeli': {
+      name: 'Benjamin Disraeli',
+      period: '1804-1881',
+      role: 'One Nation Conservative',
+      description: 'Conservative Prime Minister and novelist who embodied Victorian political theatre whilst championing social reform. The first Jewish-born PM, he transformed the Conservative Party through his "One Nation" philosophy.',
+      contributions: [
+        'Served as Conservative Prime Minister twice (1868, 1874-1880)',
+        'Championed "One Nation" conservatism bridging class divides',
+        'Reformed Conservative Party into modern political organisation',
+        'Purchased Suez Canal shares securing British influence in Egypt',
+        'Passed social reforms including Public Health Act and Factory Acts',
+        'Wrote influential political novels including "Coningsby" and "Sybil"',
+        'Established Conservative Party as party of Empire and social reform'
+      ]
+    },
+    'watt': {
+      name: 'James Watt',
+      period: '1736-1819',
+      role: 'Steam Power Revolutionary',
+      description: 'Scottish inventor who perfected the steam engine and triggered the Industrial Revolution. His mechanical innovations provided the power source that transformed manufacturing, transport, and mining across Britain.',
+      contributions: [
+        'Separate condenser - made steam engines four times more efficient',
+        'Rotary motion steam engine - enabled factory machinery operation',
+        'Concept of horsepower - still used to measure engine power today',
+        'Steam engine governor - automatic speed control system',
+        'Founded engineering consultancy with Matthew Boulton',
+        'Over 100 patents for mechanical innovations',
+        'The SI unit of power "watt" is named after him'
+      ]
+    },
+    'lennon': {
+      name: 'John Lennon',
+      period: '1940-1980',
+      role: 'Global Music Revolutionary',
+      description: 'Beatles co-founder who led the British Invasion of American popular music and became a global peace activist. His songwriting partnership with Paul McCartney created the soundtrack to the 1960s cultural revolution.',
+      contributions: [
+        'Co-founded The Beatles - most successful and influential band in history',
+        'Led British Invasion bringing UK music to global dominance',
+        '"Imagine" - iconic peace anthem promoting unity and understanding',
+        'Lennon-McCartney songwriting partnership created pop music template',
+        'Pioneered studio experimentation and avant-garde musical techniques',
+        'Used celebrity platform for peace activism and social commentary',
+        'Helped establish popular music as serious artistic medium'
       ]
     },
     burns: {
@@ -126,40 +270,32 @@ const ContributorDetailPage = () => {
         'Analysis of division of labour and specialisation'
       ]
     },
-    churchill: {
-      name: 'Winston Churchill',
-      period: '1874-1965',
-      role: 'Democracy Defender',
-      description: 'Wartime leader whose rhetoric and resolve became synonymous with British determination during the nation\'s finest hour.',
+    'woolf': {
+      name: 'Virginia Woolf',
+      period: '1882-1941',
+      role: 'Modernist Literary Pioneer',
+      description: 'Modernist novelist who revolutionised literary form through stream-of-consciousness technique whilst exploring themes of mental health, gender, and sexuality.',
       contributions: [
-        'Led Britain to victory in World War II',
-        'Delivered iconic speeches that defined British courage',
-        'Won Nobel Prize in Literature for historical writings',
-        'Shaped post-war international relations and NATO'
+        'Mrs Dalloway and To the Lighthouse - modernist literary masterpieces',
+        'A Room of One\'s Own - foundational feminist literary criticism',
+        'Pioneered stream-of-consciousness narrative technique',
+        'Co-founded Hogarth Press publishing experimental literature',
+        'Advanced understanding of mental health through personal experience',
+        'Bloomsbury Group fostered intellectual and artistic innovation'
       ]
     },
-    turing: {
-      name: 'Alan Turing',
-      period: '1912-1954',
-      role: 'Computing Pioneer',
-      description: 'Mathematician who cracked the Enigma code and laid theoretical foundations for modern computing.',
+    'keynes': {
+      name: 'John Maynard Keynes',
+      period: '1883-1946',
+      role: 'Economic Theory Revolutionary',
+      description: 'Economist who revolutionised economic theory by arguing that government intervention could stabilise economic cycles, fundamentally influencing modern macroeconomic policy.',
       contributions: [
-        'Broke German Enigma code, shortening WWII',
-        'Developed concept of Turing machine',
-        'Laid groundwork for artificial intelligence',
-        'Advanced theoretical computer science'
-      ]
-    },
-    'dylan-thomas': {
-      name: 'Dylan Thomas',
-      period: '1914-1953',
-      role: 'Lyrical Voice of Wales',
-      description: 'Wales\' greatest poet who brought Welsh poetic tradition to international prominence through lyrical, emotional verse and groundbreaking radio drama.',
-      contributions: [
-        'Under Milk Wood - masterpiece of radio drama',
-        'Do not go gentle into that good night - iconic villanelle',
-        'Brought Welsh poetic voice to international audience',
-        'Pioneered modern radio drama techniques'
+        'General Theory of Employment, Interest and Money - revolutionary economic text',
+        'Keynesian economics justifying government intervention in markets',
+        'Bretton Woods Conference architect creating post-war economic order',
+        'Championed full employment as achievable government policy goal',
+        'Arts Council founding chairman promoting government cultural funding',
+        'International Monetary Fund and World Bank institutional design'
       ]
     },
     'aneurin-bevan': {
@@ -196,6 +332,30 @@ const ContributorDetailPage = () => {
         'Death of a Naturalist - groundbreaking debut collection',
         'Translation of Beowulf - modern English masterpiece',
         'Articulated Northern Irish experience in poetry'
+      ]
+    },
+    milton: {
+      name: 'John Milton',
+      period: '1608-1674',
+      role: 'Free Speech Pioneer',
+      description: 'Poet and pamphleteer who wrote the first great defence of press freedom whilst creating sublime epic poetry. His Areopagitica established the philosophical foundation for free speech.',
+      contributions: [
+        'Areopagitica (1644) - first systematic argument against press censorship',
+        'Paradise Lost - epic poem exploring free will and rebellion',
+        'Defended religious tolerance and separation of church and state',
+        'Established concept of "marketplace of ideas" in democratic thought'
+      ]
+    },
+    orwell: {
+      name: 'George Orwell',
+      period: '1903-1950',
+      role: 'Anti-Totalitarian Voice',
+      description: 'Author who defined the modern understanding of threats to freedom and democracy. His warnings about surveillance, propaganda, and thought control remain prophetic in the digital age.',
+      contributions: [
+        '1984 - dystopian masterpiece warning against totalitarian surveillance',
+        'Animal Farm - allegory exposing corruption of revolutionary ideals',
+        'Coined terms: Big Brother, doublethink, thoughtcrime, Newspeak',
+        '"Politics and the English Language" - essay on clear thinking and honest communication'
       ]
     }
   }

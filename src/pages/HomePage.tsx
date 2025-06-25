@@ -5,32 +5,32 @@ import { Book, Users, Layers, BarChart3, Github, ExternalLink } from 'lucide-rea
 const HomePage = () => {
   const features = [
     {
+      name: 'British Principles',
+      description: 'Explore fundamental values like freedom of speech, rule of law, and fair play that define British democracy.',
+      icon: Book,
+      href: '/principles',
+      color: 'bg-union-jack-red'
+    },
+    {
+      name: 'Key Contributors',
+      description: 'Meet the architects of British society, from Alfred the Great to George Orwell.',
+      icon: Users,
+      href: '/contributors',
+      color: 'bg-british-racing-green'
+    },
+    {
       name: 'Core Modules',
       description: 'Explore the fundamental building blocks of British culture, from humour to constitutional frameworks.',
       icon: Layers,
       href: '/modules',
-      color: 'bg-british-racing-green'
-    },
-    {
-      name: 'Key Contributors',
-      description: 'Meet the architects of British society, from Alfred the Great to Alan Turing.',
-      icon: Users,
-      href: '/contributors',
-      color: 'bg-union-jack-red'
+      color: 'bg-union-jack-blue'
     },
     {
       name: 'Interactive Visualisation',
       description: 'See how British cultural elements interconnect in our dynamic force-directed graph.',
       icon: BarChart3,
       href: '/visualisation',
-      color: 'bg-union-jack-blue'
-    },
-    {
-      name: 'Documentation',
-      description: 'Comprehensive guides and implementation details for deploying your own British culture.',
-      icon: Book,
-      href: 'https://github.com/postrv/british-source-code#-quick-start',
-      color: 'bg-gray-700'
+      color: 'bg-purple-600'
     }
   ]
 

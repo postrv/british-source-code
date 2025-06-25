@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
+import PrinciplesPage from './pages/PrinciplesPage'
 import ContributorsPage from './pages/ContributorsPage'
 import ModulesPage from './pages/ModulesPage'
 import VisualisationPage from './pages/VisualisationPage'
@@ -20,6 +21,7 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/principles" element={<PrinciplesPage />} />
             <Route path="/contributors" element={<ContributorsPage />} />
             <Route path="/contributors/:id" element={<ContributorDetailPage />} />
             <Route path="/modules" element={<ModulesPage />} />

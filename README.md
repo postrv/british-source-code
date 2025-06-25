@@ -12,6 +12,7 @@
 British Source Code is a cultural repository that documents the fundamental building blocks of British society. Like any mature codebase, it contains legacy features, deprecated functions, hotly debated design patterns, and the occasional inexplicable quirk that everyone's too fond of to refactor.
 
 This interactive platform explores over 2,000 years of British cultural development through:
+- **British Principles**: Fundamental values like freedom of speech, rule of law, and fair play that define British democracy
 - **Interactive Graph Visualization**: A dynamic network showing relationships between people, institutions, concepts, and practices
 - **Comprehensive Contributor Profiles**: Detailed information about key figures who shaped British culture
 - **Modular Architecture**: Core cultural "modules" that form the foundation of British society
@@ -225,13 +226,14 @@ Just remember to credit the original work and maintain the same license for deri
 
 ## 📊 Current Data Coverage
 
-- **📍 Nodes**: 34+ cultural elements spanning 1,200+ years (Alfred the Great to modern institutions)
-- **🔗 Relationships**: 37+ documented connections with comprehensive evidence and primary sources
-- **👤 People**: Alfred the Great, Chaucer, Shakespeare, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Turing, Dylan Thomas, Aneurin Bevan, C.S. Lewis, Seamus Heaney
+- **📍 Nodes**: 37+ cultural elements spanning 1,200+ years (Alfred the Great to modern institutions)
+- **🔗 Relationships**: 45+ documented connections with comprehensive evidence and primary sources
+- **👤 People**: Alfred the Great, Chaucer, Shakespeare, Milton, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Orwell, Turing, Dylan Thomas, Aneurin Bevan, C.S. Lewis, Seamus Heaney
 - **🏛️ Institutions**: Parliament, BBC, Royal Society, Oxford University, Cambridge University
-- **💭 Concepts**: Fair play, common law, British humour, understatement, class system
+- **💭 Concepts**: Freedom of speech, fair play, common law, British humour, understatement, class system
 - **🎭 Practices**: Tea culture, queuing, pub culture, Sunday roast, cricket, parliamentary procedure
 - **📸 Authentic Images**: Historical portraits from Wikimedia Commons (no more stock photos!)
+- **🏛️ Principles Section**: Deep dive into Freedom of Speech featuring Milton, Orwell, and Magna Carta
 - **🏴󠁧󠁢󠁷󠁬󠁳󠁿 Welsh Coverage**: Dylan Thomas (poetry), Aneurin Bevan (NHS founder)
 - **🏴󠁧󠁢󠁮󠁩󠁲󠁿 Northern Irish Coverage**: C.S. Lewis (Narnia), Seamus Heaney (Nobel Prize poet)
 - **🔗 Interactive Dependencies**: Clickable tags linking related modules and cultural elements
