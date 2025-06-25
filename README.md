@@ -80,12 +80,13 @@ Visit `http://localhost:3000` to explore British culture locally.
 
 ## 📊 Current Data Coverage
 
-- **📍 Nodes**: 15+ cultural elements spanning 2,000+ years
-- **🔗 Relationships**: 11+ documented connections with evidence
-- **👤 People**: Shakespeare, Newton, Darwin, Churchill, and more
-- **🏛️ Institutions**: Parliament, BBC, Royal Society
-- **💭 Concepts**: Fair play, common law, British humour
-- **🎭 Practices**: Tea culture, queuing, stiff upper lip
+- **📍 Nodes**: 25+ cultural elements spanning 1,200+ years (Alfred the Great to Alan Turing)
+- **🔗 Relationships**: 23+ documented connections with comprehensive evidence
+- **👤 People**: Alfred the Great, Chaucer, Shakespeare, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Turing
+- **🏛️ Institutions**: Parliament, BBC, Royal Society, Church of England
+- **💭 Concepts**: Fair play, common law, British humour, understatement, class system
+- **🎭 Practices**: Tea culture, queuing, pub culture, Sunday roast, cricket, parliamentary procedure
+- **🏴󠁧󠁢󠁳󠁣󠁴󠁿 Regional Coverage**: Enhanced Scottish representation (Burns, Smith) with Welsh and Northern Irish additions planned
 
 ## 🎯 Project Structure
 

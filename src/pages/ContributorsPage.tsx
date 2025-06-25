@@ -3,12 +3,29 @@ import { motion } from 'framer-motion'
 
 const ContributorsPage = () => {
   const contributors = [
+    // Medieval & Early Period
+    { id: 'alfred-great', name: 'Alfred the Great', period: '849-899', role: 'Legal & Educational Architect' },
+    { id: 'chaucer', name: 'Geoffrey Chaucer', period: '1340s-1400', role: 'Father of English Literature' },
+    
+    // Tudor & Renaissance
     { id: 'shakespeare', name: 'William Shakespeare', period: '1564-1616', role: 'Core Language Architect' },
+    { id: 'elizabeth-i', name: 'Elizabeth I', period: '1533-1603', role: 'Renaissance Enabler' },
+    
+    // Scientific Revolution
     { id: 'newton', name: 'Isaac Newton', period: '1643-1727', role: 'Physics Framework Developer' },
     { id: 'darwin', name: 'Charles Darwin', period: '1809-1882', role: 'Evolution Algorithm Creator' },
+    
+    // Literary Masters
+    { id: 'austen', name: 'Jane Austen', period: '1775-1817', role: 'Social Commentary Specialist' },
+    { id: 'dickens', name: 'Charles Dickens', period: '1812-1870', role: 'Social Reform Catalyst' },
+    
+    // Scottish Enlightenment
+    { id: 'burns', name: 'Robert Burns', period: '1759-1796', role: 'Democratic Voice Poet' },
+    { id: 'smith', name: 'Adam Smith', period: '1723-1790', role: 'Economic Theory Architect' },
+    
+    // Modern Era
     { id: 'churchill', name: 'Winston Churchill', period: '1874-1965', role: 'Democracy Defender' },
     { id: 'turing', name: 'Alan Turing', period: '1912-1954', role: 'Computing Pioneer' },
-    { id: 'austen', name: 'Jane Austen', period: '1775-1817', role: 'Social Commentary Specialist' },
   ]
 
   return (

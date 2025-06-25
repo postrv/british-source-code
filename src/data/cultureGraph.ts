@@ -363,6 +363,254 @@ export const cultureNodes: CultureNode[] = [
       'Cricket is often called the epitome of fair play',
       'Fair Play awards exist in many international sports'
     ]
+  },
+
+  // Medieval & Early Period
+  {
+    id: 'alfred-great',
+    label: 'Alfred the Great',
+    type: 'person',
+    category: 'Medieval Rulers',
+    description: 'King of Wessex who laid foundations of English education and legal system',
+    detailedDescription: 'Alfred the Great transformed Anglo-Saxon England through educational reform, legal codification, and cultural preservation. He established schools, promoted literacy, and created the Anglo-Saxon Chronicle, laying groundwork for English intellectual tradition.',
+    period: '849-899',
+    birthYear: 849,
+    deathYear: 899,
+    location: 'Wessex',
+    significance: 87,
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Alfred_the_Great',
+    tags: ['education', 'legal-reform', 'anglo-saxon', 'literacy', 'chronicle'],
+    relatedConcepts: ['english-language', 'legal-system', 'education'],
+    keyContributions: [
+      'Established first English schools and promoted literacy',
+      'Created comprehensive legal code',
+      'Founded the Anglo-Saxon Chronicle',
+      'Translated Latin works into Old English'
+    ],
+    culturalImpact: 'Alfred\'s educational and legal reforms established the foundation for English intellectual and judicial traditions.',
+    modernRelevance: 'His emphasis on education and rule of law remains central to British values.',
+    funFacts: [
+      'Only English king to be called "the Great"',
+      'Allegedly burnt cakes while hiding from Vikings',
+      'Founded the University of Oxford (according to legend)'
+    ],
+    quotes: [
+      '"Wisdom is the principal thing; therefore get wisdom"'
+    ]
+  },
+
+  {
+    id: 'chaucer',
+    label: 'Geoffrey Chaucer',
+    type: 'person',
+    category: 'Medieval Writers',
+    description: 'Father of English literature and creator of The Canterbury Tales',
+    detailedDescription: 'Geoffrey Chaucer revolutionised English literature by writing in Middle English rather than Latin or French, making literature accessible to common people. His Canterbury Tales offers unparalleled insight into medieval English society.',
+    period: '1340s-1400',
+    birthYear: 1343,
+    deathYear: 1400,
+    location: 'London',
+    significance: 82,
+    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Geoffrey_Chaucer',
+    tags: ['literature', 'middle-english', 'canterbury-tales', 'social-commentary', 'poetry'],
+    relatedConcepts: ['english-language', 'social-hierarchy', 'pilgrimage'],
+    keyContributions: [
+      'The Canterbury Tales - masterpiece of English literature',
+      'Established English as a literary language',
+      'Created realistic character portraits across social classes',
+      'Influenced development of English poetry'
+    ],
+    culturalImpact: 'Chaucer established English literature as worthy of serious artistic expression and social commentary.',
+    modernRelevance: 'His character types and social observations remain recognisable in contemporary British society.',
+    funFacts: [
+      'First poet buried in Poets\' Corner, Westminster Abbey',
+      'Worked as a diplomat and civil servant',
+      'His tomb became the foundation of Poets\' Corner'
+    ],
+    quotes: [
+      '"Time and tide wait for no man"',
+      '"The life so short, the craft so long to learn"'
+    ]
+  },
+
+  // Tudor Era
+  {
+    id: 'elizabeth-i',
+    label: 'Elizabeth I',
+    type: 'person',
+    category: 'Tudor Monarchs',
+    description: 'Virgin Queen who presided over England\'s Golden Age',
+    detailedDescription: 'Elizabeth I\'s 45-year reign marked the English Renaissance, seeing flourishing of arts, literature, and theatre. Her court patronage enabled Shakespeare, Marlowe, and others, whilst her political acumen established England as a major European power.',
+    period: '1533-1603',
+    birthYear: 1533,
+    deathYear: 1603,
+    location: 'London',
+    significance: 90,
+    image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Elizabeth_I',
+    tags: ['monarchy', 'renaissance', 'golden-age', 'patronage', 'diplomacy'],
+    relatedConcepts: ['shakespeare', 'theatre-tradition', 'naval-power'],
+    keyContributions: [
+      'Established England as major naval power',
+      'Patronised the arts and learning',
+      'Defeated Spanish Armada (1588)',
+      'Created religious settlement ending decades of turmoil'
+    ],
+    culturalImpact: 'The Elizabethan Age became synonymous with English cultural achievement and national confidence.',
+    modernRelevance: 'Symbol of strong female leadership and cultural patronage.',
+    funFacts: [
+      'Spoke six languages fluently',
+      'Never married, earning title "Virgin Queen"',
+      'Her speeches inspired troops against Spanish invasion'
+    ],
+    quotes: [
+      '"I may have the body of a weak and feeble woman, but I have the heart and stomach of a king"',
+      '"I would rather be a beggar and single than a queen and married"'
+    ]
+  },
+
+  // Industrial Era
+  {
+    id: 'austen',
+    label: 'Jane Austen',
+    type: 'person',
+    category: 'Literary Figures',
+    description: 'Novelist who perfected social satire and domestic realism',
+    detailedDescription: 'Jane Austen\'s novels offered sharp, witty observations of Regency society, particularly the marriage market and social hierarchies. Her psychological realism and social commentary established the template for modern British comedy and social criticism.',
+    period: '1775-1817',
+    birthYear: 1775,
+    deathYear: 1817,
+    location: 'Hampshire',
+    significance: 85,
+    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jane_Austen',
+    tags: ['literature', 'social-satire', 'regency', 'marriage', 'class'],
+    relatedConcepts: ['british-humour', 'social-hierarchy', 'domestic-life'],
+    keyContributions: [
+      'Pride and Prejudice - masterpiece of social comedy',
+      'Perfected the novel of manners',
+      'Created memorable characters like Elizabeth Bennet',
+      'Influenced generations of British writers'
+    ],
+    culturalImpact: 'Austen\'s wit and social observation became archetypal of British literary sensibility.',
+    modernRelevance: 'Her novels remain hugely popular, adapted countless times for film and television.',
+    funFacts: [
+      'Published anonymously as "By a Lady"',
+      'Wrote whilst living quietly in Hampshire countryside',
+      'Her books have never been out of print'
+    ],
+    quotes: [
+      '"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"',
+      '"The little things are infinitely the most important"'
+    ]
+  },
+
+  {
+    id: 'dickens',
+    label: 'Charles Dickens',
+    type: 'person',
+    category: 'Victorian Writers',
+    description: 'Victorian novelist who championed social reform through literature',
+    detailedDescription: 'Charles Dickens used his novels to expose social injustices of Industrial Revolution Britain. His vivid characters and melodramatic plots brought issues like child labour, poverty, and urban squalor to middle-class attention, driving social reform.',
+    period: '1812-1870',
+    birthYear: 1812,
+    deathYear: 1870,
+    location: 'London',
+    significance: 88,
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Charles_Dickens',
+    tags: ['literature', 'social-reform', 'victorian', 'industrial-revolution', 'poverty'],
+    relatedConcepts: ['social-reform', 'urban-life', 'class-consciousness'],
+    keyContributions: [
+      'A Christmas Carol - transformed Christmas traditions',
+      'Oliver Twist - exposed child labour conditions',
+      'Hard Times - critiqued industrial capitalism',
+      'Pioneered serialised novel publication'
+    ],
+    culturalImpact: 'Dickens shaped Victorian social conscience and Christmas traditions whilst establishing the social novel.',
+    modernRelevance: 'His Christmas stories remain central to British festive culture.',
+    funFacts: [
+      'Worked in boot-blacking factory as child',
+      'Performed dramatic readings across Britain and America',
+      'Invented many words still used today'
+    ],
+    quotes: [
+      '"It was the best of times, it was the worst of times"',
+      '"No one is useless in this world who lightens the burdens of another"'
+    ]
+  },
+
+  // Scottish Contributors
+  {
+    id: 'burns',
+    label: 'Robert Burns',
+    type: 'person',
+    category: 'Scottish Poets',
+    description: 'Scotland\'s national poet who celebrated common humanity',
+    detailedDescription: 'Robert Burns wrote in Scots dialect, celebrating ordinary people and democratic ideals. His poetry influenced Romantic movement whilst establishing Scottish cultural identity. Burns Night remains a global celebration of Scottish heritage.',
+    period: '1759-1796',
+    birthYear: 1759,
+    deathYear: 1796,
+    location: 'Ayrshire, Scotland',
+    significance: 80,
+    image: 'https://images.unsplash.com/photo-1516410529446-2c777d34e21e?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Robert_Burns',
+    tags: ['poetry', 'scottish', 'romanticism', 'democracy', 'dialect'],
+    relatedConcepts: ['scottish-identity', 'democratic-ideals', 'folk-culture'],
+    keyContributions: [
+      'Auld Lang Syne - most famous New Year song worldwide',
+      'Preserved and celebrated Scots language',
+      'Influenced Romantic poetry movement',
+      'Championed egalitarian ideals'
+    ],
+    culturalImpact: 'Burns became symbol of Scottish national identity and democratic values.',
+    modernRelevance: 'Burns Night celebrations maintain Scottish cultural traditions globally.',
+    funFacts: [
+      'Auld Lang Syne sung worldwide at New Year',
+      'Worked as tax collector whilst writing poetry',
+      'Has more statues than any other British writer except Shakespeare'
+    ],
+    quotes: [
+      '"A man\'s a man for a\' that"',
+      '"The best laid schemes of mice and men gang aft agley"'
+    ]
+  },
+
+  {
+    id: 'smith',
+    label: 'Adam Smith',
+    type: 'person',
+    category: 'Scottish Philosophers',
+    description: 'Father of modern economics and moral philosophy',
+    detailedDescription: 'Adam Smith\'s Wealth of Nations laid foundations of modern economic theory, introducing concepts like the invisible hand and division of labour. His earlier Theory of Moral Sentiments explored human empathy and social cohesion.',
+    period: '1723-1790',
+    birthYear: 1723,
+    deathYear: 1790,
+    location: 'Edinburgh',
+    significance: 89,
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Adam_Smith',
+    tags: ['economics', 'philosophy', 'scottish-enlightenment', 'capitalism', 'morality'],
+    relatedConcepts: ['free-market', 'moral-philosophy', 'social-harmony'],
+    keyContributions: [
+      'The Wealth of Nations - foundation of modern economics',
+      'Theory of Moral Sentiments - explored human empathy',
+      'Concept of "invisible hand" in markets',
+      'Analysis of division of labour'
+    ],
+    culturalImpact: 'Smith\'s economic theories shaped capitalist systems worldwide whilst maintaining focus on moral behaviour.',
+    modernRelevance: 'His ideas continue to influence economic policy and business ethics.',
+    funFacts: [
+      'Portrait appeared on £20 note from 2007-2020',
+      'Was absent-minded professor stereotype',
+      'Never married and lived with his mother'
+    ],
+    quotes: [
+      '"It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner"',
+      '"The real price of everything is the toil and trouble of acquiring it"'
+    ]
   }
 ]
 
@@ -484,6 +732,116 @@ export const cultureEdges: CultureEdge[] = [
     type: 'institutionalized',
     period: '1066-present',
     evidence: ['Parliamentary rules', 'Democratic process', 'Fair representation']
+  },
+  {
+    id: 'alfred-parliament',
+    source: 'alfred-great',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Alfred\'s legal reforms and advisory councils laid groundwork for parliamentary tradition',
+    strength: 7,
+    type: 'influenced',
+    period: '870-899',
+    evidence: ['Witenagemot assembly', 'Legal codification', 'Advisory governance']
+  },
+  {
+    id: 'alfred-common-law',
+    source: 'alfred-great',
+    target: 'common-law',
+    relationship: 'founded',
+    description: 'Alfred\'s comprehensive legal code became foundation for English common law',
+    strength: 8,
+    type: 'developed',
+    period: '880-890',
+    evidence: ['Doom Book legal code', 'Integration of local laws', 'Legal precedents']
+  },
+  {
+    id: 'chaucer-shakespeare',
+    source: 'chaucer',
+    target: 'shakespeare',
+    relationship: 'influenced',
+    description: 'Chaucer\'s literary innovations and character development influenced Shakespeare\'s dramatic techniques',
+    strength: 6,
+    type: 'influenced',
+    period: '1340-1616',
+    evidence: ['Literary techniques', 'Character archetypes', 'Social commentary']
+  },
+  {
+    id: 'chaucer-british-humour',
+    source: 'chaucer',
+    target: 'british-humour',
+    relationship: 'pioneered',
+    description: 'Chaucer\'s satirical portraits and social comedy established British humorous tradition',
+    strength: 7,
+    type: 'influenced',
+    period: '1380-1400',
+    evidence: ['Satirical characters', 'Social comedy', 'Ironic observation']
+  },
+  {
+    id: 'elizabeth-shakespeare',
+    source: 'elizabeth-i',
+    target: 'shakespeare',
+    relationship: 'patronised',
+    description: 'Elizabeth\'s court patronage enabled Shakespeare\'s theatrical career and artistic development',
+    strength: 8,
+    type: 'influenced',
+    period: '1590-1603',
+    evidence: ['Court performances', 'Royal patronage', 'Theatrical commissions']
+  },
+  {
+    id: 'austen-british-humour',
+    source: 'austen',
+    target: 'british-humour',
+    relationship: 'perfected',
+    description: 'Austen refined British wit through social satire and ironic observation',
+    strength: 8,
+    type: 'developed',
+    period: '1790-1817',
+    evidence: ['Social satire', 'Ironic narrative voice', 'Comedic situations']
+  },
+  {
+    id: 'austen-tea-culture',
+    source: 'austen',
+    target: 'tea-culture',
+    relationship: 'depicted',
+    description: 'Austen\'s novels captured the social importance of tea in Regency society',
+    strength: 6,
+    type: 'embodied',
+    period: '1790-1817',
+    evidence: ['Social scenes', 'Drawing room culture', 'Polite society']
+  },
+  {
+    id: 'dickens-social-reform',
+    source: 'dickens',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Dickens\' novels drove parliamentary social reforms addressing urban poverty',
+    strength: 7,
+    type: 'influenced',
+    period: '1830-1870',
+    evidence: ['Factory Acts', 'Education reforms', 'Poor Law amendments']
+  },
+  {
+    id: 'burns-british-humour',
+    source: 'burns',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Burns\' satirical verse and democratic humour enriched British comedic tradition',
+    strength: 6,
+    type: 'influenced',
+    period: '1780-1796',
+    evidence: ['Satirical poems', 'Social comedy', 'Democratic wit']
+  },
+  {
+    id: 'smith-economic-thought',
+    source: 'smith',
+    target: 'parliament',
+    relationship: 'influenced',
+    description: 'Smith\'s economic theories influenced British governmental policy and trade regulations',
+    strength: 7,
+    type: 'influenced',
+    period: '1760-1790',
+    evidence: ['Free trade policy', 'Economic legislation', 'Colonial trade reforms']
   }
 ]
 

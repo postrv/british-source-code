@@ -3,12 +3,30 @@ import { motion } from 'framer-motion'
 
 const ModulesPage = () => {
   const modules = [
+    // Core Social Systems
     { id: 'humour', name: 'British Humour', description: 'Self-deprecation, irony, and understatement utilities' },
     { id: 'queuing', name: 'Queuing System', description: 'Advanced orderly line management protocols' },
     { id: 'tea', name: 'Tea Framework', description: 'Essential beverage preparation and timing algorithms' },
-    { id: 'weather', name: 'Weather Discussion', description: 'Conversational ice-breaker and social lubricant' },
     { id: 'class', name: 'Class System', description: 'Social stratification and etiquette protocols' },
+    
+    // Communication Modules  
+    { id: 'weather', name: 'Weather Discussion', description: 'Conversational ice-breaker and social lubricant' },
+    { id: 'understatement', name: 'Understatement Engine', description: 'Advanced diplomatic downplaying algorithms' },
+    { id: 'euphemism', name: 'Euphemism Library', description: 'Polite indirection and tactful communication tools' },
+    
+    // Cultural Practices
+    { id: 'pub-culture', name: 'Pub Culture System', description: 'Community gathering and social bonding protocols' },
+    { id: 'sunday-roast', name: 'Sunday Roast Tradition', description: 'Weekly family gathering and meal preparation framework' },
+    { id: 'cricket', name: 'Cricket Module', description: 'Fair play embodiment and tactical complexity engine' },
+    
+    // Institutional Frameworks
+    { id: 'common-law', name: 'Common Law System', description: 'Precedent-based legal decision-making framework' },
+    { id: 'parliamentary', name: 'Parliamentary Procedure', description: 'Democratic debate and decision-making protocols' },
+    
+    // Quirks & Traditions
     { id: 'eccentricity', name: 'Eccentricity Module', description: 'Acceptable deviation from social norms' },
+    { id: 'apologising', name: 'Automatic Apologising', description: 'Reflexive politeness and social lubrication system' },
+    { id: 'tutting', name: 'Tutting Framework', description: 'Non-confrontational disapproval expression toolkit' },
   ]
 
   return (
