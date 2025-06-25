@@ -80,12 +80,13 @@ Visit `http://localhost:3000` to explore British culture locally.
 
 ## 📊 Current Data Coverage
 
-- **📍 Nodes**: 25+ cultural elements spanning 1,200+ years (Alfred the Great to Alan Turing)
-- **🔗 Relationships**: 23+ documented connections with comprehensive evidence
+- **📍 Nodes**: 30+ cultural elements spanning 1,200+ years (Alfred the Great to modern institutions)
+- **🔗 Relationships**: 29+ documented connections with comprehensive evidence and primary sources
 - **👤 People**: Alfred the Great, Chaucer, Shakespeare, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Turing
-- **🏛️ Institutions**: Parliament, BBC, Royal Society, Church of England
+- **🏛️ Institutions**: Parliament, BBC, Royal Society, Oxford University, Cambridge University
 - **💭 Concepts**: Fair play, common law, British humour, understatement, class system
 - **🎭 Practices**: Tea culture, queuing, pub culture, Sunday roast, cricket, parliamentary procedure
+- **📸 Authentic Images**: Historical portraits and proper institutional photographs (no more stock photos!)
 - **🏴󠁧󠁢󠁳󠁣󠁴󠁿 Regional Coverage**: Enhanced Scottish representation (Burns, Smith) with Welsh and Northern Irish additions planned
 
 ## 🎯 Project Structure
@@ -164,11 +165,37 @@ npm run build && npm run preview
 
 Deployed automatically to Cloudflare Pages on every push to main branch.
 
+### Branch-Based Deployment Strategy
+
+**Important**: This project uses separate branches for different environments:
+
+- **`main` branch** → Preview deployments (`main.british-stuff.pages.dev`)
+- **`production` branch** → Production deployments (`british-stuff.pages.dev`)
+
+### Deployment Workflow
+
+1. **Development**: Work on `main` branch as usual
+2. **Testing**: Preview changes at `main.british-stuff.pages.dev` 
+3. **Production Release**: Push changes to `production` branch
+
+```bash
+# After completing features on main branch
+git checkout production
+git merge main
+git push origin production
+
+# Or deploy manually to production
+npm run build
+npx wrangler pages deploy --branch production
+```
+
 ### Manual Deployment
 ```bash
 npm run build
 npm run deploy
 ```
+
+**Note**: If the root domain shows an older version whilst the main subdomain shows updates, you need to update the production branch as shown above.
 
 ## 📄 License
 

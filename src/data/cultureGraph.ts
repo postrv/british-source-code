@@ -43,32 +43,38 @@ export const cultureNodes: CultureNode[] = [
     type: 'person',
     category: 'Literary Figures',
     description: 'The Bard who defined English literature and theatre',
-    detailedDescription: 'William Shakespeare revolutionized English drama and poetry, creating works that explore universal human themes with unparalleled linguistic innovation. His plays shaped theatrical conventions worldwide and his vocabulary contributions to English are immeasurable.',
+    detailedDescription: 'William Shakespeare revolutionised English drama and poetry, creating works that explore universal human themes with unparalleled linguistic innovation. Born in Stratford-upon-Avon to a glove-maker, he became the most performed playwright in history, creating complex characters and poetic language that defined English literature.',
     period: '1564-1616',
     birthYear: 1564,
     deathYear: 1616,
-    location: 'Stratford-upon-Avon',
+    location: 'Stratford-upon-Avon / London',
     significance: 95,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/400px-Shakespeare.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/William_Shakespeare',
-    tags: ['literature', 'theatre', 'elizabethan', 'poetry', 'drama'],
+    tags: ['literature', 'theatre', 'elizabethan', 'poetry', 'drama', 'globe-theatre'],
     relatedConcepts: ['english-language', 'theatre-tradition', 'royal-patronage'],
     keyContributions: [
-      '37 plays including Hamlet, Macbeth, and Romeo & Juliet',
-      '154 sonnets exploring love, beauty, and mortality',
-      'Added ~1,700 words to English vocabulary',
-      'Established dramatic conventions still used today'
+      '39 plays including Hamlet, Macbeth, King Lear, and Romeo & Juliet',
+      '154 sonnets and 2 long narrative poems',
+      'Invented approximately 1,700 words still used today',
+      'Established dramatic conventions including five-act structure',
+      'Created psychological depth in dramatic characters',
+      'Influenced every subsequent generation of English writers'
     ],
-    culturalImpact: 'Shakespeare\'s works are performed more than any other playwright worldwide. His phrases have become part of everyday English, and his characters represent archetypal human experiences.',
-    modernRelevance: 'Continuously adapted for film, television, and modern theatre. His themes of power, love, betrayal, and ambition remain universally relevant.',
+    culturalImpact: 'Shakespeare\'s works are performed more than any other playwright worldwide. His phrases ("break the ice", "wild goose chase") became everyday English, and his character types (the tragic hero, the comic fool) are universal archetypes.',
+    modernRelevance: 'Continuously adapted for film, television, and modern theatre. His themes of power, love, betrayal, and ambition remain universally relevant. The Globe Theatre was reconstructed in 1997, demonstrating enduring appeal.',
     funFacts: [
-      'Invented over 1,700 words including "assassination" and "lonely"',
-      'His plays have been translated into every major language',
-      'The Globe Theatre burns down during a performance of Henry VIII in 1613'
+      'Lost Years: No records exist of what he did between 1585-1592',
+      'His father couldn\'t read or write, yet William became history\'s greatest writer',
+      'Married Anne Hathaway when he was 18 and she was 26 and pregnant',
+      'His signature appears only 6 times in surviving documents',
+      'The Globe Theatre could hold 3,000 people in a city of 200,000'
     ],
     quotes: [
       '"All the world\'s a stage, and all the men and women merely players"',
-      '"To be or not to be, that is the question"'
+      '"To be or not to be, that is the question"',
+      '"Some are born great, some achieve greatness, and some have greatness thrust upon them"',
+      '"What\'s in a name? That which we call a rose by any other name would smell as sweet"'
     ]
   },
 
@@ -77,33 +83,41 @@ export const cultureNodes: CultureNode[] = [
     label: 'Isaac Newton',
     type: 'person',
     category: 'Scientists',
-    description: 'Physicist and mathematician who revolutionized our understanding of the universe',
-    detailedDescription: 'Sir Isaac Newton laid the foundations of classical mechanics, optics, and calculus. His Principia Mathematica established the laws governing motion and gravitation, fundamentally changing how we understand the physical world.',
+    description: 'Physicist and mathematician who revolutionised our understanding of the universe',
+    detailedDescription: 'Sir Isaac Newton laid the foundations of classical mechanics, optics, and mathematical analysis. Born prematurely on Christmas Day 1642 in Woolsthorpe, Lincolnshire, he developed the laws of motion and universal gravitation that governed physics for 300 years. His Principia Mathematica (1687) is considered one of the greatest scientific works ever written.',
     period: '1643-1727',
     birthYear: 1643,
     deathYear: 1727,
-    location: 'Lincolnshire / Cambridge',
+    location: 'Woolsthorpe, Lincolnshire / Cambridge',
     significance: 92,
-    image: 'https://images.unsplash.com/photo-1446776653964-20c1a3dcda4e?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/400px-GodfreyKneller-IsaacNewton-1689.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Isaac_Newton',
-    tags: ['science', 'mathematics', 'physics', 'enlightenment', 'royal-society'],
-    relatedConcepts: ['scientific-method', 'royal-patronage', 'cambridge-university'],
+    tags: ['science', 'mathematics', 'physics', 'enlightenment', 'royal-society', 'cambridge', 'optics'],
+    relatedConcepts: ['scientific-method', 'royal-society', 'cambridge-university'],
     keyContributions: [
-      'Laws of motion and universal gravitation',
-      'Invented calculus (independently with Leibniz)',
-      'Groundbreaking work in optics and colour theory',
-      'Established mathematical principles of natural philosophy'
+      'Three Laws of Motion fundamental to classical mechanics',
+      'Law of Universal Gravitation explaining planetary motion',
+      'Co-invented calculus (independently with Leibniz)',
+      'Discovered that white light comprises all colours of spectrum',
+      'Wrote Principia Mathematica, foundation of mathematical physics',
+      'Explained tides, comets, and precession of equinoxes',
+      'Invented reflecting telescope design still used today'
     ],
-    culturalImpact: 'Newton\'s work established Britain as a leading scientific nation and influenced Enlightenment thinking across Europe.',
-    modernRelevance: 'His laws still govern space travel and engineering. The scientific method he helped establish remains the foundation of modern research.',
+    culturalImpact: 'Newton\'s work established Britain as the leading scientific nation and made Cambridge University a centre of mathematical excellence. The Royal Society gained international prestige through his membership and presidency.',
+    modernRelevance: 'Newton\'s laws govern spacecraft navigation, satellite orbits, and engineering calculations. His mathematical methods remain essential to physics and engineering education worldwide.',
     funFacts: [
-      'Allegedly inspired by an apple falling from a tree',
-      'Was Master of the Royal Mint and prosecuted counterfeiters',
-      'Spent more time on alchemy than physics'
+      'Born so prematurely he could fit in a quart pot',
+      'Plague closure of Cambridge (1665-66) led to his most creative period',
+      'Served as Master of the Royal Mint for 30 years, personally pursuing counterfeiters',
+      'Spent more time studying alchemy and theology than mathematics',
+      'Never married and was famously absent-minded about meals',
+      'His cat had its own door cut through his study door at Cambridge'
     ],
     quotes: [
       '"If I have seen further it is by standing on the shoulders of Giants"',
-      '"I can calculate the motion of heavenly bodies, but not the madness of people"'
+      '"I can calculate the motion of heavenly bodies, but not the madness of people"',
+      '"Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things"',
+      '"What we know is a drop, what we don\'t know is an ocean"'
     ]
   },
 
@@ -113,32 +127,42 @@ export const cultureNodes: CultureNode[] = [
     type: 'person',
     category: 'Political Leaders',
     description: 'Prime Minister who led Britain through World War II',
-    detailedDescription: 'Winston Churchill\'s leadership during WWII embodied British resilience and determination. His speeches rallied the nation during its darkest hour, while his strategic vision helped coordinate the Allied victory.',
+    detailedDescription: 'Sir Winston Leonard Spencer Churchill served as Prime Minister during Britain\'s finest hour. Born at Blenheim Palace to an aristocratic family, he had a remarkable 60-year political career, serving as a soldier, journalist, and politician before leading Britain to victory in WWII. His stirring oratory and unwavering resolve embodied British determination during the nation\'s darkest and most glorious period.',
     period: '1874-1965',
     birthYear: 1874,
     deathYear: 1965,
-    location: 'London',
+    location: 'Blenheim Palace / London',
     significance: 90,
-    image: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/The_Prime_Minister_The_Rt_Hon_Winston_Churchill_MP_CH_circa_1940-1945_MH26392.jpg/400px-The_Prime_Minister_The_Rt_Hon_Winston_Churchill_MP_CH_circa_1940-1945_MH26392.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Winston_Churchill',
-    tags: ['politics', 'leadership', 'wwii', 'oratory', 'history'],
+    tags: ['politics', 'leadership', 'wwii', 'oratory', 'history', 'nobel-prize', 'painting'],
     relatedConcepts: ['parliamentary-democracy', 'british-empire', 'wartime-leadership'],
     keyContributions: [
-      'Led Britain to victory in World War II',
-      'Delivered iconic speeches that defined British resolve',
-      'Won Nobel Prize in Literature',
-      'Shaped post-war international relations'
+      'Led Britain as Prime Minister during WWII (1940-1945)',
+      'Delivered iconic speeches including "We Shall Fight on the Beaches"',
+      'Forged the Grand Alliance with USA and Soviet Union',
+      'Won Nobel Prize in Literature (1953) for historical writings',
+      'Served in Parliament for 64 years across 6 decades',
+      'Wrote "The Second World War" six-volume history',
+      'Co-architect of the United Nations and NATO'
     ],
-    culturalImpact: 'Churchill\'s rhetoric and leadership style became synonymous with British determination and moral courage.',
-    modernRelevance: 'His speeches are still quoted in times of crisis. His approach to leadership during adversity remains a model.',
+    culturalImpact: 'Churchill\'s rhetoric defined British wartime spirit and became the voice of democracy against fascism. His speeches are considered masterpieces of English oratory, whilst his "V for Victory" gesture became iconic.',
+    modernRelevance: 'His speeches are quoted in times of crisis worldwide. His leadership model during adversity remains studied in military academies and business schools. Often voted "Greatest Briton" in polls.',
     funFacts: [
-      'Painted over 500 paintings as a hobby',
-      'Won the Nobel Prize in Literature in 1953',
-      'Famous for his love of cigars and whisky'
+      'Escaped from Boer War prison camp, becoming a celebrity',
+      'Painted over 500 artworks, exhibiting under pseudonym',
+      'Built brick walls as hobby therapy at Chartwell home',
+      'Smoked 8-10 cigars daily and consumed champagne with every meal',
+      'Won Nobel Prize in Literature, not Peace Prize',
+      'His mother was American (Jennie Jerome from New York)',
+      'Last person to receive state funeral who wasn\'t royalty'
     ],
     quotes: [
-      '"We shall never surrender"',
-      '"Success is not final, failure is not fatal: it is the courage to continue that counts"'
+      '"We shall fight on the beaches... we shall never surrender"',
+      '"Never, never, never give up"',
+      '"Success is not final, failure is not fatal: it is the courage to continue that counts"',
+      '"The empires of the future are the empires of the mind"',
+      '"History will be kind to me for I intend to write it"'
     ]
   },
 
@@ -147,33 +171,42 @@ export const cultureNodes: CultureNode[] = [
     label: 'Charles Darwin',
     type: 'person',
     category: 'Scientists',
-    description: 'Naturalist who developed the theory of evolution',
-    detailedDescription: 'Charles Darwin\'s theory of evolution by natural selection revolutionized biology and our understanding of life on Earth. His meticulous observations and scientific methodology exemplified Victorian scientific inquiry.',
+    description: 'Naturalist who developed the theory of evolution by natural selection',
+    detailedDescription: 'Charles Robert Darwin transformed our understanding of life through his theory of evolution by natural selection. Born into a wealthy Shropshire family, his five-year voyage aboard HMS Beagle (1831-1836) provided observations that led to his revolutionary theory. Despite initial reluctance to publish due to religious implications, his "On the Origin of Species" (1859) became one of the most important scientific works ever written.',
     period: '1809-1882',
     birthYear: 1809,
     deathYear: 1882,
-    location: 'Shrewsbury / Kent',
+    location: 'Shrewsbury / Down House, Kent',
     significance: 88,
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/400px-Charles_Darwin_seated_crop.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Charles_Darwin',
-    tags: ['evolution', 'biology', 'naturalist', 'scientific-revolution', 'voyage'],
+    tags: ['evolution', 'biology', 'naturalist', 'scientific-revolution', 'beagle-voyage', 'natural-selection'],
     relatedConcepts: ['scientific-method', 'natural-history', 'royal-society'],
     keyContributions: [
       'Theory of evolution by natural selection',
-      'The Origin of Species (1859)',
-      'Voyage of the Beagle observations',
-      'Established modern evolutionary biology'
+      'On the Origin of Species by Means of Natural Selection (1859)',
+      'The Descent of Man, and Selection in Relation to Sex (1871)',
+      'Voyage of the Beagle journal documenting global biodiversity',
+      'Studies on coral reef formation and volcanic islands',
+      'Research on plant movement, pollination, and carnivorous plants',
+      'Work on earthworms and their geological importance'
     ],
-    culturalImpact: 'Darwin\'s work fundamentally changed humanity\'s understanding of its place in nature and influenced philosophy, religion, and science.',
-    modernRelevance: 'Evolutionary theory remains central to modern biology, medicine, and our understanding of life.',
+    culturalImpact: 'Darwin\'s work fundamentally challenged religious views of creation and humanity\'s place in nature. The phrase "survival of the fittest" (coined by Herbert Spencer) became part of popular culture, though often misunderstood.',
+    modernRelevance: 'Evolutionary theory underpins all modern biology, from medicine and agriculture to conservation. DNA sequencing has confirmed Darwin\'s predictions about common descent and the tree of life.',
     funFacts: [
-      'Almost became a clergyman instead of a scientist',
-      'Took 20 years to publish On the Origin of Species',
-      'Married his first cousin, Emma Wedgwood'
+      'His grandfather Erasmus Darwin was also an evolutionary theorist',
+      'Studied medicine at Edinburgh but was horrified by surgery (performed without anaesthetic)',
+      'Cambridge degree was in theology - he nearly became a country parson',
+      'Took 23 years to publish evolution theory, fearing religious controversy',
+      'Married his first cousin Emma Wedgwood (of pottery fame)',
+      'Suffered mysterious illnesses possibly caused by stress over his theory',
+      'Conducted experiments in his garden "thinking path" at Down House'
     ],
     quotes: [
-      '"It is not the strongest of the species that survives, but the most adaptable"',
-      '"A man who dares to waste one hour of time has not discovered the value of life"'
+      '"It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change"',
+      '"A man who dares to waste one hour of time has not discovered the value of life"',
+      '"I have called this principle, by which each slight variation, if useful, is preserved, by the term Natural Selection"',
+      '"There is grandeur in this view of life"'
     ]
   },
 
@@ -184,26 +217,37 @@ export const cultureNodes: CultureNode[] = [
     type: 'institution',
     category: 'Government',
     description: 'The Mother of Parliaments - democratic governance model',
-    detailedDescription: 'The British Parliament evolved from medieval assemblies into the world\'s oldest continuous parliamentary democracy. Its Westminster system has been adopted by dozens of nations worldwide.',
+    detailedDescription: 'The Parliament of the United Kingdom evolved from medieval assemblies into the world\'s oldest continuous parliamentary democracy. Beginning with Anglo-Saxon Witenagemots and formalised after the Norman Conquest, it developed through constitutional crises into a bicameral system. The Palace of Westminster houses both Commons and Lords, with traditions dating back centuries.',
     foundedYear: 1066,
-    location: 'Westminster, London',
+    location: 'Palace of Westminster, London',
     significance: 88,
-    image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/400px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Parliament_of_the_United_Kingdom',
-    tags: ['democracy', 'government', 'law', 'representation', 'sovereignty'],
+    tags: ['democracy', 'government', 'law', 'representation', 'sovereignty', 'westminster', 'commons', 'lords'],
     relatedConcepts: ['magna-carta', 'constitutional-monarchy', 'common-law'],
     keyContributions: [
-      'Established principles of democratic representation',
-      'Created the Westminster parliamentary system',
-      'Developed concepts of parliamentary sovereignty',
-      'Influenced democratic institutions worldwide'
+      'Established principles of democratic representation and accountability',
+      'Created the Westminster parliamentary system adopted globally',
+      'Developed parliamentary sovereignty as constitutional principle',
+      'Pioneered concepts of loyal opposition and cabinet government',
+      'Established procedures for peaceful transfer of power',
+      'Created parliamentary privilege protecting free speech',
+      'Developed complex committee system for detailed legislation'
     ],
-    culturalImpact: 'The Westminster system became the template for democratic governance in former British territories and beyond.',
-    modernRelevance: 'Parliamentary procedure and democratic principles developed at Westminster continue to influence global governance.',
+    culturalImpact: 'The Westminster system became the template for democratic governance in Canada, Australia, India, and dozens of other nations. Parliamentary language ("honourable member", "third reading") entered international political vocabulary.',
+    modernRelevance: 'Westminster-style parliaments govern over 2 billion people worldwide. Parliamentary procedure, Prime Minister\'s Questions, and opposition politics remain influential democratic innovations.',
     funFacts: [
-      'The term "Mother of Parliaments" was coined by John Bright',
-      'Houses of Parliament were rebuilt after 1834 fire',
-      'Big Ben is actually the name of the bell, not the tower'
+      'The phrase "Mother of Parliaments" was coined by John Bright in 1865',
+      'The current Palace of Westminster was rebuilt after the 1834 Great Fire',
+      'Big Ben is technically the nickname for the largest bell, not the tower',
+      'MPs cannot be arrested in the chamber due to parliamentary privilege',
+      'The Woolsack in House of Lords is stuffed with wool from Commonwealth countries',
+      'Black Rod\'s door is slammed shut during State Opening ceremony',
+      'MPs must bow to the Speaker\'s chair when entering or leaving'
+    ],
+    quotes: [
+      '"Parliament can do anything except make a man a woman and a woman a man" - Henry Campbell-Bannerman',
+      '"England is the mother of parliaments" - John Bright'
     ]
   },
 
@@ -233,6 +277,126 @@ export const cultureNodes: CultureNode[] = [
       'BBC World Service broadcasts in over 40 languages',
       'The BBC Proms is the world\'s largest classical music festival',
       'BBC iPlayer pioneered online streaming services'
+    ]
+  },
+
+  {
+    id: 'oxford-university',
+    label: 'University of Oxford',
+    type: 'institution',
+    category: 'Education',
+    description: 'The oldest university in the English-speaking world',
+    detailedDescription: 'The University of Oxford, established around 1096, is the oldest university in the English-speaking world and the world\'s second-oldest university in continuous operation. Its distinctive collegiate system, tutorial method, and academic excellence have made it a model for universities worldwide, whilst producing 28 British Prime Ministers and countless influential thinkers.',
+    foundedYear: 1096,
+    location: 'Oxford, Oxfordshire',
+    significance: 89,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Oxford_University_Church_of_St_Mary_the_Virgin.jpg/400px-Oxford_University_Church_of_St_Mary_the_Virgin.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/University_of_Oxford',
+    tags: ['education', 'academia', 'collegiate', 'ancient-university', 'tutorial-system', 'dreaming-spires'],
+    relatedConcepts: ['academic-excellence', 'british-establishment', 'intellectual-tradition'],
+    keyContributions: [
+      'Developed the collegiate system adopted by universities worldwide',
+      'Created the Oxford tutorial system of personalised education',
+      'Established academic traditions and ceremonies still followed globally',
+      'Produced 28 British Prime Ministers including Churchill and Blair',
+      'Founded Oxford University Press, world\'s largest university press',
+      'Pioneered scholarly publishing and peer review systems',
+      'Created the Rhodes Scholarship programme'
+    ],
+    culturalImpact: 'Oxford became synonymous with academic excellence and intellectual achievement. The "Oxbridge" term represents elite education, whilst Oxford debates, traditions, and terminology influenced universities globally.',
+    modernRelevance: 'Remains one of the world\'s top universities, leading in research across disciplines. The Oxford-AstraZeneca COVID vaccine demonstrated continued scientific leadership.',
+    funFacts: [
+      'Oxford is older than the Aztec Empire (founded 1428)',
+      'There is no record of its founding - it just gradually developed',
+      'Oscar Wilde said "Oxford is the most beautiful thing in England"',
+      'The Bodleian Library has a copy of every book published in Britain',
+      'Students must wear academic dress (subfusc) for exams',
+      'May Morning celebration involves choristers singing from Magdalen Tower',
+      'The phrase "town and gown" refers to Oxford town vs university tensions'
+    ],
+    quotes: [
+      '"The King is at Oxford, the rebel is at Cambridge" - medieval saying',
+      '"Very nice sort of place, Oxford, I should think, for people that like that sort of place" - George Bernard Shaw'
+    ]
+  },
+
+  {
+    id: 'cambridge-university',
+    label: 'University of Cambridge',
+    type: 'institution',
+    category: 'Education',
+    description: 'The world\'s premier scientific university',
+    detailedDescription: 'Founded in 1209 by scholars fleeing Oxford, the University of Cambridge became the world\'s leading centre for scientific research. Its graduates include Newton, Darwin, Hawking, and Turing, whilst its research led to groundbreaking discoveries from the structure of DNA to the development of the computer. The university\'s combination of ancient traditions and cutting-edge research embodies British intellectual achievement.',
+    foundedYear: 1209,
+    location: 'Cambridge, Cambridgeshire',
+    significance: 90,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CambridgeQueensCollege.jpg/400px-CambridgeQueensCollege.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/University_of_Cambridge',
+    tags: ['education', 'science', 'research', 'ancient-university', 'collegiate', 'scientific-revolution'],
+    relatedConcepts: ['scientific-excellence', 'newton', 'darwin', 'academic-tradition'],
+    keyContributions: [
+      'Produced 121 Nobel Prize winners, more than any other institution',
+      'Newton developed calculus and laws of motion at Trinity College',
+      'Crick and Watson discovered DNA structure at Cavendish Laboratory',
+      'Turing developed computer science foundations at King\'s College',
+      'Rutherford split the atom at Cavendish Laboratory',
+      'Hawking revolutionised cosmology as Lucasian Professor',
+      'Cambridge Mathematical Tripos became model for rigorous examinations'
+    ],
+    culturalImpact: 'Cambridge became the global symbol of scientific excellence. The "Cambridge" name is used by institutions worldwide seeking scientific credibility. Its boat race with Oxford captures national attention.',
+    modernRelevance: 'Continues to lead in scientific research, particularly in technology, medicine, and artificial intelligence. Cambridge Science Park pioneered university-industry collaboration.',
+    funFacts: [
+      'Founded by scholars who fled Oxford after a town-and-gown riot',
+      'Newton\'s apple tree still grows in Trinity College grounds',
+      'The Cavendish Laboratory has produced 30 Nobel Prize winners',
+      'Students punt on the River Cam, a quintessentially Cambridge activity',
+      'The Senate House graduation ceremony hasn\'t changed for centuries',
+      'Stephen Hawking held Newton\'s chair as Lucasian Professor',
+      'The Mathematical Bridge was supposedly built without nails (it wasn\'t)'
+    ],
+    quotes: [
+      '"In Cambridge the mere act of living was a constant education" - Henry Brooks Adams',
+      '"Cambridge was the place for someone from the colonies or the provinces" - Stephen Fry'
+    ]
+  },
+
+  {
+    id: 'royal-society',
+    label: 'The Royal Society',
+    type: 'institution',
+    category: 'Scientific Institution',
+    description: 'The world\'s oldest national scientific academy',
+    detailedDescription: 'Founded in 1660, the Royal Society of London for Improving Natural Knowledge became the world\'s first and most prestigious scientific academy. With the motto "Nullius in verba" (take nobody\'s word for it), it established principles of experimental science and peer review. Fellows have included Newton, Darwin, Faraday, and Hawking, making it the most influential scientific institution in history.',
+    foundedYear: 1660,
+    location: 'London',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Royal_Society_20040420.jpg/400px-Royal_Society_20040420.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Royal_Society',
+    tags: ['science', 'academy', 'research', 'peer-review', 'experimental-science', 'royal-charter'],
+    relatedConcepts: ['scientific-method', 'newton', 'experimental-philosophy'],
+    keyContributions: [
+      'Established peer review system for scientific publications',
+      'Published Newton\'s Principia Mathematica (1687)',
+      'Created scientific journal Philosophical Transactions (1665)',
+      'Developed experimental scientific methodology',
+      'Promoted international scientific collaboration',
+      'Advised government on scientific matters for 350+ years',
+      'Elected 8 presidents who were Prime Ministers'
+    ],
+    culturalImpact: 'The Royal Society model was copied worldwide, establishing scientific academies globally. It made London the centre of Enlightenment science and elevated the social status of scientists.',
+    modernRelevance: 'Continues as UK\'s premier scientific academy, advising government on climate change, AI, and pandemic response. Fellowship (FRS) remains the highest scientific honour in Britain.',
+    funFacts: [
+      'Christopher Wren was one of the founding members alongside Newton',
+      'The society has published continuously since 1665 - the world\'s longest-running scientific journal',
+      'Isaac Newton served as president for 24 years',
+      'Charles Darwin was proposed for fellowship by Charles Lyell',
+      'Women weren\'t admitted until 1945, starting with crystallographer Kathleen Lonsdale',
+      'The mace used in meetings was made in 1663 and survived the Great Fire of London',
+      'Einstein was elected Foreign Member in 1921'
+    ],
+    quotes: [
+      '"Nullius in verba" - Royal Society motto (Take nobody\'s word for it)',
+      '"The Royal Society is a club of the most eminent men of science" - Michael Faraday'
     ]
   },
 
@@ -842,6 +1006,61 @@ export const cultureEdges: CultureEdge[] = [
     type: 'influenced',
     period: '1760-1790',
     evidence: ['Free trade policy', 'Economic legislation', 'Colonial trade reforms']
+  },
+  {
+    id: 'newton-cambridge',
+    source: 'newton',
+    target: 'cambridge-university',
+    relationship: 'studied-and-taught',
+    description: 'Newton studied and later held the Lucasian Chair of Mathematics at Cambridge',
+    strength: 9,
+    type: 'embodied',
+    period: '1661-1727',
+    evidence: ['Trinity College fellowship', 'Lucasian Professor', 'Mathematical research']
+  },
+  {
+    id: 'newton-royal-society',
+    source: 'newton',
+    target: 'royal-society',
+    relationship: 'led',
+    description: 'Newton served as President of the Royal Society for 24 years and published Principia through them',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1703-1727',
+    evidence: ['Royal Society President', 'Principia publication', 'Scientific leadership']
+  },
+  {
+    id: 'darwin-cambridge',
+    source: 'darwin',
+    target: 'cambridge-university',
+    relationship: 'studied',
+    description: 'Darwin studied theology at Christ\'s College, Cambridge, where he developed his passion for natural history',
+    strength: 7,
+    type: 'influenced',
+    period: '1828-1831',
+    evidence: ['Christ\'s College education', 'Natural history studies', 'Beagle voyage preparation']
+  },
+  {
+    id: 'churchill-oxford',
+    source: 'churchill',
+    target: 'oxford-university',
+    relationship: 'honoured',
+    description: 'Churchill received honorary degree from Oxford and gave famous "Iron Curtain" speech there',
+    strength: 6,
+    type: 'embodied',
+    period: '1946',
+    evidence: ['Honorary doctorate', 'Fulton speech', 'Academic recognition']
+  },
+  {
+    id: 'oxford-cambridge-rivalry',
+    source: 'oxford-university',
+    target: 'cambridge-university',
+    relationship: 'competed',
+    description: 'The ancient rivalry between Oxford and Cambridge drives academic excellence and cultural traditions',
+    strength: 8,
+    type: 'opposed',
+    period: '1209-present',
+    evidence: ['Boat Race', 'Academic competition', 'Oxbridge tradition']
   }
 ]
 
