@@ -7,6 +7,7 @@ import ModulesPage from './pages/ModulesPage'
 import VisualisationPage from './pages/VisualisationPage'
 import ContributorDetailPage from './pages/ContributorDetailPage'
 import ModuleDetailPage from './pages/ModuleDetailPage'
+import DependenciesPage from './pages/DependenciesPage'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contributors/:id" element={<ContributorDetailPage />} />
             <Route path="/modules" element={<ModulesPage />} />
             <Route path="/modules/:id" element={<ModuleDetailPage />} />
+            <Route path="/dependencies" element={<DependenciesPage />} />
             <Route path="/visualisation" element={<VisualisationPage />} />
             <Route path="/visualization" element={<VisualisationPage />} />
             <Route path="*" element={<div className="text-center py-12">

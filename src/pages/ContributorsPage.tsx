@@ -23,6 +23,14 @@ const ContributorsPage = () => {
     { id: 'burns', name: 'Robert Burns', period: '1759-1796', role: 'Democratic Voice Poet' },
     { id: 'smith', name: 'Adam Smith', period: '1723-1790', role: 'Economic Theory Architect' },
     
+    // Welsh Contributors
+    { id: 'dylan-thomas', name: 'Dylan Thomas', period: '1914-1953', role: 'Lyrical Voice of Wales' },
+    { id: 'aneurin-bevan', name: 'Aneurin Bevan', period: '1897-1960', role: 'NHS Architect' },
+    
+    // Northern Irish Contributors
+    { id: 'cs-lewis', name: 'C.S. Lewis', period: '1898-1963', role: 'Fantasy Literature Pioneer' },
+    { id: 'seamus-heaney', name: 'Seamus Heaney', period: '1939-2013', role: 'Nobel Prize-Winning Poet' },
+    
     // Modern Era
     { id: 'churchill', name: 'Winston Churchill', period: '1874-1965', role: 'Democracy Defender' },
     { id: 'turing', name: 'Alan Turing', period: '1912-1954', role: 'Computing Pioneer' },
@@ -40,7 +48,8 @@ const ContributorsPage = () => {
             Key Contributors
           </h1>
           <p className="text-xl text-gray-600 mb-12">
-            Meet the architects of British society who have shaped culture, science, and civilization.
+            Meet the architects of British society who have shaped culture, science, and civilization. 
+            From medieval kings to modern scientists, these individuals defined what it means to be British.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

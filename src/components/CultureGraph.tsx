@@ -361,38 +361,43 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
             initial={{ opacity: 0, x: 300 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 300 }}
-            className="absolute top-4 right-4 z-20 bg-white rounded-lg shadow-xl p-6 w-96 max-h-[calc(100vh-100px)] overflow-y-auto"
+            className="absolute top-4 right-4 bottom-4 z-20 bg-white rounded-lg shadow-xl w-96 flex flex-col"
           >
-            <div className="flex items-start justify-between mb-4">
-              <div className="flex items-center space-x-3">
-                {selectedNode.image && (
-                  <img
-                    src={selectedNode.image}
-                    alt={selectedNode.label}
-                    className="w-16 h-16 rounded-lg object-cover"
-                  />
-                )}
-                <div>
-                  <h3 className="text-xl font-bold text-british-racing-green">
-                    {selectedNode.label}
-                  </h3>
-                  <p className="text-sm text-gray-600">
-                    {selectedNode.category} • {selectedNode.type}
-                  </p>
-                  {selectedNode.period && (
-                    <p className="text-sm text-gray-500">{selectedNode.period}</p>
+            {/* Header - Fixed */}
+            <div className="p-6 flex-shrink-0 border-b border-gray-200">
+              <div className="flex items-start justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  {selectedNode.image && (
+                    <img
+                      src={selectedNode.image}
+                      alt={selectedNode.label}
+                      className="w-16 h-16 rounded-lg object-cover"
+                    />
                   )}
+                  <div>
+                    <h3 className="text-xl font-bold text-british-racing-green">
+                      {selectedNode.label}
+                    </h3>
+                    <p className="text-sm text-gray-600">
+                      {selectedNode.category} • {selectedNode.type}
+                    </p>
+                    {selectedNode.period && (
+                      <p className="text-sm text-gray-500">{selectedNode.period}</p>
+                    )}
+                  </div>
                 </div>
+                <button
+                  onClick={() => setShowNodePanel(false)}
+                  className="text-gray-500 hover:text-gray-700"
+                >
+                  <X size={20} />
+                </button>
               </div>
-              <button
-                onClick={() => setShowNodePanel(false)}
-                className="text-gray-500 hover:text-gray-700"
-              >
-                <X size={20} />
-              </button>
             </div>
 
-            <div className="space-y-4">
+            {/* Content - Scrollable */}
+            <div className="flex-1 overflow-y-auto p-6">
+              <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-british-racing-green mb-2">Description</h4>
                 <p className="text-gray-700 text-sm leading-relaxed">
@@ -481,6 +486,7 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
                   </a>
                 </div>
               )}
+              </div>
             </div>
           </motion.div>
         )}

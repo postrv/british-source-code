@@ -149,6 +149,54 @@ const ContributorDetailPage = () => {
         'Laid groundwork for artificial intelligence',
         'Advanced theoretical computer science'
       ]
+    },
+    'dylan-thomas': {
+      name: 'Dylan Thomas',
+      period: '1914-1953',
+      role: 'Lyrical Voice of Wales',
+      description: 'Wales\' greatest poet who brought Welsh poetic tradition to international prominence through lyrical, emotional verse and groundbreaking radio drama.',
+      contributions: [
+        'Under Milk Wood - masterpiece of radio drama',
+        'Do not go gentle into that good night - iconic villanelle',
+        'Brought Welsh poetic voice to international audience',
+        'Pioneered modern radio drama techniques'
+      ]
+    },
+    'aneurin-bevan': {
+      name: 'Aneurin Bevan',
+      period: '1897-1960',
+      role: 'NHS Architect',
+      description: 'Welsh politician who transformed British society by creating the National Health Service, establishing healthcare free at the point of use as a fundamental right.',
+      contributions: [
+        'Founded the National Health Service (1948)',
+        'Championed principle of healthcare free at point of use',
+        'Overcame medical profession opposition to create NHS',
+        'Established foundation of British welfare state'
+      ]
+    },
+    'cs-lewis': {
+      name: 'C.S. Lewis',
+      period: '1898-1963',
+      role: 'Fantasy Literature Pioneer',
+      description: 'Northern Irish scholar and writer who combined rigorous academia with imaginative storytelling, creating the Chronicles of Narnia and influential Christian apologetics.',
+      contributions: [
+        'The Chronicles of Narnia - beloved fantasy series',
+        'Mere Christianity - influential Christian apologetics',
+        'Medieval literature scholarship at Oxford and Cambridge',
+        'Bridged academic rigor with popular accessibility'
+      ]
+    },
+    'seamus-heaney': {
+      name: 'Seamus Heaney',
+      period: '1939-2013',
+      role: 'Nobel Prize-Winning Poet',
+      description: 'Northern Irish poet who articulated the experience of rural Ireland and the Troubles, earning the Nobel Prize for Literature whilst bridging cultural and political divides.',
+      contributions: [
+        'Nobel Prize in Literature (1995)',
+        'Death of a Naturalist - groundbreaking debut collection',
+        'Translation of Beowulf - modern English masterpiece',
+        'Articulated Northern Irish experience in poetry'
+      ]
     }
   }
 

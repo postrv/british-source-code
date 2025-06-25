@@ -56,7 +56,7 @@ This interactive platform explores over 2,000 years of British cultural developm
 
 ```bash
 # Clone the repository
-git clone https://github.com/british-source-code/british-source-code.git
+git clone https://github.com/postrv/british-source-code.git
 cd british-source-code
 
 # Install dependencies
@@ -78,16 +78,163 @@ npm run deploy
 
 Visit `http://localhost:3000` to explore British culture locally.
 
+## 🚀 How to Deploy Your Own Britain
+
+Ready to establish your own digital dominion of British culture? Here's your complete guide to deploying British Source Code:
+
+### Prerequisites
+- **Node.js** (v18+ recommended) - for running the modern React application
+- **npm** or **yarn** - for dependency management  
+- **Cloudflare account** - for hosting your cultural empire
+- **Wrangler CLI** - Cloudflare's deployment tool (`npm install -g wrangler`)
+
+### Deployment Options
+
+#### Option 1: Cloudflare Pages (Recommended)
+The crown jewel of deployment - automatic builds, global CDN, and proper British efficiency:
+
+```bash
+# Install Wrangler globally
+npm install -g wrangler
+
+# Authenticate with Cloudflare
+wrangler auth login
+
+# Deploy directly
+npm run deploy
+
+# Or create a Pages project first
+wrangler pages project create british-source-code
+wrangler pages deploy dist
+```
+
+#### Option 2: Manual Static Hosting
+For those who prefer a more hands-on approach:
+
+```bash
+# Build the application
+npm run build
+
+# The `dist` folder contains your complete static site
+# Upload to any static hosting provider:
+# - Netlify: drag and drop the dist folder
+# - Vercel: vercel --prod
+# - GitHub Pages: push dist contents to gh-pages branch
+```
+
+#### Option 3: Self-Hosted with Docker
+For the truly independent spirits:
+
+```dockerfile
+FROM node:18-alpine as builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+### Custom Domain Setup
+1. **Purchase your domain** (we recommend something quintessentially British)
+2. **Configure DNS** - point your domain to Cloudflare Pages
+3. **SSL Certificate** - automatically provided by Cloudflare
+4. **Update configuration** - modify `wrangler.jsonc` if needed
+
+### Environment Configuration
+Create a `.env` file for local development:
+
+```bash
+# Optional: Customize your British experience
+VITE_WEATHER_MOOD=perpetually_grey
+VITE_TEA_PREFERENCE=builders_brew
+VITE_QUEUE_TOLERANCE=infinite
+```
+
+### Customization Guide
+Want to adapt this for your own culture? Here's how:
+
+1. **Update the data** - modify `src/data/cultureGraph.ts`
+2. **Change the theme** - edit `tailwind.config.js` colors
+3. **Customize content** - update page components in `src/pages/`
+4. **Add new features** - extend the graph visualization
+
+### Maintenance & Updates
+```bash
+# Keep dependencies updated
+npm update
+
+# Check for security vulnerabilities  
+npm audit
+
+# Update cultural data
+# Edit src/data/cultureGraph.ts with new contributors and relationships
+
+# Deploy updates
+npm run deploy
+```
+
+### Troubleshooting Common Issues
+
+**Build fails?** 
+- Check Node.js version (requires v18+)
+- Clear node_modules and reinstall: `rm -rf node_modules && npm install`
+
+**Deployment issues?**
+- Verify Wrangler authentication: `wrangler auth whoami`
+- Check Cloudflare account permissions
+
+**Graph not loading?**
+- Ensure all data relationships have valid source/target IDs
+- Check browser console for JavaScript errors
+
+**Domain not working?**
+- Verify DNS settings point to Cloudflare
+- Allow 24-48 hours for DNS propagation
+
+### Contributing Your Own Culture
+We welcome contributions to expand British cultural coverage:
+
+1. **Fork the repository**
+2. **Add new cultural nodes** to `src/data/cultureGraph.ts`
+3. **Create relationships** between cultural elements
+4. **Test your changes** locally
+5. **Submit a pull request** with proper documentation
+
+### Support & Community
+- 🐛 Found a bug? [Report it on GitHub](https://github.com/postrv/british-source-code/issues)
+- 💡 Have an idea? [Start a discussion](https://github.com/postrv/british-source-code/discussions)
+- 📧 Need help? Contact us at hello@britishsourcecode.com
+
+### License & Usage
+This project is licensed under CC BY 4.0 - you're free to:
+- ✅ Use commercially
+- ✅ Modify and adapt
+- ✅ Distribute copies
+- ✅ Make your own cultural repository
+
+Just remember to credit the original work and maintain the same license for derivatives.
+
+---
+
+*"The art of deploying one's culture lies not in the perfection of the code, but in the quality of the tea consumed during the process."* - Ancient British DevOps Proverb
+
 ## 📊 Current Data Coverage
 
-- **📍 Nodes**: 30+ cultural elements spanning 1,200+ years (Alfred the Great to modern institutions)
-- **🔗 Relationships**: 29+ documented connections with comprehensive evidence and primary sources
-- **👤 People**: Alfred the Great, Chaucer, Shakespeare, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Turing
+- **📍 Nodes**: 34+ cultural elements spanning 1,200+ years (Alfred the Great to modern institutions)
+- **🔗 Relationships**: 37+ documented connections with comprehensive evidence and primary sources
+- **👤 People**: Alfred the Great, Chaucer, Shakespeare, Elizabeth I, Newton, Austen, Dickens, Burns, Smith, Darwin, Churchill, Turing, Dylan Thomas, Aneurin Bevan, C.S. Lewis, Seamus Heaney
 - **🏛️ Institutions**: Parliament, BBC, Royal Society, Oxford University, Cambridge University
 - **💭 Concepts**: Fair play, common law, British humour, understatement, class system
 - **🎭 Practices**: Tea culture, queuing, pub culture, Sunday roast, cricket, parliamentary procedure
-- **📸 Authentic Images**: Historical portraits and proper institutional photographs (no more stock photos!)
-- **🏴󠁧󠁢󠁳󠁣󠁴󠁿 Regional Coverage**: Enhanced Scottish representation (Burns, Smith) with Welsh and Northern Irish additions planned
+- **📸 Authentic Images**: Historical portraits from Wikimedia Commons (no more stock photos!)
+- **🏴󠁧󠁢󠁷󠁬󠁳󠁿 Welsh Coverage**: Dylan Thomas (poetry), Aneurin Bevan (NHS founder)
+- **🏴󠁧󠁢󠁮󠁩󠁲󠁿 Northern Irish Coverage**: C.S. Lewis (Narnia), Seamus Heaney (Nobel Prize poet)
+- **🔗 Interactive Dependencies**: Clickable tags linking related modules and cultural elements
 
 ## 🎯 Project Structure
 
@@ -213,9 +360,9 @@ The code is available under MIT License for the technical implementation.
 
 ## 📞 Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/british-source-code/british-source-code/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/british-source-code/british-source-code/discussions)
-- 📧 **Contact**: hello@british-source-code.org
+- 🐛 **Issues**: [GitHub Issues](https://github.com/postrv/british-source-code/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/postrv/british-source-code/discussions)
+- 📧 **Contact**: hello@britishsourcecode.com
 
 ---
 

@@ -60,7 +60,7 @@ const Layout = ({ children }: LayoutProps) => {
                 </Link>
               ))}
               <a
-                href="https://github.com/british-source-code"
+                href="https://github.com/postrv/british-source-code"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-union-jack-blue hover:bg-gray-100 transition-colors"
@@ -104,7 +104,7 @@ const Layout = ({ children }: LayoutProps) => {
                   </Link>
                 ))}
                 <a
-                  href="https://github.com/british-source-code"
+                  href="https://github.com/postrv/british-source-code"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-union-jack-blue hover:bg-gray-100 transition-colors"

@@ -170,6 +170,20 @@ const ModuleDetailPage = () => {
         'Group tutting coordination protocols',
         'Tutting-to-action escalation thresholds'
       ]
+    },
+    oxbridge: {
+      name: 'Oxbridge System',
+      description: 'Elite educational excellence and academic rivalry protocols combining ancient traditions with cutting-edge research.',
+      dependencies: ['collegiate-system', 'tutorial-method', 'academic-rivalry', 'boat-race'],
+      features: [
+        'Ancient university tradition maintenance algorithms',
+        'Elite academic competition and excellence protocols',
+        'Collegiate system social hierarchy management',
+        'Town-and-gown relationship mediation frameworks',
+        'Tutorial system personalised education delivery',
+        'Annual boat race rivalry expression mechanism',
+        'Prime Minister production pipeline optimisation'
+      ]
     }
   }
 
@@ -209,15 +223,17 @@ const ModuleDetailPage = () => {
                 <h2 className="text-2xl font-semibold text-british-racing-green mb-4">
                   Dependencies
                 </h2>
-                <ul className="space-y-2">
+                <div className="flex flex-wrap gap-2">
                   {module.dependencies.map((dep: string, index: number) => (
-                    <li key={index} className="flex items-center">
-                      <code className="bg-gray-100 px-2 py-1 rounded text-sm">
-                        {dep}
-                      </code>
-                    </li>
+                    <Link
+                      key={index}
+                      to={`/dependencies?tag=${encodeURIComponent(dep)}`}
+                      className="bg-gray-100 hover:bg-union-jack-blue hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200"
+                    >
+                      {dep}
+                    </Link>
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div>

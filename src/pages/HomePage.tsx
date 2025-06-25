@@ -29,7 +29,7 @@ const HomePage = () => {
       name: 'Documentation',
       description: 'Comprehensive guides and implementation details for deploying your own British culture.',
       icon: Book,
-      href: '/modules',
+      href: 'https://github.com/postrv/british-source-code#-quick-start',
       color: 'bg-gray-700'
     }
   ]
@@ -66,7 +66,7 @@ const HomePage = () => {
                 Explore the Culture Graph
               </Link>
               <a
-                href="https://github.com/british-source-code"
+                href="https://github.com/postrv/british-source-code"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-british border-2 border-white text-white hover:bg-white hover:text-british-racing-green px-8 py-3 text-lg font-semibold flex items-center gap-2"
@@ -131,24 +131,48 @@ const HomePage = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <Link
-                  to={feature.href}
-                  className="card-british hover:shadow-lg transition-shadow duration-300 block h-full"
-                >
-                  <div className="flex items-start space-x-4">
-                    <div className={`${feature.color} p-3 rounded-lg`}>
-                      <feature.icon size={24} className="text-white" />
+                {feature.href.startsWith('http') ? (
+                  <a
+                    href={feature.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="card-british hover:shadow-lg transition-shadow duration-300 block h-full"
+                  >
+                    <div className="flex items-start space-x-4">
+                      <div className={`${feature.color} p-3 rounded-lg`}>
+                        <feature.icon size={24} className="text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-semibold text-british-racing-green mb-2 flex items-center gap-2">
+                          {feature.name}
+                          <ExternalLink size={16} className="text-gray-400" />
+                        </h3>
+                        <p className="text-gray-600">
+                          {feature.description}
+                        </p>
+                      </div>
                     </div>
-                    <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-british-racing-green mb-2">
-                        {feature.name}
-                      </h3>
-                      <p className="text-gray-600">
-                        {feature.description}
-                      </p>
+                  </a>
+                ) : (
+                  <Link
+                    to={feature.href}
+                    className="card-british hover:shadow-lg transition-shadow duration-300 block h-full"
+                  >
+                    <div className="flex items-start space-x-4">
+                      <div className={`${feature.color} p-3 rounded-lg`}>
+                        <feature.icon size={24} className="text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-xl font-semibold text-british-racing-green mb-2">
+                          {feature.name}
+                        </h3>
+                        <p className="text-gray-600">
+                          {feature.description}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                )}
               </motion.div>
             ))}
           </div>

@@ -261,7 +261,7 @@ export const cultureNodes: CultureNode[] = [
     foundedYear: 1922,
     location: 'London',
     significance: 75,
-    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC_Television_Centre.jpg/400px-BBC_Television_Centre.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/BBC',
     tags: ['media', 'broadcasting', 'public-service', 'culture', 'education'],
     relatedConcepts: ['public-service', 'cultural-export', 'soft-power'],
@@ -411,7 +411,7 @@ export const cultureNodes: CultureNode[] = [
     period: '17th century - present',
     foundedYear: 1660,
     significance: 70,
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tea_service_syon_house.jpg/400px-Tea_service_syon_house.jpg',
     tags: ['social-customs', 'daily-life', 'hospitality', 'ritual', 'comfort'],
     relatedConcepts: ['afternoon-tea', 'empire-trade', 'social-hierarchy'],
     keyContributions: [
@@ -437,7 +437,7 @@ export const cultureNodes: CultureNode[] = [
     description: 'The art of orderly waiting',
     detailedDescription: 'British queuing culture represents fairness, patience, and social order. It embodies the principle that everyone gets their turn regardless of status - a microcosm of democratic values.',
     significance: 60,
-    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Queue_at_a_London_bus_stop.jpg/400px-Queue_at_a_London_bus_stop.jpg',
     tags: ['social-behaviour', 'fairness', 'order', 'patience', 'democracy'],
     relatedConcepts: ['fair-play', 'social-order', 'public-behaviour'],
     keyContributions: [
@@ -463,7 +463,7 @@ export const cultureNodes: CultureNode[] = [
     description: 'Self-deprecating wit and ironic observation',
     detailedDescription: 'British humour combines self-deprecation, understatement, irony, and absurdity. It serves as social lubricant, defense mechanism, and cultural export, influencing comedy worldwide.',
     significance: 85,
-    image: 'https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Punch_-_July_9%2C_1887.jpg/400px-Punch_-_July_9%2C_1887.jpg',
     tags: ['humor', 'wit', 'irony', 'self-deprecation', 'social-interaction'],
     relatedConcepts: ['understatement', 'class-consciousness', 'coping-mechanism'],
     keyContributions: [
@@ -490,7 +490,7 @@ export const cultureNodes: CultureNode[] = [
     detailedDescription: 'The common law system developed in England created legal principles through judicial decisions rather than written codes. This system emphasizes precedent and has been adopted worldwide.',
     foundedYear: 1066,
     significance: 80,
-    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Royal_Courts_of_Justice%2C_London%2C_England-2Nov2010.jpg/400px-Royal_Courts_of_Justice%2C_London%2C_England-2Nov2010.jpg',
     tags: ['law', 'justice', 'precedent', 'courts', 'legal-system'],
     relatedConcepts: ['magna-carta', 'trial-by-jury', 'rule-of-law'],
     keyContributions: [
@@ -511,7 +511,7 @@ export const cultureNodes: CultureNode[] = [
     description: 'The principle of playing by the rules and giving everyone a chance',
     detailedDescription: 'Fair play represents the British ideal of justice, sportsmanship, and equitable treatment. It extends from sports into politics, business, and daily life as a fundamental cultural value.',
     significance: 75,
-    image: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cricket_at_Lord%27s_ground%2C_1837.jpg/400px-Cricket_at_Lord%27s_ground%2C_1837.jpg',
     tags: ['sportsmanship', 'justice', 'ethics', 'equality', 'competition'],
     relatedConcepts: ['cricket', 'gentlemans-code', 'rule-of-law'],
     keyContributions: [
@@ -542,7 +542,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 899,
     location: 'Wessex',
     significance: 87,
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/King_Alfred_of_England.jpg/400px-King_Alfred_of_England.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Alfred_the_Great',
     tags: ['education', 'legal-reform', 'anglo-saxon', 'literacy', 'chronicle'],
     relatedConcepts: ['english-language', 'legal-system', 'education'],
@@ -576,7 +576,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1400,
     location: 'London',
     significance: 82,
-    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chaucer_Hoccleve.png/400px-Chaucer_Hoccleve.png',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Geoffrey_Chaucer',
     tags: ['literature', 'middle-english', 'canterbury-tales', 'social-commentary', 'poetry'],
     relatedConcepts: ['english-language', 'social-hierarchy', 'pilgrimage'],
@@ -612,7 +612,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1603,
     location: 'London',
     significance: 90,
-    image: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/400px-Darnley_stage_3.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Elizabeth_I',
     tags: ['monarchy', 'renaissance', 'golden-age', 'patronage', 'diplomacy'],
     relatedConcepts: ['shakespeare', 'theatre-tradition', 'naval-power'],
@@ -648,7 +648,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1817,
     location: 'Hampshire',
     significance: 85,
-    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/400px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Jane_Austen',
     tags: ['literature', 'social-satire', 'regency', 'marriage', 'class'],
     relatedConcepts: ['british-humour', 'social-hierarchy', 'domestic-life'],
@@ -683,7 +683,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1870,
     location: 'London',
     significance: 88,
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/400px-Dickens_Gurney_head.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Charles_Dickens',
     tags: ['literature', 'social-reform', 'victorian', 'industrial-revolution', 'poverty'],
     relatedConcepts: ['social-reform', 'urban-life', 'class-consciousness'],
@@ -719,7 +719,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1796,
     location: 'Ayrshire, Scotland',
     significance: 80,
-    image: 'https://images.unsplash.com/photo-1516410529446-2c777d34e21e?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Robert_Burns.jpg/400px-Robert_Burns.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Robert_Burns',
     tags: ['poetry', 'scottish', 'romanticism', 'democracy', 'dialect'],
     relatedConcepts: ['scottish-identity', 'democratic-ideals', 'folk-culture'],
@@ -754,7 +754,7 @@ export const cultureNodes: CultureNode[] = [
     deathYear: 1790,
     location: 'Edinburgh',
     significance: 89,
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Adam_Smith_The_Muir_portrait.jpg/400px-Adam_Smith_The_Muir_portrait.jpg',
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Adam_Smith',
     tags: ['economics', 'philosophy', 'scottish-enlightenment', 'capitalism', 'morality'],
     relatedConcepts: ['free-market', 'moral-philosophy', 'social-harmony'],
@@ -774,6 +774,176 @@ export const cultureNodes: CultureNode[] = [
     quotes: [
       '"It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner"',
       '"The real price of everything is the toil and trouble of acquiring it"'
+    ]
+  },
+
+  // Welsh Contributors
+  {
+    id: 'dylan-thomas',
+    label: 'Dylan Thomas',
+    type: 'person',
+    category: 'Welsh Poets',
+    description: 'Wales\' greatest poet, whose lyrical voice captured the essence of Welsh identity',
+    detailedDescription: 'Dylan Marlais Thomas brought Welsh poetic tradition to international prominence through his lyrical, deeply emotional verse and prose. Born in Swansea, his work celebrated the landscape and people of Wales whilst exploring universal themes of life, death, and rebirth. His radio play "Under Milk Wood" remains a masterpiece of British literature.',
+    period: '1914-1953',
+    birthYear: 1914,
+    deathYear: 1953,
+    location: 'Swansea / New York',
+    significance: 82,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Dylan_Thomas_portrait.jpg/400px-Dylan_Thomas_portrait.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Dylan_Thomas',
+    tags: ['poetry', 'welsh', 'radio', 'literature', 'lyrical', 'landscape'],
+    relatedConcepts: ['welsh-identity', 'poetic-tradition', 'radio-drama'],
+    keyContributions: [
+      'Under Milk Wood - masterpiece of radio drama',
+      'Deaths and Entrances - acclaimed poetry collection',
+      'Do not go gentle into that good night - iconic villanelle',
+      'Portrait of the Artist as a Young Dog - autobiographical stories',
+      'Brought Welsh poetic voice to international audience',
+      'Pioneered modern radio drama techniques'
+    ],
+    culturalImpact: 'Thomas made Welsh literature internationally recognized and inspired generations of poets. His readings and performances helped establish poetry as a performance art.',
+    modernRelevance: 'His poems remain widely anthologized and quoted. The Dylan Thomas Centre in Swansea and annual festivals celebrate his legacy.',
+    funFacts: [
+      'Coined the phrase "Do not go gentle into that good night"',
+      'Died in New York at age 39, becoming a romantic literary legend',
+      'His writing hut in Laugharne overlooks the Taf estuary',
+      'Richard Burton starred in "Under Milk Wood" adaptations',
+      'Bob Dylan was partly named after Dylan Thomas',
+      'His voice recordings preserve his distinctive Welsh accent'
+    ],
+    quotes: [
+      '"Do not go gentle into that good night, Old age should burn and rave at close of day"',
+      '"The force that through the green fuse drives the flower"',
+      '"I hold a beast, an angel, and a madman in me"',
+      '"Poetry is what in a poem makes you laugh, cry, prickle, be silent, makes your toe nails twinkle"'
+    ]
+  },
+
+  {
+    id: 'aneurin-bevan',
+    label: 'Aneurin Bevan',
+    type: 'person',
+    category: 'Welsh Politicians',
+    description: 'Architect of the NHS and champion of social justice',
+    detailedDescription: 'Aneurin "Nye" Bevan transformed British society by creating the National Health Service in 1948. Born into a Welsh mining family, he understood poverty and fought tirelessly for social justice. As Minister of Health, he overcame fierce opposition to establish healthcare free at the point of use - a principle that defined modern Britain.',
+    period: '1897-1960',
+    birthYear: 1897,
+    deathYear: 1960,
+    location: 'Tredegar, Wales / London',
+    significance: 90,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Aneurin_Bevan.jpg/400px-Aneurin_Bevan.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Aneurin_Bevan',
+    tags: ['politics', 'healthcare', 'socialism', 'nhs', 'welsh', 'social-justice'],
+    relatedConcepts: ['welfare-state', 'public-service', 'social-democracy'],
+    keyContributions: [
+      'Founded the National Health Service (1948)',
+      'Championed principle of healthcare free at point of use',
+      'Overcame medical profession opposition to create NHS',
+      'Established foundation of British welfare state',
+      'Influential Labour Party theorist and speaker',
+      '"In Place of Fear" - seminal socialist text'
+    ],
+    culturalImpact: 'Bevan\'s NHS became a source of national pride and model for healthcare systems worldwide. His vision of social solidarity through public service shaped modern British values.',
+    modernRelevance: 'The NHS remains Britain\'s most cherished institution. Bevan\'s principles of universal healthcare continue to influence policy debates globally.',
+    funFacts: [
+      'Son of a coal miner, left school at 13 to work in mines',
+      'Self-educated through Tredegar Working Men\'s Library',
+      'Married to fellow MP Jennie Lee',
+      'Overcame serious stutter to become powerful orator',
+      'Resigned from government over NHS prescription charges',
+      'Statue stands in Cardiff city centre'
+    ],
+    quotes: [
+      '"No society can legitimately call itself civilized if a sick person is denied medical aid because of lack of means"',
+      '"The NHS will last as long as there are folk left with the faith to fight for it"',
+      '"We know what happens to people who stay in the middle of the road. They get run down"',
+      '"It is an act of intellectual vandalism to break up the health service"'
+    ]
+  },
+
+  // Northern Irish Contributors  
+  {
+    id: 'cs-lewis',
+    label: 'C.S. Lewis',
+    type: 'person',
+    category: 'Northern Irish Writers',
+    description: 'Literary scholar and creator of Narnia who bridged faith and imagination',
+    detailedDescription: 'Clive Staples Lewis combined rigorous scholarship with imaginative storytelling to become one of the most influential Christian apologists and fantasy writers. Born in Belfast, he taught at Oxford and Cambridge whilst creating the Chronicles of Narnia and defending Christian faith through reason and allegory.',
+    period: '1898-1963',
+    birthYear: 1898,
+    deathYear: 1963,
+    location: 'Belfast / Oxford / Cambridge',
+    significance: 85,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/C.s.lewis3.JPG/400px-C.s.lewis3.JPG',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/C._S._Lewis',
+    tags: ['literature', 'fantasy', 'christianity', 'northern-irish', 'oxford', 'narnia'],
+    relatedConcepts: ['fantasy-literature', 'christian-apologetics', 'academic-writing'],
+    keyContributions: [
+      'The Chronicles of Narnia - beloved fantasy series',
+      'Mere Christianity - influential Christian apologetics',
+      'The Screwtape Letters - satirical religious work',
+      'Medieval literature scholarship at Oxford and Cambridge',
+      'Popular Christian broadcasting during WWII',
+      'Bridged academic rigor with popular accessibility'
+    ],
+    culturalImpact: 'Lewis made fantasy literature respectable and Christian apologetics accessible to modern audiences. Narnia influenced generations of children and adults worldwide.',
+    modernRelevance: 'Narnia films and adaptations continue to entertain new generations. His apologetic works remain influential in Christian thought and literature courses.',
+    funFacts: [
+      'Friends with J.R.R. Tolkien in the "Inklings" group',
+      'Originally atheist, converted to Christianity as adult',
+      'Narnia series written in just seven years',
+      'Voice of Christian faith on BBC radio during WWII',
+      'Married American writer Joy Davidman late in life',
+      'Died same day as JFK and Aldous Huxley'
+    ],
+    quotes: [
+      '"Once a king or queen of Narnia, always a king or queen of Narnia"',
+      '"You can\'t go back and change the beginning, but you can start where you are and change the ending"',
+      '"We are what we believe we are"',
+      '"Aslan is on the move"'
+    ]
+  },
+
+  {
+    id: 'seamus-heaney',
+    label: 'Seamus Heaney',
+    type: 'person',
+    category: 'Northern Irish Poets',
+    description: 'Nobel Prize-winning poet who gave voice to rural Ireland and the Troubles',
+    detailedDescription: 'Seamus Justin Heaney brought the landscape, language, and struggles of Northern Ireland to international poetry. His work bridged the divide between rural tradition and modern conflict, earning him the Nobel Prize for Literature in 1995. He articulated the experience of the Troubles whilst celebrating the enduring power of poetry.',
+    period: '1939-2013',
+    birthYear: 1939,
+    deathYear: 2013,
+    location: 'County Derry / Dublin / Harvard',
+    significance: 88,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Seamus_Heaney_2009.jpg/400px-Seamus_Heaney_2009.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Seamus_Heaney',
+    tags: ['poetry', 'nobel-prize', 'northern-irish', 'troubles', 'rural', 'translation'],
+    relatedConcepts: ['irish-identity', 'conflict-poetry', 'translation-work'],
+    keyContributions: [
+      'Nobel Prize in Literature (1995)',
+      'Death of a Naturalist - groundbreaking debut collection',
+      'North - acclaimed poems about the Troubles',
+      'Translation of Beowulf - modern English masterpiece',
+      'Articulated Northern Irish experience in poetry',
+      'Bridged cultural and political divides through art'
+    ],
+    culturalImpact: 'Heaney made Northern Irish poetry internationally significant and showed how literature could address political conflict with nuance and humanity.',
+    modernRelevance: 'His work continues to influence poets dealing with conflict and identity. His Beowulf translation remains a popular academic text.',
+    funFacts: [
+      'Called "Famous Seamus" by media after Nobel Prize',
+      'Son of a cattle dealer from rural County Derry',
+      'Taught at Harvard University for many years',
+      'His Beowulf translation won Whitbread Book of the Year',
+      'Refused knighthood but accepted many other honors',
+      'His funeral was attended by presidents and prime ministers'
+    ],
+    quotes: [
+      '"If you have the words, there\'s always a chance that you\'ll find the way"',
+      '"Poetry is a revelation in words by means of the words"',
+      '"Walk on air against your better judgement"',
+      '"Between my finger and my thumb / The squat pen rests"'
     ]
   }
 ]
@@ -1061,6 +1231,96 @@ export const cultureEdges: CultureEdge[] = [
     type: 'opposed',
     period: '1209-present',
     evidence: ['Boat Race', 'Academic competition', 'Oxbridge tradition']
+  },
+  
+  // Welsh & Northern Irish Connections
+  {
+    id: 'dylan-thomas-british-humour',
+    source: 'dylan-thomas',
+    target: 'british-humour',
+    relationship: 'enriched',
+    description: 'Dylan Thomas brought Welsh wit and linguistic playfulness to British humorous tradition',
+    strength: 6,
+    type: 'influenced',
+    period: '1930-1953',
+    evidence: ['Wordplay in poetry', 'Humorous radio performances', 'Welsh comedic sensibility']
+  },
+  {
+    id: 'dylan-thomas-bbc',
+    source: 'dylan-thomas',
+    target: 'bbc',
+    relationship: 'collaborated',
+    description: 'Thomas worked extensively with BBC Radio, creating influential radio dramas and poetry broadcasts',
+    strength: 8,
+    type: 'developed',
+    period: '1940-1953',
+    evidence: ['Under Milk Wood radio play', 'Poetry readings', 'Wartime broadcasts']
+  },
+  {
+    id: 'aneurin-bevan-parliament',
+    source: 'aneurin-bevan',
+    target: 'parliament',
+    relationship: 'transformed',
+    description: 'Bevan used Parliament to create the NHS, demonstrating democratic power to transform society',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1929-1960',
+    evidence: ['NHS legislation', 'Parliamentary debates', 'Social policy reform']
+  },
+  {
+    id: 'cs-lewis-oxford',
+    source: 'cs-lewis',
+    target: 'oxford-university',
+    relationship: 'taught',
+    description: 'Lewis taught medieval literature at Oxford for 30 years, influencing generations of students',
+    strength: 8,
+    type: 'embodied',
+    period: '1925-1954',
+    evidence: ['Magdalen College fellowship', 'Literary scholarship', 'Inklings meetings']
+  },
+  {
+    id: 'cs-lewis-cambridge',
+    source: 'cs-lewis',
+    target: 'cambridge-university',
+    relationship: 'concluded-career',
+    description: 'Lewis finished his academic career as Professor of Medieval and Renaissance Literature at Cambridge',
+    strength: 7,
+    type: 'embodied',
+    period: '1954-1963',
+    evidence: ['Chair of Medieval Literature', 'Academic lectures', 'Scholarly publications']
+  },
+  {
+    id: 'seamus-heaney-british-humour',
+    source: 'seamus-heaney',
+    target: 'british-humour',
+    relationship: 'contributed',
+    description: 'Heaney brought Irish wit and linguistic playfulness to British poetic tradition',
+    strength: 5,
+    type: 'influenced',
+    period: '1960-2013',
+    evidence: ['Poetic humor', 'Self-deprecating interviews', 'Literary wit']
+  },
+  {
+    id: 'burns-dylan-thomas',
+    source: 'burns',
+    target: 'dylan-thomas',
+    relationship: 'influenced',
+    description: 'Burns\' celebration of dialect and common people influenced Thomas\' Welsh poetic voice',
+    strength: 6,
+    type: 'influenced',
+    period: '1914-1953',
+    evidence: ['Dialect poetry', 'Folk traditions', 'Poetic nationalism']
+  },
+  {
+    id: 'shakespeare-cs-lewis',
+    source: 'shakespeare',
+    target: 'cs-lewis',
+    relationship: 'influenced',
+    description: 'Shakespeare\'s literary techniques and Christian themes influenced Lewis\' academic and creative work',
+    strength: 7,
+    type: 'influenced',
+    period: '1925-1963',
+    evidence: ['Medieval literature studies', 'Narrative techniques', 'Allegorical methods']
   }
 ]
 

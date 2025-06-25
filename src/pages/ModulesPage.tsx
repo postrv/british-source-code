@@ -22,6 +22,7 @@ const ModulesPage = () => {
     // Institutional Frameworks
     { id: 'common-law', name: 'Common Law System', description: 'Precedent-based legal decision-making framework' },
     { id: 'parliamentary', name: 'Parliamentary Procedure', description: 'Democratic debate and decision-making protocols' },
+    { id: 'oxbridge', name: 'Oxbridge System', description: 'Elite educational excellence and academic rivalry protocols' },
     
     // Quirks & Traditions
     { id: 'eccentricity', name: 'Eccentricity Module', description: 'Acceptable deviation from social norms' },

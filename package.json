@@ -46,5 +46,10 @@
     "cloudflare"
   ],
   "author": "British Source Code Contributors",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postrv/british-source-code.git"
+  },
+  "homepage": "https://britishsourcecode.com"
 }
