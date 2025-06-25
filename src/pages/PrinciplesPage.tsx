@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Scale, Megaphone, BookOpen, Users, ExternalLink, Quote } from 'lucide-react'
+import { Scale, Megaphone, BookOpen, Users, Quote } from 'lucide-react'
 
 const PrinciplesPage = () => {
   const principles = [
