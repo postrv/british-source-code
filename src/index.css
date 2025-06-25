@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --british-racing-green: #004225;
+    --union-jack-red: #CF142B;
+    --union-jack-blue: #00247D;
+    --british-grey: #6c757d;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--british-racing-green);
+    font-weight: normal;
+  }
+
+  h1 {
+    border-bottom: 3px solid var(--union-jack-red);
+    padding-bottom: 0.5rem;
+  }
+
+  a {
+    color: var(--union-jack-blue);
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  code {
+    background-color: #f8f9fa;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+  }
+
+  pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    border-left: 4px solid var(--british-racing-green);
+  }
+
+  blockquote {
+    border-left: 4px solid var(--british-grey);
+    padding-left: 1rem;
+    color: var(--british-grey);
+    font-style: italic;
+  }
+}
+
+@layer components {
+  .container-british {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-british {
+    @apply bg-white rounded-lg shadow-md p-6 border border-gray-200;
+  }
+
+  .btn-british {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-union-jack-blue text-white hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .tooltip {
+    @apply absolute z-50 px-3 py-2 text-sm text-white bg-gray-900 rounded-md opacity-0 transition-opacity duration-200 pointer-events-none;
+  }
+}
+
+/* D3 visualization styles */
+.culture-graph {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+.culture-graph .node {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.culture-graph .link {
+  transition: opacity 0.2s ease;
+}
+
+.culture-graph .legend {
+  font-size: 0.875rem;
+}
+
+.culture-graph .instructions {
+  font-size: 0.75rem;
+  fill: #6b7280;
+}
