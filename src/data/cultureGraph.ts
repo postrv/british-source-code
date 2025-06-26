@@ -2711,6 +2711,320 @@ export const cultureNodes: CultureNode[] = [
     ]
   },
 
+  // British Humour & Comedy Culture
+  {
+    id: 'monty-python',
+    label: 'Monty Python',
+    type: 'institution',
+    category: 'Comedy Groups',
+    description: 'Revolutionary comedy troupe that defined British absurdist humour and influenced global comedy',
+    detailedDescription: 'Monty Python\'s Flying Circus transformed comedy through surreal sketches, intellectual absurdity, and complete disregard for conventional structure. Formed at Cambridge and Oxford, the troupe combined university wit with working-class irreverence to create a uniquely British form of anarchic comedy that influenced generations of comedians worldwide.',
+    foundedYear: 1969,
+    location: 'London / Cambridge / Oxford',
+    significance: 87,
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Flyingcircus_2.jpg/400px-Flyingcircus_2.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Monty_Python',
+    tags: ['comedy', 'absurdist', 'surreal', 'television', 'cambridge', 'oxford', 'satire'],
+    relatedConcepts: ['british-humour', 'absurdist-comedy', 'satirical-tradition'],
+    keyContributions: [
+      'Monty Python\'s Flying Circus - revolutionary TV comedy series',
+      'Life of Brian - satirical masterpiece challenging religious orthodoxy',
+      'Holy Grail - absurdist take on British medieval legends',
+      'Created "Pythonesque" as descriptor for surreal British humour',
+      'Influenced global comedy through unexpected narrative structures',
+      'Demonstrated intellectual comedy could be popular entertainment',
+      'Pioneered stream-of-consciousness comedy writing'
+    ],
+    culturalImpact: 'Monty Python made British absurdist humour globally recognisable, creating "Pythonesque" as international comedy descriptor. Their influence extends from Saturday Night Live to modern internet memes.',
+    modernRelevance: 'Python sketches remain endlessly quotable and influential. Their approach to narrative deconstruction anticipated postmodern comedy and internet humor.',
+    funFacts: [
+      'Name chosen randomly from phone directory after rejecting other options',
+      'Dead Parrot sketch voted funniest comedy sketch ever',
+      'Performed for over 20,000 people at O2 Arena reunion shows (2014)',
+      'Python members met at Cambridge and Oxford universities',
+      'Ministry of Silly Walks became iconic British comedy export',
+      'Inspired Spam email name from their Spam sketch',
+      'Brian of Nazareth banned in several countries for blasphemy'
+    ],
+    quotes: [
+      '"Nobody expects the Spanish Inquisition!"',
+      '"It\'s just a flesh wound" - Black Knight',
+      '"What have the Romans ever done for us?" - Life of Brian',
+      '"I\'m not dead yet!" - Holy Grail',
+      '"And now for something completely different"'
+    ]
+  },
+
+  {
+    id: 'piss-taking',
+    label: 'Piss-Taking Culture',
+    type: 'practice',
+    category: 'Social Behaviour',
+    description: 'British art of gentle mockery and deflating pretension through humorous ridicule',
+    detailedDescription: 'Piss-taking (or "taking the piss") represents the quintessentially British practice of deflating pomposity, ego, and pretension through humorous mockery. This cultural institution serves as social levelling mechanism, ensuring no one gets "too big for their boots" whilst maintaining group cohesion through shared humour at someone\'s expense.',
+    significance: 78,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Punch_-_July_9%2C_1887.jpg/400px-Punch_-_July_9%2C_1887.jpg',
+    tags: ['mockery', 'deflation', 'social-levelling', 'group-dynamics', 'pretension-busting'],
+    relatedConcepts: ['british-humour', 'social-hierarchy', 'group-bonding'],
+    keyContributions: [
+      'Established social mechanism for deflating pretension and ego',
+      'Created cultural expectation that everyone can be mocked',
+      'Developed sophisticated verbal sparring and wit traditions',
+      'Enabled social bonding through shared humorous aggression',
+      'Influenced British comedy traditions and satirical culture',
+      'Prevented excessive hierarchy and pomposity in social groups',
+      'Created cultural resilience through ability to laugh at adversity'
+    ],
+    culturalImpact: 'Piss-taking became fundamental to British social interaction, preventing excessive pretension whilst building group solidarity. It influenced British comedy exports and workplace culture.',
+    modernRelevance: 'Continues as essential British social skill. Modern workplace banter and internet trolling trace roots to traditional piss-taking culture.',
+    funFacts: [
+      'Taking the piss originally referred to deflating someone like a balloon',
+      'Essential survival skill in British schools, workplaces, and pubs',
+      'Foreigners often struggle with British piss-taking culture',
+      'Can be sign of affection - ignoring someone is worse than mocking them',
+      'BBC comedy shows institutionalised piss-taking for mass entertainment',
+      'Military services use piss-taking to build unit cohesion',
+      'Regional variations exist - Northern piss-taking considered more direct'
+    ],
+    quotes: [
+      '"If you can\'t take a joke, you shouldn\'t have joined" - Military saying',
+      '"He\'s taking the piss" - Standard British response to perceived pretension',
+      '"Having a laugh" - Justification for sustained piss-taking'
+    ]
+  },
+
+  {
+    id: 'private-eye',
+    label: 'Private Eye Magazine',
+    type: 'institution',
+    category: 'Satirical Publications',
+    description: 'Britain\'s premier satirical magazine skewering politicians, celebrities, and institutions with irreverent wit',
+    detailedDescription: 'Private Eye, founded in 1961, became Britain\'s most successful satirical magazine through fearless lampooning of the establishment. With its mixture of investigative journalism and merciless satire, it embodied British traditions of speaking truth to power through humour. The magazine\'s willingness to mock everyone equally made it a democratic force in British culture.',
+    foundedYear: 1961,
+    location: 'London',
+    significance: 75,
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Private_Eye_logo.png/400px-Private_Eye_logo.png',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Private_Eye',
+    tags: ['satire', 'journalism', 'establishment-mockery', 'investigative', 'irreverent'],
+    relatedConcepts: ['satirical-tradition', 'press-freedom', 'establishment-criticism'],
+    keyContributions: [
+      'Created fortnightly satirical commentary on British establishment',
+      'Developed pseudonyms and running jokes known throughout Britain',
+      'Combined investigative journalism with merciless satirical commentary',
+      'Influenced generation of British comedians and satirical writers',
+      'Maintained independence from political parties and commercial interests',
+      'Created "Pseud\'s Corner" mocking pretentious language and ideas',
+      'Pioneered mix of serious journalism with irreverent humour'
+    ],
+    culturalImpact: 'Private Eye democratised satire, making establishment mockery accessible to ordinary readers. Its style influenced British satirical television and comedy writing.',
+    modernRelevance: 'Continues as Britain\'s bestselling current affairs magazine. Its investigative work influences mainstream media whilst satirical approach shapes political commentary.',
+    funFacts: [
+      'Circulation peaked at over 200,000 - highest for satirical magazine',
+      'Created enduring satirical names: "Hilda Ugleywoman" for politicians',
+      'Ian Hislop longest-serving editor in British magazine history',
+      'Frequently sued but usually wins or settles',
+      'Refused advertising to maintain editorial independence',
+      'Founded by Oxford University students but appeals across class lines',
+      'Archive provides satirical history of modern British politics'
+    ],
+    quotes: [
+      '"I\'ve always been suspicious of people who say they don\'t like Private Eye" - British political observer',
+      '"We mock everyone equally" - Editorial philosophy'
+    ]
+  },
+
+  {
+    id: 'self-deprecation',
+    label: 'Self-Deprecation',
+    type: 'practice',
+    category: 'Communication Style',
+    description: 'British art of making oneself the target of humour to avoid appearing boastful or pretentious',
+    detailedDescription: 'Self-deprecation represents the sophisticated British strategy of undermining one\'s own achievements, appearance, or capabilities through humour. This cultural practice serves multiple functions: deflecting envy, demonstrating humility, building rapport, and maintaining social harmony. It\'s considered the highest form of British wit and essential for social acceptance.',
+    significance: 82,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cricket_at_Lord%27s_ground%2C_1837.jpg/400px-Cricket_at_Lord%27s_ground%2C_1837.jpg',
+    tags: ['humility', 'wit', 'social-strategy', 'rapport-building', 'pretension-avoidance'],
+    relatedConcepts: ['british-humour', 'understatement', 'social-hierarchy'],
+    keyContributions: [
+      'Created cultural expectation of humility and self-mockery',
+      'Developed sophisticated verbal strategies for deflecting praise',
+      'Enabled social bonding through shared vulnerability and honesty',
+      'Influenced British comedy writing and performance styles',
+      'Provided social mechanism for avoiding tall poppy syndrome',
+      'Created culturally acceptable way to discuss personal achievements',
+      'Demonstrated British preference for earned rather than claimed status'
+    ],
+    culturalImpact: 'Self-deprecation became essential British social skill, influencing everything from job interviews to political speeches. It shaped British comedy exports and cultural identity.',
+    modernRelevance: 'Remains crucial for British social interaction. Modern social media and public speaking draw heavily on self-deprecating traditions.',
+    funFacts: [
+      'Often mistaken for genuine lack of confidence by foreign observers',
+      'Essential skill for British public figures and celebrities',
+      'Failure to self-deprecate seen as arrogance or "getting above yourself"',
+      'Regional variations - Northern self-deprecation more direct than Southern',
+      'British Olympic winners traditionally self-deprecate in interviews',
+      'Comedy careers built entirely on self-deprecating persona',
+      'Considered more socially acceptable than direct self-promotion'
+    ],
+    quotes: [
+      '"I\'m not very good at this sort of thing" - Standard British opening',
+      '"It was nothing really" - Traditional response to praise',
+      '"I probably got lucky" - Typical achievement attribution'
+    ]
+  },
+
+  {
+    id: 'deadpan-delivery',
+    label: 'Deadpan Delivery',
+    type: 'practice',
+    category: 'Comedy Techniques',
+    description: 'British mastery of delivering humour with completely straight face and emotionless expression',
+    detailedDescription: 'Deadpan delivery represents the British genius for presenting absurd, ridiculous, or shocking statements with complete emotional neutrality. This sophisticated comedy technique requires perfect timing and emotional control, creating humour through the contrast between content and delivery. It became a hallmark of British comedy exports.',
+    significance: 76,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Punch_-_July_9%2C_1887.jpg/400px-Punch_-_July_9%2C_1887.jpg',
+    tags: ['comedy-technique', 'timing', 'emotional-control', 'contrast-humour', 'performance'],
+    relatedConcepts: ['british-humour', 'understatement', 'performance-art'],
+    keyContributions: [
+      'Perfected art of emotionless comedy delivery for maximum impact',
+      'Created distinctly British approach to comic timing and restraint',
+      'Influenced global comedy through British television and film exports',
+      'Developed sophisticated audience expectations for subtle humour',
+      'Enabled political and social satire through apparently innocent delivery',
+      'Created comedy career opportunities for naturally reserved performers',
+      'Demonstrated British preference for understated rather than obvious comedy'
+    ],
+    culturalImpact: 'Deadpan became internationally recognised as British comedy signature. It influenced global comedy whilst reflecting British emotional restraint and preference for subtlety.',
+    modernRelevance: 'Essential element of British comedy exports. Influences stand-up comedy, television writing, and social media humour worldwide.',
+    funFacts: [
+      'Term originally described theatrical makeup creating expressionless appearance',
+      'British deadpan often mistaken for genuine confusion by foreign audiences',
+      'Requires sophisticated understanding of comic timing and audience psychology',
+      'Regional variations - Northern deadpan often drier than Southern',
+      'Essential skill for British comedians and comedy actors',
+      'Deadpan news reading became comedy subgenre',
+      'Social media created new platforms for deadpan humour delivery'
+    ],
+    quotes: [
+      '"I wasn\'t trying to be funny" - Classic deadpan deflection',
+      '"Dry as the Sahara" - Description of British deadpan style'
+    ]
+  },
+
+  {
+    id: 'bbc-comedy',
+    label: 'BBC Comedy Tradition',
+    type: 'institution',
+    category: 'Broadcasting Institution',
+    description: 'BBC\'s central role in developing, broadcasting, and exporting British comedy worldwide',
+    detailedDescription: 'The BBC created the institutional framework that enabled British comedy to flourish and reach global audiences. From radio comedies through television sitcoms to contemporary panel shows, the BBC nurtured distinctly British comic voices whilst maintaining quality standards that influenced international broadcasting.',
+    foundedYear: 1922,
+    location: 'London',
+    significance: 83,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC_Television_Centre.jpg/400px-BBC_Television_Centre.jpg',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/BBC_comedy',
+    tags: ['broadcasting', 'comedy-development', 'cultural-export', 'public-service', 'quality-control'],
+    relatedConcepts: ['british-humour', 'cultural-export', 'public-broadcasting'],
+    keyContributions: [
+      'Developed radio comedy formats later adopted worldwide',
+      'Created television sitcom template through classic British comedies',
+      'Exported British comedy globally through international sales',
+      'Maintained quality standards that elevated comedy as art form',
+      'Provided platform for alternative and experimental comedy',
+      'Created panel show format combining wit with current affairs',
+      'Supported comedy writers and performers through commissioning process'
+    ],
+    culturalImpact: 'BBC comedy shaped global television comedy formats whilst establishing British humour as international cultural export. It created shared cultural references across generations.',
+    modernRelevance: 'Continues producing innovative comedy whilst streaming services globalise British humour. BBC comedy formats remain international gold standard.',
+    funFacts: [
+      'Radio comedy shows like ITMA shaped wartime British morale',
+      'Fawlty Towers considered greatest British sitcom despite only 12 episodes',
+      'Panel shows like Have I Got News for You exported worldwide',
+      'BBC comedy writers often move to Hollywood with international success',
+      'Monty Python developed through BBC television platform',
+      'Radio 4 comedy shows maintain sophisticated audience expectations',
+      'BBC comedy commissioning influences independent production companies'
+    ],
+    quotes: [
+      '"The BBC doesn\'t make comedy - it curates it" - Comedy industry observer',
+      '"British comedy\'s global success starts with BBC quality standards" - Media analyst'
+    ]
+  },
+
+  {
+    id: 'banter-culture',
+    label: 'Banter Culture',
+    type: 'practice',
+    category: 'Social Interaction',
+    description: 'British art of playful verbal sparring and competitive wit in social groups',
+    detailedDescription: 'Banter represents the sophisticated British system of playful verbal competition that builds social bonds whilst establishing group hierarchies. Through quick wit, clever insults, and humorous observations, participants demonstrate intelligence, social awareness, and group belonging. It serves as both entertainment and social filtering mechanism.',
+    significance: 79,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Queue_at_a_London_bus_stop.jpg/400px-Queue_at_a_London_bus_stop.jpg',
+    tags: ['verbal-sparring', 'group-bonding', 'competitive-wit', 'social-hierarchy', 'inclusion'],
+    relatedConcepts: ['british-humour', 'social-interaction', 'group-dynamics'],
+    keyContributions: [
+      'Created sophisticated system of playful verbal competition',
+      'Established social bonding through shared humorous aggression',
+      'Developed cultural expectation of quick wit and clever responses',
+      'Enabled social hierarchy establishment through verbal skill demonstration',
+      'Influenced British workplace culture and team building',
+      'Created inclusion/exclusion mechanisms through humour comprehension',
+      'Provided culturally acceptable outlet for competitive impulses'
+    ],
+    culturalImpact: 'Banter became essential British social skill, influencing workplace dynamics, friendship groups, and media culture. It shaped expectations for British social interaction.',
+    modernRelevance: 'Central to British workplace culture and social media interaction. International recognition of British banter quality influences cultural exports.',
+    funFacts: [
+      'Good banter ability essential for British social acceptance',
+      'Regional variations - Northern banter often more direct than Southern',
+      'Workplace banter can build teams or create exclusion',
+      'Sports commentary elevated banter to professional entertainment',
+      'Social media created new platforms for banter performance',
+      'Banter ability more valued than physical appearance in many contexts',
+      'International students often struggle with British banter expectations'
+    ],
+    quotes: [
+      '"It\'s just banter" - Standard defence of humorous aggression',
+      '"He can\'t take banter" - Serious social criticism in British contexts',
+      '"Quality banter" - High praise for verbal skill'
+    ]
+  },
+
+  {
+    id: 'understatement',
+    label: 'British Understatement',
+    type: 'practice',
+    category: 'Communication Style',
+    description: 'Classic British technique of deliberately minimising situations, achievements, or emotions',
+    detailedDescription: 'British understatement represents the cultural practice of deliberately downplaying the significance, intensity, or importance of situations, achievements, or emotions. This sophisticated rhetorical device serves multiple social functions: maintaining modesty, avoiding appearing boastful, demonstrating emotional control, and often creating humorous effect through the gap between reality and description.',
+    significance: 84,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cricket_at_Lord%27s_ground%2C_1837.jpg/400px-Cricket_at_Lord%27s_ground%2C_1837.jpg',
+    tags: ['communication', 'modesty', 'emotional-control', 'rhetorical-device', 'social-strategy'],
+    relatedConcepts: ['british-humour', 'self-deprecation', 'diplomatic-language'],
+    keyContributions: [
+      'Created distinctive British communication style recognised globally',
+      'Developed cultural expectation of modest achievement description',
+      'Established diplomatic language for difficult situations',
+      'Influenced British military and political communication',
+      'Created humorous effect through deliberate minimisation',
+      'Enabled face-saving in embarrassing or difficult circumstances',
+      'Demonstrated British emotional reserve and self-control'
+    ],
+    culturalImpact: 'British understatement became internationally recognised communication style, influencing diplomatic language and cultural expectations about British emotional expression.',
+    modernRelevance: 'Continues as essential British communication tool in business, politics, and social interaction. Often misunderstood by non-British speakers as lack of enthusiasm.',
+    funFacts: [
+      'Titanic radio operator called sinking "a bit of trouble"',
+      'RAF pilots described fierce battles as "a bit of a show"',
+      'British weather described as "changeable" rather than terrible',
+      'Academic achievements minimised as "not too bad"',
+      'Major disasters often called "rather inconvenient"',
+      'Business failures described as "slight setbacks"',
+      'International observers often miss British meaning through understatement'
+    ],
+    quotes: [
+      '"We are not amused" - Queen Victoria\'s understated royal displeasure',
+      '"Rather a bother" - Typical British description of major problems',
+      '"Not too shabby" - High praise delivered through understatement',
+      '"A bit of a pickle" - Serious problem minimised through linguistic downplaying'
+    ]
+  },
+
   // Artifacts
   {
     id: 'magna-carta',
@@ -4457,6 +4771,523 @@ export const cultureEdges: CultureEdge[] = [
     type: 'influenced',
     period: '1800-1850',
     evidence: ['Military logistics', 'Steam transport', 'Industrial military power']
+  },
+
+  // British Humour Culture Relationships
+  {
+    id: 'monty-python-british-humour',
+    source: 'monty-python',
+    target: 'british-humour',
+    relationship: 'revolutionised',
+    description: 'Monty Python revolutionised British humour through absurdist comedy and intellectual silliness',
+    strength: 9,
+    type: 'developed',
+    period: '1969-1983',
+    evidence: ['Flying Circus innovation', 'Absurdist tradition', 'International comedy influence']
+  },
+
+  {
+    id: 'monty-python-cambridge',
+    source: 'monty-python',
+    target: 'cambridge-university',
+    relationship: 'originated-from',
+    description: 'Several Monty Python members met at Cambridge, bringing university wit to popular comedy',
+    strength: 8,
+    type: 'influenced',
+    period: '1960s',
+    evidence: ['Cambridge Footlights', 'University comedy tradition', 'Academic humour']
+  },
+
+  {
+    id: 'monty-python-oxford',
+    source: 'monty-python',
+    target: 'oxford-university',
+    relationship: 'originated-from',
+    description: 'Oxford graduates in Monty Python brought academic irreverence to mainstream comedy',
+    strength: 8,
+    type: 'influenced',
+    period: '1960s',
+    evidence: ['Oxford comedy societies', 'Academic training', 'Intellectual comedy']
+  },
+
+  {
+    id: 'monty-python-bbc',
+    source: 'monty-python',
+    target: 'bbc',
+    relationship: 'launched-through',
+    description: 'BBC provided platform for Monty Python to reach mainstream audiences',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1969-1974',
+    evidence: ['Flying Circus series', 'BBC2 broadcasts', 'Public service comedy']
+  },
+
+  {
+    id: 'monty-python-shakespeare',
+    source: 'monty-python',
+    target: 'shakespeare',
+    relationship: 'parodied',
+    description: 'Python frequently parodied Shakespeare and classical British cultural forms',
+    strength: 6,
+    type: 'influenced',
+    period: '1969-1983',
+    evidence: ['Literary parodies', 'Classical references', 'Cultural subversion']
+  },
+
+  {
+    id: 'piss-taking-british-humour',
+    source: 'piss-taking',
+    target: 'british-humour',
+    relationship: 'defined',
+    description: 'Piss-taking culture defined fundamental characteristics of British humour',
+    strength: 9,
+    type: 'embodied',
+    period: 'Medieval-present',
+    evidence: ['Social mockery tradition', 'Deflation humour', 'Pretension busting']
+  },
+
+  {
+    id: 'piss-taking-british-army',
+    source: 'piss-taking',
+    target: 'british-army',
+    relationship: 'strengthened',
+    description: 'Military piss-taking traditions built unit cohesion and resilience',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1700-present',
+    evidence: ['Military banter', 'Unit bonding', 'Morale building']
+  },
+
+  {
+    id: 'piss-taking-queuing',
+    source: 'piss-taking',
+    target: 'queuing',
+    relationship: 'accompanied',
+    description: 'Piss-taking often occurs during queuing, making waiting more bearable',
+    strength: 7,
+    type: 'influenced',
+    period: '1800-present',
+    evidence: ['Queue entertainment', 'Social interaction', 'Patience maintenance']
+  },
+
+  {
+    id: 'piss-taking-fair-play',
+    source: 'piss-taking',
+    target: 'fair-play',
+    relationship: 'enforced',
+    description: 'Piss-taking enforces fair play by mocking those who break social rules',
+    strength: 8,
+    type: 'embodied',
+    period: 'Medieval-present',
+    evidence: ['Social enforcement', 'Rule mockery', 'Behaviour correction']
+  },
+
+  {
+    id: 'private-eye-bbc',
+    source: 'private-eye',
+    target: 'bbc',
+    relationship: 'satirised',
+    description: 'Private Eye regularly satirises BBC whilst respecting its cultural importance',
+    strength: 7,
+    type: 'influenced',
+    period: '1961-present',
+    evidence: ['Media satire', 'BBC mockery', 'Institutional criticism']
+  },
+
+  {
+    id: 'private-eye-parliament',
+    source: 'private-eye',
+    target: 'parliament',
+    relationship: 'scrutinised',
+    description: 'Private Eye scrutinises Parliament through satirical investigative journalism',
+    strength: 8,
+    type: 'influenced',
+    period: '1961-present',
+    evidence: ['Political satire', 'Parliamentary mockery', 'Democratic accountability']
+  },
+
+  {
+    id: 'private-eye-freedom-of-speech',
+    source: 'private-eye',
+    target: 'freedom-of-speech',
+    relationship: 'exercised',
+    description: 'Private Eye demonstrates press freedom through fearless satirical commentary',
+    strength: 8,
+    type: 'embodied',
+    period: '1961-present',
+    evidence: ['Press freedom', 'Satirical liberty', 'Free speech defence']
+  },
+
+  {
+    id: 'private-eye-oxford',
+    source: 'private-eye',
+    target: 'oxford-university',
+    relationship: 'founded-by',
+    description: 'Private Eye was founded by Oxford graduates bringing university satirical traditions to mass market',
+    strength: 7,
+    type: 'influenced',
+    period: '1961',
+    evidence: ['Oxford founders', 'University satire', 'Academic irreverence']
+  },
+
+  {
+    id: 'self-deprecation-british-humour',
+    source: 'self-deprecation',
+    target: 'british-humour',
+    relationship: 'epitomised',
+    description: 'Self-deprecation epitomises the highest form of British wit and social intelligence',
+    strength: 9,
+    type: 'embodied',
+    period: '1600-present',
+    evidence: ['Wit tradition', 'Social intelligence', 'Humility humour']
+  },
+
+  {
+    id: 'self-deprecation-understatement',
+    source: 'self-deprecation',
+    target: 'understatement',
+    relationship: 'complemented',
+    description: 'Self-deprecation and understatement work together as British communication strategies',
+    strength: 9,
+    type: 'influenced',
+    period: '1600-present',
+    evidence: ['Communication style', 'Social strategy', 'Cultural values']
+  },
+
+  {
+    id: 'self-deprecation-churchill',
+    source: 'self-deprecation',
+    target: 'churchill',
+    relationship: 'employed-by',
+    description: 'Churchill used self-deprecation strategically in speeches and public appearances',
+    strength: 7,
+    type: 'embodied',
+    period: '1900-1965',
+    evidence: ['Political humour', 'Speech techniques', 'Public persona']
+  },
+
+  {
+    id: 'deadpan-delivery-british-humour',
+    source: 'deadpan-delivery',
+    target: 'british-humour',
+    relationship: 'characterised',
+    description: 'Deadpan delivery became characteristic signature of British comedy style',
+    strength: 8,
+    type: 'embodied',
+    period: '1900-present',
+    evidence: ['Comedy signature', 'Performance style', 'Cultural export']
+  },
+
+  {
+    id: 'deadpan-delivery-monty-python',
+    source: 'deadpan-delivery',
+    target: 'monty-python',
+    relationship: 'mastered-by',
+    description: 'Monty Python mastered deadpan delivery in their most memorable sketches',
+    strength: 8,
+    type: 'embodied',
+    period: '1969-1983',
+    evidence: ['Dead Parrot sketch', 'Ministry of Silly Walks', 'Absurdist delivery']
+  },
+
+  {
+    id: 'bbc-comedy-british-humour',
+    source: 'bbc-comedy',
+    target: 'british-humour',
+    relationship: 'institutionalised',
+    description: 'BBC comedy institutionalised and exported British humour globally',
+    strength: 9,
+    type: 'institutionalized',
+    period: '1922-present',
+    evidence: ['Comedy broadcasting', 'Cultural export', 'Quality standards']
+  },
+
+  {
+    id: 'bbc-comedy-bbc',
+    source: 'bbc-comedy',
+    target: 'bbc',
+    relationship: 'part-of',
+    description: 'BBC comedy represents the corporation\'s cultural and entertainment mission',
+    strength: 10,
+    type: 'embodied',
+    period: '1922-present',
+    evidence: ['Broadcasting mission', 'Cultural programming', 'Public service entertainment']
+  },
+
+  {
+    id: 'bbc-comedy-monty-python',
+    source: 'bbc-comedy',
+    target: 'monty-python',
+    relationship: 'nurtured',
+    description: 'BBC comedy tradition nurtured and broadcast Monty Python to global audiences',
+    strength: 9,
+    type: 'created',
+    period: '1969-1974',
+    evidence: ['Comedy commissioning', 'Platform provision', 'Creative support']
+  },
+
+  {
+    id: 'banter-culture-british-humour',
+    source: 'banter-culture',
+    target: 'british-humour',
+    relationship: 'expressed',
+    description: 'Banter culture expresses British humour in everyday social interactions',
+    strength: 9,
+    type: 'embodied',
+    period: '1700-present',
+    evidence: ['Social interaction', 'Daily humour', 'Workplace culture']
+  },
+
+  {
+    id: 'banter-culture-piss-taking',
+    source: 'banter-culture',
+    target: 'piss-taking',
+    relationship: 'incorporated',
+    description: 'Banter culture incorporated piss-taking as essential social skill',
+    strength: 9,
+    type: 'embodied',
+    period: '1700-present',
+    evidence: ['Social mockery', 'Group dynamics', 'Verbal competition']
+  },
+
+  {
+    id: 'banter-culture-football-culture',
+    source: 'banter-culture',
+    target: 'football-culture',
+    relationship: 'permeated',
+    description: 'Football culture embraced banter as essential supporter and player interaction',
+    strength: 8,
+    type: 'influenced',
+    period: '1880-present',
+    evidence: ['Supporter culture', 'Dressing room banter', 'Football humour']
+  },
+
+  {
+    id: 'shakespeare-british-humour-expanded',
+    source: 'shakespeare',
+    target: 'piss-taking',
+    relationship: 'pioneered',
+    description: 'Shakespeare\'s fools and comic characters pioneered British tradition of deflating authority',
+    strength: 7,
+    type: 'influenced',
+    period: '1590-1616',
+    evidence: ['Fool characters', 'Authority mockery', 'Comic deflation']
+  },
+
+  {
+    id: 'chaucer-piss-taking',
+    source: 'chaucer',
+    target: 'piss-taking',
+    relationship: 'established',
+    description: 'Chaucer\'s satirical character portraits established British tradition of social mockery',
+    strength: 7,
+    type: 'influenced',
+    period: '1380-1400',
+    evidence: ['Social satire', 'Character mockery', 'Class deflation']
+  },
+
+  {
+    id: 'austen-self-deprecation',
+    source: 'austen',
+    target: 'self-deprecation',
+    relationship: 'perfected',
+    description: 'Austen perfected literary self-deprecation through ironic narrative voice',
+    strength: 8,
+    type: 'developed',
+    period: '1790-1817',
+    evidence: ['Ironic narration', 'Character self-mockery', 'Social deflation']
+  },
+
+  {
+    id: 'dickens-banter-culture',
+    source: 'dickens',
+    target: 'banter-culture',
+    relationship: 'depicted',
+    description: 'Dickens depicted working-class banter culture in his novels',
+    strength: 6,
+    type: 'influenced',
+    period: '1830-1870',
+    evidence: ['Character dialogue', 'Working-class humour', 'Social interaction']
+  },
+
+  {
+    id: 'burns-deadpan-delivery',
+    source: 'burns',
+    target: 'deadpan-delivery',
+    relationship: 'anticipated',
+    description: 'Burns\' dry Scottish wit anticipated deadpan delivery traditions',
+    strength: 6,
+    type: 'influenced',
+    period: '1780-1796',
+    evidence: ['Scottish wit', 'Dry humour', 'Understated delivery']
+  },
+
+  {
+    id: 'orwell-private-eye',
+    source: 'orwell',
+    target: 'private-eye',
+    relationship: 'inspired',
+    description: 'Orwell\'s satirical journalism and political critique inspired Private Eye\'s approach',
+    strength: 7,
+    type: 'influenced',
+    period: '1961-present',
+    evidence: ['Political satire', 'Establishment critique', 'Satirical journalism']
+  },
+
+  {
+    id: 'tea-culture-banter',
+    source: 'tea-culture',
+    target: 'banter-culture',
+    relationship: 'facilitated',
+    description: 'Tea breaks provided natural occasions for workplace and social banter',
+    strength: 7,
+    type: 'influenced',
+    period: '1700-present',
+    evidence: ['Tea break conversations', 'Social interaction', 'Workplace culture']
+  },
+
+  {
+    id: 'cricket-tradition-banter',
+    source: 'cricket-tradition',
+    target: 'banter-culture',
+    relationship: 'encouraged',
+    description: 'Cricket encouraged sophisticated banter between players and spectators',
+    strength: 8,
+    type: 'influenced',
+    period: '1700-present',
+    evidence: ['Cricket commentary', 'Player banter', 'Spectator wit']
+  },
+
+  {
+    id: 'village-green-banter',
+    source: 'village-green',
+    target: 'banter-culture',
+    relationship: 'hosted',
+    description: 'Village greens provided communal space where local banter culture flourished',
+    strength: 7,
+    type: 'influenced',
+    period: '1000-present',
+    evidence: ['Community interaction', 'Local humour', 'Social gathering']
+  },
+
+  {
+    id: 'monarchy-institution-piss-taking',
+    source: 'monarchy-institution',
+    target: 'piss-taking',
+    relationship: 'accepted',
+    description: 'British monarchy accepted gentle piss-taking as part of democratic culture',
+    strength: 6,
+    type: 'influenced',
+    period: '1900-present',
+    evidence: ['Royal tolerance', 'Satirical acceptance', 'Democratic humour']
+  },
+
+  {
+    id: 'parliament-banter',
+    source: 'parliament',
+    target: 'banter-culture',
+    relationship: 'institutionalised',
+    description: 'Parliamentary procedure institutionalised political banter through question time',
+    strength: 8,
+    type: 'institutionalized',
+    period: '1700-present',
+    evidence: ['Parliamentary wit', 'Question Time banter', 'Political humour']
+  },
+
+  {
+    id: 'self-deprecation-wellington',
+    source: 'self-deprecation',
+    target: 'wellington',
+    relationship: 'employed-by',
+    description: 'Wellington famously employed self-deprecation about his military and political achievements',
+    strength: 6,
+    type: 'embodied',
+    period: '1800-1852',
+    evidence: ['Military modesty', 'Political understatement', 'British reserve']
+  },
+
+  {
+    id: 'deadpan-delivery-nelson',
+    source: 'deadpan-delivery',
+    target: 'nelson',
+    relationship: 'anticipated-by',
+    description: 'Nelson\'s understated naval communications anticipated deadpan delivery traditions',
+    strength: 5,
+    type: 'influenced',
+    period: '1770-1805',
+    evidence: ['Naval understatement', 'Signal wit', 'Military humour']
+  },
+
+  {
+    id: 'banter-culture-brighton-pier',
+    source: 'banter-culture',
+    target: 'brighton-pier',
+    relationship: 'flourished-at',
+    description: 'Seaside pier culture enabled holiday banter and entertainment interactions',
+    strength: 6,
+    type: 'influenced',
+    period: '1899-present',
+    evidence: ['Holiday humour', 'Seaside entertainment', 'Social interaction']
+  },
+
+  {
+    id: 'punch-and-judy-piss-taking',
+    source: 'punch-and-judy',
+    target: 'piss-taking',
+    relationship: 'embodied',
+    description: 'Punch and Judy shows embodied anarchic piss-taking of authority figures',
+    strength: 8,
+    type: 'embodied',
+    period: '1662-present',
+    evidence: ['Authority mockery', 'Anarchic humour', 'Traditional satire']
+  },
+
+  {
+    id: 'may-day-banter',
+    source: 'may-day-celebrations',
+    target: 'banter-culture',
+    relationship: 'encouraged',
+    description: 'May Day festivities encouraged community banter and social interaction',
+    strength: 6,
+    type: 'influenced',
+    period: '500-present',
+    evidence: ['Festival humour', 'Community interaction', 'Celebratory banter']
+  },
+
+  {
+    id: 'pigeon-racing-deadpan',
+    source: 'pigeon-racing',
+    target: 'deadpan-delivery',
+    relationship: 'developed',
+    description: 'Pigeon racing culture developed deadpan delivery around understated expertise',
+    strength: 6,
+    type: 'influenced',
+    period: '1880-present',
+    evidence: ['Working-class wit', 'Understated expertise', 'Dry humour']
+  },
+
+  {
+    id: 'gardening-culture-banter',
+    source: 'gardening-culture',
+    target: 'banter-culture',
+    relationship: 'encouraged',
+    description: 'Gardening culture encouraged competitive banter over vegetables and flowers',
+    strength: 7,
+    type: 'influenced',
+    period: '1800-present',
+    evidence: ['Garden competition', 'Horticultural wit', 'Allotment banter']
+  },
+
+  {
+    id: 'sas-deadpan',
+    source: 'sas',
+    target: 'deadpan-delivery',
+    relationship: 'epitomised',
+    description: 'SAS culture epitomised British military deadpan delivery and understatement',
+    strength: 7,
+    type: 'embodied',
+    period: '1941-present',
+    evidence: ['Military understatement', 'Professional reserve', 'Operational discretion']
   }
 ]
 

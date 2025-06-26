@@ -1,12 +1,25 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import cytoscape, { Core } from 'cytoscape'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, ExternalLink, Maximize2 } from 'lucide-react'
-import { cultureNodes, cultureEdges, searchNodes, getNodeById, CultureNode, CultureEdge } from '../data/cultureGraph'
+import { Search, X, ExternalLink, Maximize2, Filter, ChevronDown, ChevronUp, Users, Building2, Lightbulb, Calendar, MapPin } from 'lucide-react'
+import { cultureNodes, cultureEdges, getNodeById, CultureNode, CultureEdge } from '../data/cultureGraph'
 
 interface CultureGraphProps {
   selectedNodeId?: string | null
   onNodeSelect?: (nodeId: string | null) => void
+}
+
+interface SearchResult extends CultureNode {
+  score: number
+  matchType: 'name' | 'description' | 'tag' | 'contribution' | 'fact'
+}
+
+interface FilterState {
+  types: string[]
+  periods: string[]
+  regions: string[]
+  significance: [number, number]
+  searchQuery: string
 }
 
 const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: CultureGraphProps) => {
@@ -15,11 +28,245 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
   const [selectedNode, setSelectedNode] = useState<CultureNode | null>(null)
   const [selectedEdge, setSelectedEdge] = useState<CultureEdge | null>(null)
   const [searchQuery, setSearchQuery] = useState('')
-  const [searchResults, setSearchResults] = useState<CultureNode[]>([])
+  const [searchResults, setSearchResults] = useState<SearchResult[]>([])
   const [showSearch, setShowSearch] = useState(false)
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false)
   const [showNodePanel, setShowNodePanel] = useState(false)
   const [showEdgePanel, setShowEdgePanel] = useState(false)
-  const [filterType, setFilterType] = useState<string>('all')
+  const [filteredNodeCount, setFilteredNodeCount] = useState(cultureNodes.length)
+  
+  const [filters, setFilters] = useState<FilterState>({
+    types: [],
+    periods: [],
+    regions: [],
+    significance: [0, 100],
+    searchQuery: ''
+  })
+
+  // Enhanced search with fuzzy matching and scoring
+  const enhancedSearch = useCallback((query: string): SearchResult[] => {
+    if (!query.trim()) return []
+
+    const lowerQuery = query.toLowerCase()
+    const results: SearchResult[] = []
+
+    cultureNodes.forEach(node => {
+      let score = 0
+      let matchType: SearchResult['matchType'] = 'description'
+
+      // Exact name match (highest priority)
+      if (node.label.toLowerCase() === lowerQuery) {
+        score = 100
+        matchType = 'name'
+      }
+      // Name starts with query
+      else if (node.label.toLowerCase().startsWith(lowerQuery)) {
+        score = 90
+        matchType = 'name'
+      }
+      // Name contains query
+      else if (node.label.toLowerCase().includes(lowerQuery)) {
+        score = 80
+        matchType = 'name'
+      }
+      // Tag exact match
+      else if (node.tags.some(tag => tag.toLowerCase() === lowerQuery)) {
+        score = 70
+        matchType = 'tag'
+      }
+      // Tag contains query
+      else if (node.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) {
+        score = 60
+        matchType = 'tag'
+      }
+      // Description contains query
+      else if (node.description.toLowerCase().includes(lowerQuery)) {
+        score = 50
+        matchType = 'description'
+      }
+      // Detailed description contains query
+      else if (node.detailedDescription.toLowerCase().includes(lowerQuery)) {
+        score = 40
+        matchType = 'description'
+      }
+      // Key contributions contain query
+      else if (node.keyContributions?.some(contrib => contrib.toLowerCase().includes(lowerQuery))) {
+        score = 30
+        matchType = 'contribution'
+      }
+      // Fun facts contain query
+      else if (node.funFacts?.some(fact => fact.toLowerCase().includes(lowerQuery))) {
+        score = 20
+        matchType = 'fact'
+      }
+
+      if (score > 0) {
+        results.push({ ...node, score, matchType })
+      }
+    })
+
+    return results.sort((a, b) => b.score - a.score).slice(0, 10)
+  }, [])
+
+  // Handle search with debouncing
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      if (searchQuery.trim()) {
+        const results = enhancedSearch(searchQuery)
+        setSearchResults(results)
+      } else {
+        setSearchResults([])
+      }
+    }, 300)
+
+    return () => clearTimeout(timeoutId)
+  }, [searchQuery, enhancedSearch])
+
+  // Get unique filter options
+  const getFilterOptions = useCallback(() => {
+    const types = [...new Set(cultureNodes.map(node => node.type))]
+    const periods = [...new Set(cultureNodes.map(node => {
+      if (node.birthYear) {
+        if (node.birthYear < 1066) return 'Ancient & Anglo-Saxon'
+        if (node.birthYear < 1485) return 'Medieval'
+        if (node.birthYear < 1603) return 'Tudor'
+        if (node.birthYear < 1714) return 'Stuart'
+        if (node.birthYear < 1837) return 'Georgian'
+        if (node.birthYear < 1901) return 'Victorian'
+        if (node.birthYear < 1945) return 'Early Modern'
+        return 'Contemporary'
+      }
+      if (node.foundedYear) {
+        if (node.foundedYear < 1066) return 'Ancient & Anglo-Saxon'
+        if (node.foundedYear < 1485) return 'Medieval'
+        if (node.foundedYear < 1603) return 'Tudor'
+        if (node.foundedYear < 1714) return 'Stuart'
+        if (node.foundedYear < 1837) return 'Georgian'
+        if (node.foundedYear < 1901) return 'Victorian'
+        if (node.foundedYear < 1945) return 'Early Modern'
+        return 'Contemporary'
+      }
+      return 'Unknown'
+    }).filter(Boolean))]
+    
+    const regions = [...new Set(cultureNodes.map(node => {
+      if (!node.location) return 'Unknown'
+      if (node.location.includes('Scotland') || node.location.includes('Edinburgh') || node.location.includes('Glasgow')) return 'Scotland'
+      if (node.location.includes('Wales') || node.location.includes('Cardiff') || node.location.includes('Swansea')) return 'Wales'
+      if (node.location.includes('Ireland') || node.location.includes('Belfast') || node.location.includes('Dublin')) return 'Ireland'
+      return 'England'
+    }))]
+
+    return { types, periods, regions }
+  }, [])
+
+  const { types: typeOptions, periods: periodOptions, regions: regionOptions } = getFilterOptions()
+
+  // Apply filters to graph
+  const applyFilters = useCallback(() => {
+    if (!cyRef.current) return
+
+    let visibleNodes = cultureNodes
+
+    // Apply type filter
+    if (filters.types.length > 0) {
+      visibleNodes = visibleNodes.filter(node => filters.types.includes(node.type))
+    }
+
+    // Apply period filter
+    if (filters.periods.length > 0) {
+      visibleNodes = visibleNodes.filter(node => {
+        const year = node.birthYear || node.foundedYear
+        if (!year) return filters.periods.includes('Unknown')
+        
+        let period = 'Contemporary'
+        if (year < 1066) period = 'Ancient & Anglo-Saxon'
+        else if (year < 1485) period = 'Medieval'
+        else if (year < 1603) period = 'Tudor'
+        else if (year < 1714) period = 'Stuart'
+        else if (year < 1837) period = 'Georgian'
+        else if (year < 1901) period = 'Victorian'
+        else if (year < 1945) period = 'Early Modern'
+        
+        return filters.periods.includes(period)
+      })
+    }
+
+    // Apply region filter
+    if (filters.regions.length > 0) {
+      visibleNodes = visibleNodes.filter(node => {
+        if (!node.location) return filters.regions.includes('Unknown')
+        
+        let region = 'England'
+        if (node.location.includes('Scotland') || node.location.includes('Edinburgh') || node.location.includes('Glasgow')) region = 'Scotland'
+        else if (node.location.includes('Wales') || node.location.includes('Cardiff') || node.location.includes('Swansea')) region = 'Wales'
+        else if (node.location.includes('Ireland') || node.location.includes('Belfast') || node.location.includes('Dublin')) region = 'Ireland'
+        
+        return filters.regions.includes(region)
+      })
+    }
+
+    // Apply significance filter
+    visibleNodes = visibleNodes.filter(node => 
+      node.significance >= filters.significance[0] && 
+      node.significance <= filters.significance[1]
+    )
+
+    // Apply search filter
+    if (filters.searchQuery.trim()) {
+      const searchResults = enhancedSearch(filters.searchQuery)
+      const searchIds = new Set(searchResults.map(r => r.id))
+      visibleNodes = visibleNodes.filter(node => searchIds.has(node.id))
+    }
+
+    const visibleNodeIds = new Set(visibleNodes.map(node => node.id))
+    setFilteredNodeCount(visibleNodes.length)
+
+    // Show/hide nodes
+    cyRef.current.nodes().style('display', (ele: any) => 
+      visibleNodeIds.has(ele.data('id')) ? 'element' : 'none'
+    )
+
+    // Show/hide edges based on visible nodes
+    cyRef.current.edges().style('display', (ele: any) => {
+      const source = ele.data('source')
+      const target = ele.data('target')
+      return visibleNodeIds.has(source) && visibleNodeIds.has(target) ? 'element' : 'none'
+    })
+
+    // Fit view to visible elements
+    const visibleElements = cyRef.current.elements(':visible')
+    if (visibleElements.length > 0) {
+      cyRef.current.fit(visibleElements, 50)
+    }
+  }, [filters, enhancedSearch])
+
+  // Update filters
+  const updateFilter = useCallback((key: keyof FilterState, value: any) => {
+    setFilters(prev => ({ ...prev, [key]: value }))
+  }, [])
+
+  // Clear all filters
+  const clearAllFilters = useCallback(() => {
+    setFilters({
+      types: [],
+      periods: [],
+      regions: [],
+      significance: [0, 100],
+      searchQuery: ''
+    })
+    setSearchQuery('')
+  }, [])
+
+  // Toggle filter value
+  const toggleFilterValue = useCallback((filterType: 'types' | 'periods' | 'regions', value: string) => {
+    setFilters(prev => ({
+      ...prev,
+      [filterType]: prev[filterType].includes(value)
+        ? prev[filterType].filter(v => v !== value)
+        : [...prev[filterType], value]
+    }))
+  }, [])
 
   // Color mapping for node types
   const getNodeColor = (node: CultureNode) => {
@@ -33,6 +280,20 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
       artifact: '#795548'     // Brown
     }
     return colors[node.type] || '#666666'
+  }
+
+  // Get icon for node type
+  const getTypeIcon = (type: string) => {
+    switch (type) {
+      case 'person': return Users
+      case 'institution': return Building2
+      case 'concept': return Lightbulb
+      case 'practice': return Calendar
+      case 'event': return Calendar
+      case 'place': return MapPin
+      case 'artifact': return Building2
+      default: return Lightbulb
+    }
   }
 
   // Initialize Cytoscape
@@ -131,7 +392,6 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
         animate: true,
         animationDuration: 1000,
         randomize: false,
-        // Better spacing parameters
         idealEdgeLength: 80,
         nodeOverlap: 10,
         refresh: 20,
@@ -218,36 +478,10 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
     }
   }, [onNodeSelect])
 
-  // Handle search
-  const handleSearch = useCallback((query: string) => {
-    setSearchQuery(query)
-    if (query.trim()) {
-      const results = searchNodes(query)
-      setSearchResults(results)
-    } else {
-      setSearchResults([])
-    }
-  }, [])
-
-  // Filter nodes by type
-  const handleFilter = useCallback((type: string) => {
-    setFilterType(type)
-    if (!cyRef.current) return
-
-    if (type === 'all') {
-      cyRef.current.elements().style('display', 'element')
-    } else {
-      cyRef.current.nodes().style('display', (ele: any) => 
-        ele.data('type') === type ? 'element' : 'none'
-      )
-      // Also hide edges where both nodes are hidden
-      cyRef.current.edges().style('display', (ele: any) => {
-        const source = cyRef.current!.getElementById(ele.data('source'))
-        const target = cyRef.current!.getElementById(ele.data('target'))
-        return source.style('display') !== 'none' && target.style('display') !== 'none' ? 'element' : 'none'
-      })
-    }
-  }, [])
+  // Apply filters when they change
+  useEffect(() => {
+    applyFilters()
+  }, [applyFilters])
 
   // Navigate to search result
   const navigateToNode = (nodeId: string) => {
@@ -262,36 +496,38 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
     setShowSearch(false)
   }
 
+  const activeFilterCount = filters.types.length + filters.periods.length + filters.regions.length + (filters.searchQuery ? 1 : 0)
+
   return (
     <div className="relative w-full h-full">
-      {/* Controls */}
+      {/* Enhanced Controls */}
       <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
         {/* Search Button */}
         <button
           onClick={() => setShowSearch(!showSearch)}
-          className="btn-british btn-primary p-2 rounded-lg shadow-lg"
+          className={`btn-british p-3 rounded-lg shadow-lg transition-colors ${
+            showSearch || searchQuery ? 'btn-primary' : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
+          }`}
           title="Search nodes"
         >
           <Search size={20} />
         </button>
 
-        {/* Filter Dropdown */}
-        <div className="relative">
-          <select
-            value={filterType}
-            onChange={(e) => handleFilter(e.target.value)}
-            className="btn-british bg-white border border-gray-300 rounded-lg p-2 shadow-lg text-sm"
-          >
-            <option value="all">All Types</option>
-            <option value="person">People</option>
-            <option value="institution">Institutions</option>
-            <option value="concept">Concepts</option>
-            <option value="practice">Practices</option>
-            <option value="event">Events</option>
-            <option value="place">Places</option>
-            <option value="artifact">Artifacts</option>
-          </select>
-        </div>
+        {/* Advanced Filters Button */}
+        <button
+          onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
+          className={`btn-british p-3 rounded-lg shadow-lg transition-colors relative ${
+            showAdvancedFilters || activeFilterCount > 0 ? 'btn-primary' : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'
+          }`}
+          title="Advanced filters"
+        >
+          <Filter size={20} />
+          {activeFilterCount > 0 && (
+            <span className="absolute -top-2 -right-2 bg-union-jack-red text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+              {activeFilterCount}
+            </span>
+          )}
+        </button>
 
         {/* Reset View Button */}
         <button
@@ -301,21 +537,32 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
               cyRef.current.elements().removeClass('highlighted dimmed')
             }
           }}
-          className="btn-british btn-secondary p-2 rounded-lg shadow-lg"
+          className="btn-british btn-secondary p-3 rounded-lg shadow-lg"
           title="Reset view"
         >
           <Maximize2 size={20} />
         </button>
+
+        {/* Clear Filters Button */}
+        {activeFilterCount > 0 && (
+          <button
+            onClick={clearAllFilters}
+            className="btn-british bg-union-jack-red text-white hover:bg-red-700 p-3 rounded-lg shadow-lg"
+            title="Clear all filters"
+          >
+            <X size={20} />
+          </button>
+        )}
       </div>
 
-      {/* Search Panel */}
+      {/* Enhanced Search Panel */}
       <AnimatePresence>
         {showSearch && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-4 left-20 z-20 bg-white rounded-lg shadow-xl p-4 w-80"
+            className="absolute top-4 left-20 z-20 bg-white rounded-lg shadow-xl p-4 w-96 max-h-96 overflow-hidden flex flex-col"
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="font-semibold text-british-racing-green">Search Culture Graph</h3>
@@ -327,39 +574,243 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
               </button>
             </div>
             
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => handleSearch(e.target.value)}
-              placeholder="Search nodes, descriptions, tags..."
-              className="w-full p-2 border border-gray-300 rounded-lg mb-3"
-              autoFocus
-            />
+            <div className="relative mb-3">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value)
+                  updateFilter('searchQuery', e.target.value)
+                }}
+                placeholder="Search nodes, descriptions, tags..."
+                className="w-full p-3 pr-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-union-jack-blue focus:border-transparent"
+                autoFocus
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => {
+                    setSearchQuery('')
+                    updateFilter('searchQuery', '')
+                  }}
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                >
+                  <X size={16} />
+                </button>
+              )}
+            </div>
             
-            {searchResults.length > 0 && (
-              <div className="max-h-60 overflow-y-auto">
-                <p className="text-sm text-gray-600 mb-2">
-                  {searchResults.length} result{searchResults.length !== 1 ? 's' : ''}
-                </p>
-                {searchResults.map(node => (
-                  <div
-                    key={node.id}
-                    onClick={() => navigateToNode(node.id)}
-                    className="p-2 hover:bg-gray-100 cursor-pointer rounded border-b border-gray-100 last:border-b-0"
-                  >
-                    <div className="font-medium text-british-racing-green">
-                      {node.label}
-                    </div>
-                    <div className="text-sm text-gray-600">
-                      {node.category} • {node.type}
-                    </div>
-                    <div className="text-xs text-gray-500 mt-1">
-                      {node.description}
-                    </div>
+            <div className="flex-1 overflow-y-auto">
+              {searchResults.length > 0 && (
+                <div>
+                  <p className="text-sm text-gray-600 mb-2">
+                    {searchResults.length} result{searchResults.length !== 1 ? 's' : ''}
+                  </p>
+                  {searchResults.map(node => {
+                    const IconComponent = getTypeIcon(node.type)
+                    return (
+                      <div
+                        key={node.id}
+                        onClick={() => navigateToNode(node.id)}
+                        className="p-3 hover:bg-gray-100 cursor-pointer rounded border-b border-gray-100 last:border-b-0"
+                      >
+                        <div className="flex items-start space-x-3">
+                          <div className="flex-shrink-0">
+                            {node.image ? (
+                              <img
+                                src={node.image}
+                                alt={node.label}
+                                className="w-10 h-10 rounded-lg object-cover"
+                              />
+                            ) : (
+                              <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
+                                <IconComponent size={16} className="text-gray-600" />
+                              </div>
+                            )}
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="font-medium text-british-racing-green">
+                              {node.label}
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              {node.category} • {node.type}
+                            </div>
+                            <div className="text-xs text-gray-500 mt-1 line-clamp-2">
+                              {node.description}
+                            </div>
+                            <div className="flex items-center mt-1">
+                              <span className="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded">
+                                {node.matchType} match
+                              </span>
+                              <span className="text-xs text-gray-400 ml-2">
+                                Score: {node.score}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
+              
+              {searchQuery && searchResults.length === 0 && (
+                <div className="text-center py-6">
+                  <div className="text-gray-400 mb-2">
+                    <Search size={24} className="mx-auto" />
                   </div>
-                ))}
+                  <p className="text-sm text-gray-600">No results found for "{searchQuery}"</p>
+                  <p className="text-xs text-gray-500 mt-1">Try different keywords or check spelling</p>
+                </div>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Advanced Filters Panel */}
+      <AnimatePresence>
+        {showAdvancedFilters && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="absolute top-4 left-20 z-20 bg-white rounded-lg shadow-xl p-4 w-80 max-h-96 overflow-hidden flex flex-col"
+          >
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="font-semibold text-british-racing-green">Advanced Filters</h3>
+              <div className="flex items-center space-x-2">
+                <span className="text-xs text-gray-500">
+                  {filteredNodeCount} / {cultureNodes.length} nodes
+                </span>
+                <button
+                  onClick={() => setShowAdvancedFilters(false)}
+                  className="text-gray-500 hover:text-gray-700"
+                >
+                  <X size={20} />
+                </button>
               </div>
-            )}
+            </div>
+
+            <div className="flex-1 overflow-y-auto space-y-4">
+              {/* Type Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Type ({filters.types.length} selected)
+                </label>
+                <div className="grid grid-cols-2 gap-1">
+                  {typeOptions.map(type => {
+                    const IconComponent = getTypeIcon(type)
+                    const isSelected = filters.types.includes(type)
+                    return (
+                      <button
+                        key={type}
+                        onClick={() => toggleFilterValue('types', type)}
+                        className={`flex items-center space-x-2 p-2 rounded text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-union-jack-blue text-white' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                      >
+                        <IconComponent size={14} />
+                        <span className="capitalize">{type}</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Period Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Historical Period ({filters.periods.length} selected)
+                </label>
+                <div className="space-y-1">
+                  {periodOptions.map(period => {
+                    const isSelected = filters.periods.includes(period)
+                    return (
+                      <button
+                        key={period}
+                        onClick={() => toggleFilterValue('periods', period)}
+                        className={`w-full text-left p-2 rounded text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-union-jack-red text-white' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                      >
+                        {period}
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Region Filter */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Region ({filters.regions.length} selected)
+                </label>
+                <div className="grid grid-cols-2 gap-1">
+                  {regionOptions.map(region => {
+                    const isSelected = filters.regions.includes(region)
+                    return (
+                      <button
+                        key={region}
+                        onClick={() => toggleFilterValue('regions', region)}
+                        className={`flex items-center space-x-2 p-2 rounded text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-british-racing-green text-white' 
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }`}
+                      >
+                        <MapPin size={14} />
+                        <span>{region}</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Significance Range */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Historical Significance ({filters.significance[0]} - {filters.significance[1]})
+                </label>
+                <div className="space-y-2">
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={filters.significance[0]}
+                    onChange={(e) => updateFilter('significance', [parseInt(e.target.value), filters.significance[1]])}
+                    className="w-full"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={filters.significance[1]}
+                    onChange={(e) => updateFilter('significance', [filters.significance[0], parseInt(e.target.value)])}
+                    className="w-full"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Filter Actions */}
+            <div className="flex space-x-2 mt-4 pt-4 border-t border-gray-200">
+              <button
+                onClick={clearAllFilters}
+                className="flex-1 btn-british btn-secondary text-sm py-2"
+              >
+                Clear All
+              </button>
+              <button
+                onClick={() => setShowAdvancedFilters(false)}
+                className="flex-1 btn-british btn-primary text-sm py-2"
+              >
+                Apply Filters
+              </button>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -583,13 +1034,15 @@ const CultureGraph = ({ selectedNodeId: _selectedNodeId, onNodeSelect }: Culture
         )}
       </AnimatePresence>
 
-      {/* Instructions */}
-      <div className="absolute bottom-4 left-4 z-10 bg-white/90 backdrop-blur-sm rounded-lg p-3 text-xs text-gray-600">
+      {/* Enhanced Instructions */}
+      <div className="absolute bottom-4 left-4 z-10 bg-white/90 backdrop-blur-sm rounded-lg p-3 text-xs text-gray-600 max-w-xs">
         <div className="space-y-1">
+          <div className="font-medium text-british-racing-green mb-1">Graph Controls:</div>
           <div>• Click nodes/edges to inspect details</div>
           <div>• Use mouse wheel to zoom</div>
           <div>• Drag to pan, drag nodes to reposition</div>
-          <div>• Use search to find specific elements</div>
+          <div>• Use search and filters to explore content</div>
+          <div>• {filteredNodeCount} of {cultureNodes.length} nodes visible</div>
         </div>
       </div>
     </div>
