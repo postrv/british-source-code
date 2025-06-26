@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import cytoscape, { Core } from 'cytoscape'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, ExternalLink, Maximize2, Filter, ChevronDown, ChevronUp, Users, Building2, Lightbulb, Calendar, MapPin } from 'lucide-react'
+import { Search, X, ExternalLink, Maximize2, Filter, Users, Building2, Lightbulb, Calendar, MapPin } from 'lucide-react'
 import { cultureNodes, cultureEdges, getNodeById, CultureNode, CultureEdge } from '../data/cultureGraph'
 
 interface CultureGraphProps {
